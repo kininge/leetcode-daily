@@ -6,7 +6,8 @@
 
 ## Skills 
 
-![Array](https://img.shields.io/badge/Array)
+![Array](https://img.shields.io/badge/Array-gray)
+![Bit Manipulation](https://img.shields.io/badge/Bit Manipulation-gray)
 
 ---
 
