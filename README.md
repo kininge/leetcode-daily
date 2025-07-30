@@ -1,7 +1,6 @@
-<div style="width: 100%; height: 100%; background-color: #1A1A1A;">
-	<h1>Leetcode Tracker</h1>
+# Leetcode Tracker</h1>
   
-  <p>🚀 Solving problems daily to stay sharp in Problem-Solving, Data Structures, Algorithms, and System Thinking.</p>
+🚀 Solving problems daily to stay sharp in Problem-Solving, Data Structures, Algorithms, and System Thinking
 
   ## Problems Stats
   ## Skills 
@@ -12,7 +11,14 @@
 
 ## Problems 
 
----
+![1](https://img.shields.io/badge/1-gray)
+![2](https://img.shields.io/badge/Array-gray)
+![3](https://img.shields.io/badge/Array-gray)
+![4](https://img.shields.io/badge/Array-gray)
+![5](https://img.shields.io/badge/Array-gray)
+![6](https://img.shields.io/badge/Array-gray)
+![7](https://img.shields.io/badge/Array-gray)
+![8](https://img.shields.io/badge/Array-gray)
 
 ⭐ Star this repo if you're on a similar journey!
 
