@@ -5,9 +5,17 @@
 
 ## Problems Stats
 
-![Easy](https://img.shields.io/badge/Easy-green-0-gray)
-![Medium](https://img.shields.io/badge/Medium-yellow-0-gray)
-![Hard](https://img.shields.io/badge/Hard-red-0-gray)
+<p align="center">
+  <span style="display:inline-block; background-color:#d4edda; color:#155724; font-weight:bold; padding:10px 20px; margin:5px; border-radius:8px;">
+    🟢 Easy: 0
+  </span>
+  <span style="display:inline-block; background-color:#fff3cd; color:#856404; font-weight:bold; padding:10px 20px; margin:5px; border-radius:8px;">
+    🟡 Medium: 0
+  </span>
+  <span style="display:inline-block; background-color:#f8d7da; color:#721c24; font-weight:bold; padding:10px 20px; margin:5px; border-radius:8px;">
+    🔴 Hard: 0
+  </span>
+</p>
 
 ## Skills 
 
