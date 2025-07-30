@@ -22,5 +22,4 @@
 ⭐ Star this repo if you're on a similar journey!
 
 **Pritam Kininge**
-
 [LinkedIn](https://linkedin.com/in/pritam-kininge)  |  [GitHub](https://github.com/kininge)  |  [Leetcode](https://leetcode.com/u/kininge007/)
