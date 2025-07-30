@@ -6,7 +6,15 @@
 
 ## Skills 
 
-[https://img.shields.io/badge/Array]
+![Array](https://img.shields.io/badge/Array)
+
+---
+
+## Problems Stats
+
+---
+
+## Problems 
 
 ---
 
