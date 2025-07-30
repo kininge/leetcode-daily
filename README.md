@@ -6,12 +6,9 @@
 
 🚀 Total Solved: 0 / 3631
 
-![Easy](https://img.shields.io/badge/Easy-10-brightgreen)
-![Medium](https://img.shields.io/badge/Medium-5-yellow)
-![Hard](https://img.shields.io/badge/Hard-2-red)
-[![Easy](https://img.shields.io/badge/Easy-123-brightgreen)](/easy.md)
-[![Medium](https://img.shields.io/badge/Medium-45-yellow)](/medium.md)
-[![Hard](https://img.shields.io/badge/Hard-5-red)](/hard.md)
+[![Easy](https://img.shields.io/badge/Easy-123-brightgreen)](/easy.md)  
+[![Medium](https://img.shields.io/badge/Medium-45-yellow)](/medium.md)  
+[![Hard](https://img.shields.io/badge/Hard-5-red)](/hard.md)  
 
 ## Skills 
 
