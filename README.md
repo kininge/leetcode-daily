@@ -3,16 +3,16 @@
 🚀 Solving problems daily to stay sharp in Problem-Solving, Data Structures, Algorithms, and System Thinking.
 
 
+## Problems Stats
+
+![Easy](https://img.shields.io/badge/Easy-green-0)
+![Medium](https://img.shields.io/badge/Medium-yellow-0)
+![Hard](https://img.shields.io/badge/Hard-red-0)
 
 ## Skills 
 
 ![Array](https://img.shields.io/badge/Array-gray)
 ![Bit_Manipulation](https://img.shields.io/badge/Bit_Manipulation-gray)
-
-
-
-## Problems Stats
-
 
 
 ## Problems 
