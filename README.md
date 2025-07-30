@@ -16,14 +16,10 @@
 
 ## Problems 
 
-![1](https://img.shields.io/badge/1-gray)
-![2](https://img.shields.io/badge/2-gray)
-![3](https://img.shields.io/badge/3-gray)
-![4](https://img.shields.io/badge/4-gray)
-![5](https://img.shields.io/badge/5-gray)
-![6](https://img.shields.io/badge/6-green)
-![7](https://img.shields.io/badge/7-gray)
-![8](https://img.shields.io/badge/8-gray)
+![1](https://img.shields.io/badge/1-gray?style=for-the-badge)
+![2](https://img.shields.io/badge/2-green?style=for-the-badge)
+![3](https://img.shields.io/badge/3-yellow?style=for-the-badge)
+![4](https://img.shields.io/badge/4-red?style=for-the-badge)
 
 ⭐ Star this repo if you're on a similar journey!
 
