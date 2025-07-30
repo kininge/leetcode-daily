@@ -5,9 +5,9 @@
 
 ## Problems Stats
 
-![Easy](https://img.shields.io/badge/Easy-green-0)
-![Medium](https://img.shields.io/badge/Medium-yellow-0)
-![Hard](https://img.shields.io/badge/Hard-red-0)
+![Easy](https://img.shields.io/badge/Easy-green-0-gray)
+![Medium](https://img.shields.io/badge/Medium-yellow-0-gray)
+![Hard](https://img.shields.io/badge/Hard-red-0-gray)
 
 ## Skills 
 
