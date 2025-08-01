@@ -4,10 +4,10 @@
 
 ## Problems Stats
 
-🚀 Total Solved: 3 / 3631
+🚀 Total Solved: 4 / 3631
 
 [![Easy](https://img.shields.io/badge/Easy-1-brightgreen)](/easy.md)  
-[![Medium](https://img.shields.io/badge/Medium-2-yellow)](/medium.md)  
+[![Medium](https://img.shields.io/badge/Medium-3-yellow)](/medium.md)  
 [![Hard](https://img.shields.io/badge/Hard-0-red)](/hard.md)  
 
 ## Skills 
