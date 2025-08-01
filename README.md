@@ -4,16 +4,17 @@
 
 ## Problems Stats
 
-🚀 Total Solved: 0 / 3631
+🚀 Total Solved: 3 / 3631
 
-[![Easy](https://img.shields.io/badge/Easy-123-brightgreen)](/easy.md)  
-[![Medium](https://img.shields.io/badge/Medium-45-yellow)](/medium.md)  
-[![Hard](https://img.shields.io/badge/Hard-5-red)](/hard.md)  
+[![Easy](https://img.shields.io/badge/Easy-1-brightgreen)](/easy.md)  
+[![Medium](https://img.shields.io/badge/Medium-2-yellow)](/medium.md)  
+[![Hard](https://img.shields.io/badge/Hard-0-red)](/hard.md)  
 
 ## Skills 
 
 ![Array](https://img.shields.io/badge/Array-gray)
 ![Bit_Manipulation](https://img.shields.io/badge/Bit_Manipulation-gray)
+![Hash map](https://img.shields.io/badge/Hash_Map-gray)
 
 
 ---
