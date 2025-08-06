@@ -16,6 +16,7 @@
 ![Bit_Manipulation](https://img.shields.io/badge/Bit_Manipulation-gray)
 ![Hash map](https://img.shields.io/badge/Hash_Map-gray)
 ![Sliding_Window](https://img.shields.io/badge/Sliding_Window-gray)
+![Prefix Sum](https://img.shields.io/badge/Prefix_Sum-gray)
 
 ---
 
