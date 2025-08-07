@@ -4,11 +4,11 @@
 
 ## Problems Stats
 
-🚀 Total Solved: 7 / 3631
+🚀 Total Solved: 8 / 3631
 
 [![Easy](https://img.shields.io/badge/Easy-2-brightgreen)](/easy.md)  
 [![Medium](https://img.shields.io/badge/Medium-4-yellow)](/medium.md)  
-[![Hard](https://img.shields.io/badge/Hard-1-red)](/hard.md)  
+[![Hard](https://img.shields.io/badge/Hard-2-red)](/hard.md)  
 
 ## Skills 
 
@@ -17,6 +17,8 @@
 ![Hash map](https://img.shields.io/badge/Hash_Map-gray)
 ![Sliding_Window](https://img.shields.io/badge/Sliding_Window-gray)
 ![Prefix Sum](https://img.shields.io/badge/Prefix_Sum-gray)
+![Matrix](https://img.shields.io/badge/Matrix-gray)
+![Deapth First Search](https://img.shields.io/badge/Depth_First_Search-gray)
 
 ---
 
