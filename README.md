@@ -19,6 +19,7 @@
 ![Prefix Sum](https://img.shields.io/badge/Prefix_Sum-gray)
 ![Matrix](https://img.shields.io/badge/Matrix-gray)
 ![Deapth First Search](https://img.shields.io/badge/Depth_First_Search-gray)
+![Dynamic Programming](https://img.shields.io/badge/Dynamic_Programming-gray)
 
 ---
 
