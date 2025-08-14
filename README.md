@@ -10,22 +10,10 @@
 [![Medium](https://img.shields.io/badge/Medium-7-yellow)](/medium.md)  
 [![Hard](https://img.shields.io/badge/Hard-2-red)](/hard.md)  
 
-<table>
-<tr>
-<td>
-
-**Example Input**  
-`"6777133339"`
-
-</td>
-<td>
-
-**Output**  
-`"777"`
-
-</td>
-</tr>
-</table>
+<div style="padding: 10px; border: 2px solid #4CAF50; border-radius: 6px; background-color: #f0fff0;">
+  <strong>💡 Insight:</strong>  
+  All digits in the triple must be the same — no need to check anything else.
+</div>
 
 ## Skills 
 
