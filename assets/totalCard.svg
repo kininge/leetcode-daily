@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="404" height="224" viewBox="0 0 404 224">
+<svg xmlns="http://www.w3.org/2000/svg" width="604" height="224" viewBox="0 0 604 224">
   <!-- card background -->
-  <rect x="0" y="0" width="400" height="220" rx="8" fill="#282828" />
+  <rect x="0" y="0" width="600" height="220" rx="8" fill="#282828" />
   
   <!-- All problem solved data -->
   <g transform="translate(160, 120)" text-anchor="middle">
@@ -12,8 +12,8 @@
 
   <!-- horizontal bar represent each section problem solved -->
   <g transform="translate(16, 184)">
-    <rect x="0" y="0" width="128.57142857142858" height="20" fill="#1cbaba" rx="4" /> 
-    <rect x="132.57142857142858" y="0" width="180" height="20" fill="#ffb700" rx="4" />
-    <rect x="316.57142857142856" y="0" width="51.42857142857142" height="20" fill="#f63737" rx="4" />
+    <rect x="0" y="0" width="200" height="20" fill="#1cbaba" rx="4" /> 
+    <rect x="204" y="0" width="280" height="20" fill="#ffb700" rx="4" />
+    <rect x="488" y="0" width="80" height="20" fill="#f63737" rx="4" />
   </g>
 </svg>
