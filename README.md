@@ -14,7 +14,13 @@
 ![y](https://markbadge.com/static/version/v1.0.0?leftbg=555555&rightbg=44cc11&leftColor=red&rightColor=yellow&logo=github&logoColor=red&style=flat&scale=1.5&theme=dark&logobg=333)
 ![Stats](https://github-readme-stats.vercel.app/api?username=kininge)
 ![Trophy](https://github-profile-trophy.vercel.app/?username=kininge)
-![Custom Card](https://raw.githubusercontent.com/kininge/leetcode-daily/main/problem-card.svg)
+
+
+<svg width="350" height="120" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="350" height="120" rx="15" fill="#4CAF50"/>
+  <text x="20" y="65" font-size="24" fill="white" font-family="Arial">Easy Problem #231</text>
+</svg>
+
 
 
 
