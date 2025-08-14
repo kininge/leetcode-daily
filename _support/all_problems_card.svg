@@ -1,11 +1,36 @@
+<!-- 
+  card_width: 400
+  card_height: 220
+  card_padding: 16
+  card_border_radius: 8
+
+  total_problem_solved: 14
+  total_problems: 3647
+  easy_problem_solved: 4
+  medium_problem_solved: 8
+  hard_problem_solved: 2
+-->
+
 <svg xmlns="http://www.w3.org/2000/svg" width="400" height="220" viewBox="0 0 400 220">
   <!-- card background -->
   <rect x="0" y="0" width="400" height="220" rx="8" fill="#282828" />
   
   <!-- All problem solved data -->
-  <g transform="translate(160, 100)" text-anchor="middle">
-    <text font-size="80" fill="#ffffff" dominant-baseline="end">14</text>
-    <text font-size="25" fill="#868686" dominant-baseline="end" dx="80">/ 3647</text>
+  <g transform="translate(160, 120)" text-anchor="middle">
+    <!-- total problems solved -->
+    <text font-size="70" font-weight="600" font-family="Inter, Arial, Helvetica, sans-serif" fill="#ffffff" dominant-baseline="end">14</text>
+    <!-- total problems -->
+    <text font-size="25" font-weight="600" font-family="Inter, Arial, Helvetica, sans-serif" fill="#868686" dominant-baseline="end" dx="80">/ 3647</text>
+  </g>
+
+  <!-- horizontal bar represent each section problem solved -->
+  <g transform="translate(16, 184)">
+    <!-- easy : (4/14)*360 = 102.8571 -->
+    <rect x="0" y="0" width="102.8571" height="20" fill="#00C853" rx="4" /> 
+    <!-- medium : (8/14)*360 = 205.7142 -->
+    <rect x="106.8571" y="0" width="205.7142" height="20" fill="#FFD600" rx="4" />
+    <!-- hard : (2/14) * 360 = 51.4285 -->
+    <rect x="316.5713" y="0" width="51.4285" height="20" fill="#D50000" rx="4" />
   </g>
 
 </svg>
