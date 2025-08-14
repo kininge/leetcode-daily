@@ -11,6 +11,7 @@
 [![Hard](https://img.shields.io/badge/Hard-2-red)](/hard.md)  
 
 ![x](https://badgen.net/badge/key/value/red?icon=github)
+![y](https://markbadge.com/static/version/v1.0.0?leftbg=555555&rightbg=44cc11&leftColor=red&rightColor=yellow&logo=github&logoColor=red&style=flat&scale=1.5&theme=dark&logobg=333)
 
 
 ## Skills 
