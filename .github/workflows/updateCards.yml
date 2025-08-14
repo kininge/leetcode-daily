@@ -8,7 +8,7 @@ on:
 
 jobs: # workflow can have multipie jobs - but we going to add just 1 joib called 'build'
   build: 
-    runs-on: unbantu-latest # ask GitHub to spin up a new Linux machine with the latest Ubuntu OS for our commands
+    runs-on: ubuntu-latest # ask GitHub to spin up a new Linux machine with the latest Ubuntu OS for our commands
 
     steps:
       # download our repo in github temp server
@@ -30,6 +30,6 @@ jobs: # workflow can have multipie jobs - but we going to add just 1 joib called
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add leetcodeCard.svg
-          git commit -m "Update LeetCode card"
+          git add assets/*.svg
+          git commit -m "Update LeetCode cards"
           git push
