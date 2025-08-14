@@ -4,8 +4,8 @@
   
   <!-- All problem solved data -->
   <g x="200" y="60" id="all-problme-solved-count" text-anchor="middle">
-    <text font-size="30" fill="#FFD700">14</text>
-    <text font-size="15" fill="#DADADA">/3647</text>
+    <text x="200" font-size="30" fill="#FFD700">14</text>
+    <text x="200" font-size="15" fill="#DADADA">/3647</text>
   </g>
 
 </svg>
