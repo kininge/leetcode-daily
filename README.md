@@ -5,6 +5,8 @@
 ## Problems Stats
 
 ![Easy](./_support/easy_card.svg)
+![Easy](./_support/x.svg)
+![Easy](./_support/y.svg)
 
 
 🚀 Total Solved: 14 / 3631
