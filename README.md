@@ -10,7 +10,7 @@
 [![Medium](https://img.shields.io/badge/Medium-7-yellow)](/medium.md)  
 [![Hard](https://img.shields.io/badge/Hard-2-red)](/hard.md)  
 
-![x](https://badgen.net/badge/badge/key/value/red?icon=github)
+![x](https://badgen.net/badge/key/value/red?icon=github)
 
 
 ## Skills 
