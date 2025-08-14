@@ -22,7 +22,11 @@
 </svg>
 
 
-
+<div style="border-radius:15px; padding:20px; background:#4CAF50; color:white; width:300px;">
+  <h3>Power of Two</h3>
+  <p>Difficulty: Easy</p>
+  <p>Topics: Math, Bit Manipulation</p>
+</div>
 
 
 ## Skills 
