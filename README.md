@@ -4,34 +4,8 @@
 
 ## Problems Stats
 
-![all problmes](./_support/all_problems_card.svg)
-
-
-
-
-🚀 Total Solved: 14 / 3631
-
-[![Easy](https://img.shields.io/badge/Easy-5-brightgreen)](/easy.md)  
-[![Medium](https://img.shields.io/badge/Medium-7-yellow)](/medium.md)  
-[![Hard](https://img.shields.io/badge/Hard-2-red)](/hard.md)  
-
-![x](https://badgen.net/badge/key/value/red?icon=github)
-![y](https://markbadge.com/static/version/v1.0.0?leftbg=555555&rightbg=44cc11&leftColor=red&rightColor=yellow&logo=github&logoColor=red&style=flat&scale=1.5&theme=dark&logobg=333)
-![Stats](https://github-readme-stats.vercel.app/api?username=kininge)
-![Trophy](https://github-profile-trophy.vercel.app/?username=kininge)
-
-
-<svg width="350" height="120" xmlns="http://www.w3.org/2000/svg">
-  <rect x="0" y="0" width="350" height="120" rx="15" fill="#4CAF50"/>
-  <text x="20" y="65" font-size="24" fill="red" font-family="Arial">Easy Problem #231</text>
-</svg>
-
-
-<div style="border-radius:15px; padding:20px; background:#4CAF50; color:white; width:300px;">
-  <h3>Power of Two</h3>
-  <p>Difficulty: Easy</p>
-  <p>Topics: Math, Bit Manipulation</p>
-</div>
+![all problmes](./assets/totalCard.svg)  
+[![easy problmes](./assets/easyCard.svg)](./easy.md)[![medium problmes](./assets/mediumCard.svg)](medium.md)[![hard problmes](./assets/hardCard.svg)](hard.md)
 
 
 ## Skills 
