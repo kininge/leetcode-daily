@@ -4,7 +4,7 @@
 
 ## Problems Stats
 
-![all problmes](./_support/all_problmes_card.svg)
+![all problmes](./_support/all_problems_card.svg)
 
 
 
