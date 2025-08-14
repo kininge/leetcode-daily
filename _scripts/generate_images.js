@@ -6,8 +6,10 @@ const dataPath = path.join(__dirname, "./data.json");
 
 
 const { totalCardWidth, totalCardHeight, totalCardBorderRadius, totalCardBackgroundColor, totalSolvedProblmes, primaryTextColor, secondaryTextColor, 
-easyBackgroundColor, mediumBackgroundColor, hardBackgroundColor, solvedEasyProblems, solvedMediumProblems, solvedHardProblems, 
-totalCardEachBarBorderRadius, totalCardPrimaryTextFontSize, totalCardSecondaryTextFontSize } = require(dataPath);
+easyBackgroundColor, mediumBackgroundColor, hardBackgroundColor, solvedEasyProblems, totalEasyProblems, solvedMediumProblems, totalMediumProblems, 
+solvedHardProblems, totalHardProblems, totalCardEachBarBorderRadius, totalCardPrimaryTextFontSize, totalCardSecondaryTextFontSize, sectionCardWidth, 
+sectionCardHeight, sectionTitleTextFontSize, easyTextColor, fontfamily, sectionCardPrimaryTextFontSize, sectionCardSecondaryTextFontSize, 
+mediumTextColor, hardTextColor} = require(dataPath);
 
 // generate total card
 const availabaleTotalCardWidth = totalCardWidth-40;
@@ -22,13 +24,13 @@ const totalCardImage = `<svg xmlns="http://www.w3.org/2000/svg" width="${totalCa
   <!-- All problem solved data -->
   <g transform="translate(160, 120)" text-anchor="middle">
     <!-- total problems solved -->
-    <text font-size="${totalCardPrimaryTextFontSize}" font-weight="600" font-family="Inter, Arial, Helvetica, sans-serif" fill="${primaryTextColor}" dominant-baseline="end">${totalSolvedProblmes}</text>
+    <text font-size="${totalCardPrimaryTextFontSize}" font-weight="600" font-family="${fontfamily}" fill="${primaryTextColor}" dominant-baseline="end">${totalSolvedProblmes}</text>
     <!-- total problems -->
-    <text font-size="${totalCardSecondaryTextFontSize}" font-weight="600" font-family="Inter, Arial, Helvetica, sans-serif" fill="${secondaryTextColor}" dominant-baseline="end" dx="80">/ ${totalProblems}</text>
+    <text font-size="${totalCardSecondaryTextFontSize}" font-weight="600" font-family="${fontfamily}" fill="${secondaryTextColor}" dominant-baseline="end" dx="80">/ ${totalProblems}</text>
   </g>
 
   <!-- horizontal bar represent each section problem solved -->
-  <g transform="translate(16, 184)">
+  <g transform="translate(16, ${totalCardHeight-36})">
     <rect x="0" y="0" width="${easyBarWidth}" height="20" fill="${easyBackgroundColor}" rx="${totalCardEachBarBorderRadius}" /> 
     <rect x="${easyBarWidth+4}" y="0" width="${mediumBarWidth}" height="20" fill="${mediumBackgroundColor}" rx="${totalCardEachBarBorderRadius}" />
     <rect x="${easyBarWidth+mediumBarWidth+8}" y="0" width="${hardBarWidth}" height="20" fill="${hardBackgroundColor}" rx="${totalCardEachBarBorderRadius}" />
@@ -36,3 +38,58 @@ const totalCardImage = `<svg xmlns="http://www.w3.org/2000/svg" width="${totalCa
 </svg>`
 
 fs.writeFileSync(path.join(__dirname, "../assets/totalCard.svg"), totalCardImage);
+
+
+// generate easy card 
+const easyCardImage = `<svg xmlns="http://www.w3.org/2000/svg" width="${sectionCardWidth}" height="${sectionCardHeight}" viewBox="0 0 ${sectionCardWidth} ${sectionCardHeight}">
+  <!-- card -->
+  <rect x="0" y="0" width="${sectionCardWidth}" height="${sectionCardHeight}" rx="${totalCardBorderRadius}" fill="${totalCardBackgroundColor}" />
+  
+  <!-- card title -->
+  <text x="16" y="28" font-size="${sectionTitleTextFontSize}" font-weight="600" font-family="${fontfamily}" fill="${easyTextColor}">Easy</text>
+  
+  <g transform="translate(70, 90)" text-anchor="middle"> -->
+    <!-- section problems solved -->
+    <text font-size="${sectionCardPrimaryTextFontSize}" font-weight="600" font-family="${fontfamily}" fill="${primaryTextColor}" dominant-baseline="end">${solvedEasyProblems}</text>
+    <!-- section problems available -->
+    <text font-size="${sectionCardSecondaryTextFontSize}" font-weight="600" font-family="${fontfamily}" fill="${secondaryTextColor}" dominant-baseline="end" dx="45">/ ${totalEasyProblems}</text>
+  </g>
+</svg>`;
+
+fs.writeFileSync(path.join(__dirname, "../assets/easyCard.svg"), easyCardImage);
+
+// generate medium card 
+const mediumCardImage = `<svg xmlns="http://www.w3.org/2000/svg" width="${sectionCardWidth}" height="${sectionCardHeight}" viewBox="0 0 ${sectionCardWidth} ${sectionCardHeight}">
+  <!-- card -->
+  <rect x="0" y="0" width="${sectionCardWidth}" height="${sectionCardHeight}" rx="${totalCardBorderRadius}" fill="${totalCardBackgroundColor}" />
+  
+  <!-- card title -->
+  <text x="16" y="28" font-size="${sectionTitleTextFontSize}" font-weight="600" font-family="${fontfamily}" fill="${mediumTextColor}">Medium</text>
+  
+  <g transform="translate(70, 90)" text-anchor="middle"> -->
+    <!-- section problems solved -->
+    <text font-size="${sectionCardPrimaryTextFontSize}" font-weight="600" font-family="${fontfamily}" fill="${primaryTextColor}" dominant-baseline="end">${solvedMediumProblems}</text>
+    <!-- section problems available -->
+    <text font-size="${sectionCardSecondaryTextFontSize}" font-weight="600" font-family="${fontfamily}" fill="${secondaryTextColor}" dominant-baseline="end" dx="45">/ ${totalMediumProblems}</text>
+  </g>
+</svg>`;
+
+fs.writeFileSync(path.join(__dirname, "../assets/mediumCard.svg"), mediumCardImage);
+
+// generate hard card 
+const hardCardImage = `<svg xmlns="http://www.w3.org/2000/svg" width="${sectionCardWidth}" height="${sectionCardHeight}" viewBox="0 0 ${sectionCardWidth} ${sectionCardHeight}">
+  <!-- card -->
+  <rect x="0" y="0" width="${sectionCardWidth}" height="${sectionCardHeight}" rx="${totalCardBorderRadius}" fill="${totalCardBackgroundColor}" />
+  
+  <!-- card title -->
+  <text x="16" y="28" font-size="${sectionTitleTextFontSize}" font-weight="600" font-family="${fontfamily}" fill="${hardTextColor}">Hard</text>
+  
+  <g transform="translate(70, 90)" text-anchor="middle"> -->
+    <!-- section problems solved -->
+    <text font-size="${sectionCardPrimaryTextFontSize}" font-weight="600" font-family="${fontfamily}" fill="${primaryTextColor}" dominant-baseline="end">${solvedHardProblems}</text>
+    <!-- section problems available -->
+    <text font-size="${sectionCardSecondaryTextFontSize}" font-weight="600" font-family="${fontfamily}" fill="${secondaryTextColor}" dominant-baseline="end" dx="45">/ ${totalHardProblems}</text>
+  </g>
+</svg>`;
+
+fs.writeFileSync(path.join(__dirname, "../assets/hardCard.svg"), hardCardImage);
