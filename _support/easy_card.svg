@@ -10,8 +10,7 @@ Editable variables:
   FONT_SIZE: px
   FONT_FAMILY: fallback-safe fonts
 -->
-<svg xmlns="http://www.w3.org/2000/svg" width="140" height="48" viewBox="0 0 140 32">
-  <!-- Change these 'variables' by editing attributes directly -->
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="48" viewBox="0 0 140 48">
+  <!-- card -->
   <rect x="0" y="0" width="140" height="48" rx="8" fill="#282828" />
-  
 </svg>
