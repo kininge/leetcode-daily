@@ -23,7 +23,7 @@ jobs: # workflow can have multipie jobs - but we going to add just 1 joib called
       
       # run '_scripts/generateCards.js' file to generate image cards
       - name: Run card generator
-        run: node _scripts/generateCards.js
+        run: node _scripts/generate_images.js
       
       # commit changes adn metion that it done by github bot
       - name: Commit and push changes
