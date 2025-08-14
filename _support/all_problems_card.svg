@@ -26,11 +26,11 @@
   <!-- horizontal bar represent each section problem solved -->
   <g transform="translate(16, 184)">
     <!-- easy : (4/14)*360 = 102.8571 -->
-    <rect x="0" y="0" width="102.8571" height="20" fill="#00C853" rx="4" /> 
+    <rect x="0" y="0" width="102.8571" height="20" fill="#1cbaba" rx="4" /> 
     <!-- medium : (8/14)*360 = 205.7142 -->
-    <rect x="106.8571" y="0" width="205.7142" height="20" fill="#FFD600" rx="4" />
+    <rect x="106.8571" y="0" width="205.7142" height="20" fill="#ffb700" rx="4" />
     <!-- hard : (2/14) * 360 = 51.4285 -->
-    <rect x="316.5713" y="0" width="51.4285" height="20" fill="#D50000" rx="4" />
+    <rect x="316.5713" y="0" width="51.4285" height="20" fill="#f63737" rx="4" />
   </g>
 
 </svg>
