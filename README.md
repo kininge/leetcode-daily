@@ -10,6 +10,16 @@
 [![Medium](https://img.shields.io/badge/Medium-7-yellow)](/medium.md)  
 [![Hard](https://img.shields.io/badge/Hard-2-red)](/hard.md)  
 
+| 💡 Insight |
+|------------|
+| All digits in the triple must be the same — no need to check anything else. |
+
+┌──────────────────────────────────────────────┐
+│ 💡 Insight                                   │
+│ All digits in the triple must be the same —  │
+│ no need to check anything else.              │
+└──────────────────────────────────────────────┘
+
 
 ## Skills 
 
