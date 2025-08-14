@@ -1,0 +1,18 @@
+{
+    "totalSolvedProblmes": 14,
+    "totalProblems": 3647,
+    
+    "solvedEasyProblems": 5,
+    "totalEasyProblems": 890,
+
+    "solvedMediumProblems": 7,
+    "totalMediumProblems": 1897,
+
+    "solvedHardProblems": 2,
+    "totalHardProblems": 860,
+    
+    "totalCardWidth": 400,
+    "totalCardHeight": 220,
+    "totalCardPadding": 14,
+    "totalCardBorderRadius": 8
+}
