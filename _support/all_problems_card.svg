@@ -1,4 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="400" height="220" viewBox="0 0 400 220">
-  <!-- Card background -->
+  <!-- card background -->
   <rect x="0" y="0" width="400" height="220" rx="8" fill="#282828" />
+  
+  <!-- All problem solved data -->
+  <g y="60" id="all-problme-solved-count" text-anchor="middle">
+    <text font-size="30" fill="#FFD700">14</text>
+    <text y="15" font-size="15" fill="#DADADA">/3647</text>
+  </g>
+
 </svg>
