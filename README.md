@@ -10,10 +10,34 @@
 [![Medium](https://img.shields.io/badge/Medium-7-yellow)](/medium.md)  
 [![Hard](https://img.shields.io/badge/Hard-2-red)](/hard.md)  
 
-<div style="padding: 10px; border: 2px solid #4CAF50; border-radius: 6px; background-color: #f0fff0;">
-  <strong>💡 Insight:</strong>  
-  All digits in the triple must be the same — no need to check anything else.
+<div style="
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 12px 0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  background-color: #fff;
+">
+  <h3 style="margin-top:0;">💡 Insight</h3>
+  <p style="margin:0;">All digits in the triple must be the same — no need to check anything else.</p>
 </div>
+
+<div style="
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: space-between;
+">
+  <div>
+    <strong>Example Input:</strong> "6777133339"
+  </div>
+  <div>
+    <strong>Output:</strong> "777"
+  </div>
+</div>
+
 
 ## Skills 
 
