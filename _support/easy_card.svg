@@ -1,7 +1,6 @@
 # Create three SVG template files with inline attributes and easy-to-edit variables.
 
-pill_svg = """
-  <?xml version="1.0" encoding="UTF-8"?>
+pill_svg = """<?xml version="1.0" encoding="UTF-8"?>
   <!--
   Editable variables:
     WIDTH: overall width (px)
