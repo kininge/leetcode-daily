@@ -6,6 +6,9 @@ on:
       - "_scripts/data.json"
   workflow_dispatch: # manually triggering also possible
 
+permissions:
+  contents: write # allow Actions bot to push commits
+
 jobs: # workflow can have multipie jobs - but we going to add just 1 joib called 'build'
   build: 
     runs-on: ubuntu-latest # ask GitHub to spin up a new Linux machine with the latest Ubuntu OS for our commands
