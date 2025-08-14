@@ -18,7 +18,7 @@
 
 <svg width="350" height="120" xmlns="http://www.w3.org/2000/svg">
   <rect x="0" y="0" width="350" height="120" rx="15" fill="#4CAF50"/>
-  <text x="20" y="65" font-size="24" fill="white" font-family="Arial">Easy Problem #231</text>
+  <text x="20" y="65" font-size="24" fill="red" font-family="Arial">Easy Problem #231</text>
 </svg>
 
 
