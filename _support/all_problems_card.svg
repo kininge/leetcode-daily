@@ -3,9 +3,9 @@
   <rect x="0" y="0" width="400" height="220" rx="8" fill="#282828" />
   
   <!-- All problem solved data -->
-  <g y="60" id="all-problme-solved-count" text-anchor="middle">
+  <g x="200" y="60" id="all-problme-solved-count" text-anchor="middle">
     <text font-size="30" fill="#FFD700">14</text>
-    <text y="15" font-size="15" fill="#DADADA">/3647</text>
+    <text font-size="15" fill="#DADADA">/3647</text>
   </g>
 
 </svg>
