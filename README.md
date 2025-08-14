@@ -4,6 +4,9 @@
 
 ## Problems Stats
 
+![Easy](./_support/easy_card.svg)
+
+
 🚀 Total Solved: 14 / 3631
 
 [![Easy](https://img.shields.io/badge/Easy-5-brightgreen)](/easy.md)  
