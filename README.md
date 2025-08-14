@@ -14,7 +14,8 @@
 ![y](https://markbadge.com/static/version/v1.0.0?leftbg=555555&rightbg=44cc11&leftColor=red&rightColor=yellow&logo=github&logoColor=red&style=flat&scale=1.5&theme=dark&logobg=333)
 ![Stats](https://github-readme-stats.vercel.app/api?username=kininge)
 ![Trophy](https://github-profile-trophy.vercel.app/?username=kininge)
-![Problem Card](https://your-vercel-app.vercel.app/api/problem-card?id=2264&title=Largest%203-Same-Digit%20Number&difficulty=Easy&topics=String,Sliding%20Window)
+![Custom Card](https://raw.githubusercontent.com/kininge/leetcode-daily/main/problem-card.svg)
+
 
 
 
