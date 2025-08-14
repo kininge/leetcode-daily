@@ -21,7 +21,7 @@
     "secondaryTextColor": "#767676",
     "fontfamily": "Inter, Arial, Helvetica, sans-serif",
 
-    "totalCardWidth": 400,
+    "totalCardWidth": 600,
     "totalCardHeight": 220,
     "totalCardPrimaryTextFontSize": 70,
     "totalCardSecondaryTextFontSize": 25,
