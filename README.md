@@ -10,6 +10,23 @@
 [![Medium](https://img.shields.io/badge/Medium-7-yellow)](/medium.md)  
 [![Hard](https://img.shields.io/badge/Hard-2-red)](/hard.md)  
 
+<table>
+<tr>
+<td>
+
+**Example Input**  
+`"6777133339"`
+
+</td>
+<td>
+
+**Output**  
+`"777"`
+
+</td>
+</tr>
+</table>
+
 ## Skills 
 
 ![Array](https://img.shields.io/badge/Array-gray)
