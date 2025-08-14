@@ -1,9 +1,17 @@
-# Create three SVG template files with inline attributes and easy-to-edit variables.
-
-pill_svg = """<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Editable variables:
+  WIDTH: overall width (px)
+  HEIGHT: overall height (px)
+  BG: pill background color
+  TEXT: label text
+  TEXT_COLOR: text color
+  RADIUS: corner radius (usually HEIGHT/2 for capsule)
+  FONT_SIZE: px
+  FONT_FAMILY: fallback-safe fonts
+-->
 <svg xmlns="http://www.w3.org/2000/svg" width="140" height="32" viewBox="0 0 140 32">
   <!-- Change these 'variables' by editing attributes directly -->
   <rect x="0.5" y="0.5" width="139" height="31" rx="16" fill="#2E2E2E" stroke="#1E1E1E" />
   <text x="70" y="21" text-anchor="middle" font-size="16" font-family="Inter, Arial, Helvetica, sans-serif" fill="#DADADA">JavaScript</text>
 </svg>
-"""
