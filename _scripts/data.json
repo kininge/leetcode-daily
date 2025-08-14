@@ -18,7 +18,8 @@
     "hardTextColor": "#f63737",
     
     "primaryTextColor": "#ffffff",
-    "secondaryTextColor": "#f9f9fc",
+    "secondaryTextColor": "#767676",
+    "fontfamily": "Inter, Arial, Helvetica, sans-serif",
 
     "totalCardWidth": 400,
     "totalCardHeight": 220,
@@ -27,5 +28,11 @@
     "totalCardBackgroundColor": "#282828",
     "totalCardPadding": 16,
     "totalCardBorderRadius": 8,
-    "totalCardEachBarBorderRadius": 4
+    "totalCardEachBarBorderRadius": 4,
+
+    "sectionCardWidth": 200,
+    "sectionCardHeight": 120,
+    "sectionTitleTextFontSize": 18,
+    "sectionCardPrimaryTextFontSize": 35,
+    "sectionCardSecondaryTextFontSize": 25,
 }
