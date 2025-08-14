@@ -17,7 +17,7 @@ const easyBarWidth = (solvedEasyProblems/totalSolvedProblmes)*availabaleTotalCar
 const mediumBarWidth = (solvedMediumProblems/totalSolvedProblmes)*availabaleTotalCardWidth;
 const hardBarWidth = (solvedHardProblems/totalSolvedProblmes)*availabaleTotalCardWidth;
 
-const totalCardImage = `<svg xmlns="http://www.w3.org/2000/svg" width="${totalCardWidth}" height="${totalCardHeight}" viewBox="0 0 ${totalCardWidth} ${totalCardHeight}">
+const totalCardImage = `<svg xmlns="http://www.w3.org/2000/svg" width="${totalCardWidth+4}" height="${totalCardHeight+4}" viewBox="0 0 ${totalCardWidth+4} ${totalCardHeight+4}">
   <!-- card background -->
   <rect x="0" y="0" width="${totalCardWidth}" height="${totalCardHeight}" rx="${totalCardBorderRadius}" fill="${totalCardBackgroundColor}" />
   
@@ -41,7 +41,7 @@ fs.writeFileSync(path.join(__dirname, "../assets/totalCard.svg"), totalCardImage
 
 
 // generate easy card 
-const easyCardImage = `<svg xmlns="http://www.w3.org/2000/svg" width="${sectionCardWidth}" height="${sectionCardHeight}" viewBox="0 0 ${sectionCardWidth} ${sectionCardHeight}">
+const easyCardImage = `<svg xmlns="http://www.w3.org/2000/svg" width="${sectionCardWidth+4}" height="${sectionCardHeight+4}" viewBox="0 0 ${sectionCardWidth+4} ${sectionCardHeight+4}">
   <!-- card -->
   <rect x="0" y="0" width="${sectionCardWidth}" height="${sectionCardHeight}" rx="${totalCardBorderRadius}" fill="${totalCardBackgroundColor}" />
   
@@ -59,7 +59,7 @@ const easyCardImage = `<svg xmlns="http://www.w3.org/2000/svg" width="${sectionC
 fs.writeFileSync(path.join(__dirname, "../assets/easyCard.svg"), easyCardImage);
 
 // generate medium card 
-const mediumCardImage = `<svg xmlns="http://www.w3.org/2000/svg" width="${sectionCardWidth}" height="${sectionCardHeight}" viewBox="0 0 ${sectionCardWidth} ${sectionCardHeight}">
+const mediumCardImage = `<svg xmlns="http://www.w3.org/2000/svg" width="${sectionCardWidth+4}" height="${sectionCardHeight+4}" viewBox="0 0 ${sectionCardWidth+4} ${sectionCardHeight+4}">
   <!-- card -->
   <rect x="0" y="0" width="${sectionCardWidth}" height="${sectionCardHeight}" rx="${totalCardBorderRadius}" fill="${totalCardBackgroundColor}" />
   
@@ -77,7 +77,7 @@ const mediumCardImage = `<svg xmlns="http://www.w3.org/2000/svg" width="${sectio
 fs.writeFileSync(path.join(__dirname, "../assets/mediumCard.svg"), mediumCardImage);
 
 // generate hard card 
-const hardCardImage = `<svg xmlns="http://www.w3.org/2000/svg" width="${sectionCardWidth}" height="${sectionCardHeight}" viewBox="0 0 ${sectionCardWidth} ${sectionCardHeight}">
+const hardCardImage = `<svg xmlns="http://www.w3.org/2000/svg" width="${sectionCardWidth+4}" height="${sectionCardHeight+4}" viewBox="0 0 ${sectionCardWidth+4} ${sectionCardHeight+4}">
   <!-- card -->
   <rect x="0" y="0" width="${sectionCardWidth}" height="${sectionCardHeight}" rx="${totalCardBorderRadius}" fill="${totalCardBackgroundColor}" />
   
