@@ -1,0 +1,35 @@
+name: Update LeetCode Card
+
+on:
+  push: # whenever git push happened
+    paths: # run when file path here is changed in git push
+      - "_scripts/data.json"
+  workflow_dispatch: # manually triggering also possible
+
+jobs: # workflow can have multipie jobs - but we going to add just 1 joib called 'build'
+  build: 
+    runs-on: unbantu-latest # ask GitHub to spin up a new Linux machine with the latest Ubuntu OS for our commands
+
+    steps:
+      # download our repo in github temp server
+      - name: Checkout repo
+        uses: actions/checkout@v4
+      
+      # install node.js version 20 on the server
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      
+      # run '_scripts/generateCards.js' file to generate image cards
+      - name: Run card generator
+        run: node _scripts/generateCards.js
+      
+      # commit changes adn metion that it done by github bot
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add leetcodeCard.svg
+          git commit -m "Update LeetCode card"
+          git push
