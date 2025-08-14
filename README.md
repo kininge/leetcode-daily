@@ -12,8 +12,8 @@
 
 ![x](https://badgen.net/badge/key/value/red?icon=github)
 ![y](https://markbadge.com/static/version/v1.0.0?leftbg=555555&rightbg=44cc11&leftColor=red&rightColor=yellow&logo=github&logoColor=red&style=flat&scale=1.5&theme=dark&logobg=333)
-![Stats](https://github-readme-stats.vercel.app/api?username=pritam)
-![Trophy](https://github-profile-trophy.vercel.app/?username=pritam)
+![Stats](https://github-readme-stats.vercel.app/api?username=kininge007)
+![Trophy](https://github-profile-trophy.vercel.app/?username=kininge007)
 
 
 ## Skills 
