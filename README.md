@@ -4,7 +4,7 @@
 
 ## Problems Stats
 
-![all problmes](./assets/totalCard.svg)  
+[![all problmes](./assets/totalCard.svg)](./README.md)  
 [![easy problmes](./assets/easyCard.svg)](./easy.md)[![medium problmes](./assets/mediumCard.svg)](medium.md)[![hard problmes](./assets/hardCard.svg)](hard.md)
 
 
