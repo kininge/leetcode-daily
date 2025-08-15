@@ -3,7 +3,7 @@
   <rect x="0" y="0" width="600" height="220" rx="8" fill="#282828" />
   
   <!-- All problem solved data -->
-  <g transform="translate(260, 120)" text-anchor="middle">
+  <g transform="translate(280, 120)" text-anchor="middle">
     <!-- total problems solved -->
     <text font-size="70" font-weight="600" font-family="Inter, Arial, Helvetica, sans-serif" fill="#ffffff" dominant-baseline="end">15</text>
     <!-- total problems -->
