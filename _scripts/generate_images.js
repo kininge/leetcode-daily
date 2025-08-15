@@ -22,7 +22,7 @@ const totalCardImage = `<svg xmlns="http://www.w3.org/2000/svg" width="${totalCa
   <rect x="0" y="0" width="${totalCardWidth}" height="${totalCardHeight}" rx="${totalCardBorderRadius}" fill="${totalCardBackgroundColor}" />
   
   <!-- All problem solved data -->
-  <g transform="translate(260, 120)" text-anchor="middle">
+  <g transform="translate(280, 120)" text-anchor="middle">
     <!-- total problems solved -->
     <text font-size="${totalCardPrimaryTextFontSize}" font-weight="600" font-family="${fontfamily}" fill="${primaryTextColor}" dominant-baseline="end">${totalSolvedProblmes}</text>
     <!-- total problems -->
