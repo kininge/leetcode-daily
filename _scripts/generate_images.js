@@ -17,7 +17,7 @@ const easyBarWidth = (solvedEasyProblems/totalSolvedProblmes)*availabaleTotalCar
 const mediumBarWidth = (solvedMediumProblems/totalSolvedProblmes)*availabaleTotalCardWidth;
 const hardBarWidth = (solvedHardProblems/totalSolvedProblmes)*availabaleTotalCardWidth;
 
-const totalCardImage = `<svg xmlns="http://www.w3.org/2000/svg" width="${totalCardWidth+4}" height="${totalCardHeight+4}" viewBox="0 0 ${totalCardWidth+4} ${totalCardHeight+4}">
+const totalCardImage = `<svg xmlns="http://www.w3.org/2000/svg" width="${totalCardWidth}" height="${totalCardHeight}" viewBox="0 0 ${totalCardWidth} ${totalCardHeight}">
   <!-- card background -->
   <rect x="0" y="0" width="${totalCardWidth}" height="${totalCardHeight}" rx="${totalCardBorderRadius}" fill="${totalCardBackgroundColor}" />
   
