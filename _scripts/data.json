@@ -1,8 +1,8 @@
 {
-    "totalSolvedProblmes": 15,
+    "totalSolvedProblmes": 16,
     "totalProblems": 3647,
     
-    "solvedEasyProblems": 6,
+    "solvedEasyProblems": 7,
     "totalEasyProblems": 890,
     "easyBackgroundColor": "#1cbaba",
     "easyTextColor": "#1cbaba",
@@ -21,7 +21,7 @@
     "secondaryTextColor": "#767676",
     "fontfamily": "Inter, Arial, Helvetica, sans-serif",
 
-    "totalCardWidth": 600,
+    "totalCardWidth": 608,
     "totalCardHeight": 220,
     "totalCardPrimaryTextFontSize": 70,
     "totalCardSecondaryTextFontSize": 25,
