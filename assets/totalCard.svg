@@ -1,19 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="604" height="224" viewBox="0 0 604 224">
+<svg xmlns="http://www.w3.org/2000/svg" width="608" height="220" viewBox="0 0 608 220">
   <!-- card background -->
-  <rect x="0" y="0" width="600" height="220" rx="8" fill="#282828" />
+  <rect x="0" y="0" width="608" height="220" rx="8" fill="#282828" />
   
   <!-- All problem solved data -->
   <g transform="translate(280, 120)" text-anchor="middle">
     <!-- total problems solved -->
-    <text font-size="70" font-weight="600" font-family="Inter, Arial, Helvetica, sans-serif" fill="#ffffff" dominant-baseline="end">15</text>
+    <text font-size="70" font-weight="600" font-family="Inter, Arial, Helvetica, sans-serif" fill="#ffffff" dominant-baseline="end">16</text>
     <!-- total problems -->
     <text font-size="25" font-weight="600" font-family="Inter, Arial, Helvetica, sans-serif" fill="#767676" dominant-baseline="end" dx="80">/ 3647</text>
   </g>
 
   <!-- horizontal bar represent each section problem solved -->
   <g transform="translate(16, 184)">
-    <rect x="0" y="0" width="224" height="20" fill="#1cbaba" rx="4" /> 
-    <rect x="228" y="0" width="261.3333333333333" height="20" fill="#ffb700" rx="4" />
-    <rect x="493.3333333333333" y="0" width="74.66666666666667" height="20" fill="#f63737" rx="4" />
+    <rect x="0" y="0" width="248.5" height="20" fill="#1cbaba" rx="4" /> 
+    <rect x="252.5" y="0" width="248.5" height="20" fill="#ffb700" rx="4" />
+    <rect x="505" y="0" width="71" height="20" fill="#f63737" rx="4" />
   </g>
 </svg>
