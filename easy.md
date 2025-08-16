@@ -6,7 +6,8 @@ Click a problem to view your notes & solution.
 - [![231](https://img.shields.io/badge/231-Power_of_Two-brightgreen)](/problems/231.md) 
 - [![326](https://img.shields.io/badge/326-Power_of_Three-brightgreen)](/problems/326.md)
 - [![342](https://img.shields.io/badge/342-Power_of_Four-brightgreen)](/problems/342.md)
-- [![2264](https://img.shields.io/badge/2264-Largest_3_Same_Digit_Number_in_String-brightgreen)](/problems/2264.md)
+- [![1323](https://img.shields.io/badge/1323-Maximum_69_Number-brightgreen)](/problems/1323.md)
+- [![2264](https://img.shields.io/badge/2264-Largest_3_Same_Digit_Number_in_String-brightgreen)](/problems/2264.md) 
 - [![3477](https://img.shields.io/badge/3477-Fruits_Into_Baskets_II-brightgreen)](/problems/3477.md)
 
 
