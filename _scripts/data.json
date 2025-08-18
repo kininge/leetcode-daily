@@ -1,5 +1,5 @@
 {
-    "totalSolvedProblmes": 16,
+    "totalSolvedProblmes": 17,
     "totalProblems": 3647,
     
     "solvedEasyProblems": 7,
@@ -12,7 +12,7 @@
     "mediumBackgroundColor": "#ffb700",
     "mediumTextColor": "#ffb700",
 
-    "solvedHardProblems": 2,
+    "solvedHardProblems": 3,
     "totalHardProblems": 860,
     "hardBackgroundColor": "#f63737",
     "hardTextColor": "#f63737",
