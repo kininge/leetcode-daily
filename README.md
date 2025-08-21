@@ -31,7 +31,7 @@
 
 Click a problem to view your notes & solution.
 
-- [![](https://img.shields.io/badge/-Rectange_in_Matrix-red)](./)
+- [![Rectange in Matrix](https://img.shields.io/badge/Series-Rectange_in_Matrix-red)](/series/rectangles-in-matrix.md)
 ### 🔲 Rectangles & Squares in Matrix  
 - [85. Maximal Rectangle](./medium/85-maximal-rectangle.md)  
 - [221. Maximal Square](./medium/221-maximal-square.md)  
