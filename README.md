@@ -1,4 +1,4 @@
-# Leetcode Tracker</h1>
+# Leetcode Tracker
   
 🚀 Solving problems daily to stay sharp in Problem-Solving, Data Structures, Algorithms, and System Thinking
 
