@@ -1,4 +1,4 @@
-# 🔴 Rectangles in matrix
+# Rectangles in matrix
 
 - [![84](https://img.shields.io/badge/84-Largest_Rectangle_in_Histogram-red)](../problems/)
 - [![1504](https://img.shields.io/badge/1504-Count_Submatrices_With_All_Ones-yellow)](../problems/)
