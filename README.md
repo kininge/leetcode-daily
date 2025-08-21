@@ -27,6 +27,11 @@
 
 📌 Grouping related problems together helps track progress & build intuition.  
 
+# 🔴 Hard Problems
+
+Click a problem to view your notes & solution.
+
+- [![](https://img.shields.io/badge/-Rectange_in_Matrix-red)](./)
 ### 🔲 Rectangles & Squares in Matrix  
 - [85. Maximal Rectangle](./medium/85-maximal-rectangle.md)  
 - [221. Maximal Square](./medium/221-maximal-square.md)  
