@@ -27,7 +27,7 @@
 
 📌 Grouping related problems together helps track progress & build intuition.  
 
-[![Rectange in Matrix](https://img.shields.io/badge/Series-Rectange_in_Matrix-purple)](/series/rectangles-in-matrix.md) 
+- [![Rectangles Series](https://img.shields.io/badge/Series-Rectangles_in_Matrix-blue?style=for-the-badge)](/series/rectangle-in-matrix.md)  
 
 ---
 
