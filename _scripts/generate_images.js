@@ -70,7 +70,7 @@ const mediumCardImage = `<svg xmlns="http://www.w3.org/2000/svg" width="${sectio
     <!-- section problems solved -->
     <text font-size="${sectionCardPrimaryTextFontSize}" font-weight="600" font-family="${fontfamily}" fill="${primaryTextColor}" dominant-baseline="end">${solvedMediumProblems}</text>
     <!-- section problems available -->
-    <text font-size="${sectionCardSecondaryTextFontSize}" font-weight="600" font-family="${fontfamily}" fill="${secondaryTextColor}" dominant-baseline="end" dx="45">/ ${totalMediumProblems}</text>
+    <text font-size="${sectionCardSecondaryTextFontSize}" font-weight="600" font-family="${fontfamily}" fill="${secondaryTextColor}" dominant-baseline="end" dx="50">/ ${totalMediumProblems}</text>
   </g>
 </svg>`;
 
