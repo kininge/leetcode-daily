@@ -52,7 +52,7 @@ const easyCardImage = `<svg xmlns="http://www.w3.org/2000/svg" width="${sectionC
     <!-- section problems solved -->
     <text font-size="${sectionCardPrimaryTextFontSize}" font-weight="600" font-family="${fontfamily}" fill="${primaryTextColor}" dominant-baseline="end">${solvedEasyProblems}</text>
     <!-- section problems available -->
-    <text font-size="${sectionCardSecondaryTextFontSize}" font-weight="600" font-family="${fontfamily}" fill="${secondaryTextColor}" dominant-baseline="end" dx="${45+((solvedEasyProblems.toString().length-1)*12)}">/ ${totalEasyProblems}</text>
+    <text font-size="${sectionCardSecondaryTextFontSize}" font-weight="600" font-family="${fontfamily}" fill="${secondaryTextColor}" dominant-baseline="end" dx="${45+((solvedEasyProblems.toString().length-1)*18)}">/ ${totalEasyProblems}</text>
   </g>
 </svg>`;
 
@@ -70,7 +70,7 @@ const mediumCardImage = `<svg xmlns="http://www.w3.org/2000/svg" width="${sectio
     <!-- section problems solved -->
     <text font-size="${sectionCardPrimaryTextFontSize}" font-weight="600" font-family="${fontfamily}" fill="${primaryTextColor}" dominant-baseline="end">${solvedMediumProblems}</text>
     <!-- section problems available -->
-    <text font-size="${sectionCardSecondaryTextFontSize}" font-weight="600" font-family="${fontfamily}" fill="${secondaryTextColor}" dominant-baseline="end" dx="${45+((solvedMediumProblems.toString().length-1)*12)}">/ ${totalMediumProblems}</text>
+    <text font-size="${sectionCardSecondaryTextFontSize}" font-weight="600" font-family="${fontfamily}" fill="${secondaryTextColor}" dominant-baseline="end" dx="${45+((solvedMediumProblems.toString().length-1)*18)}">/ ${totalMediumProblems}</text>
   </g>
 </svg>`;
 
@@ -88,7 +88,7 @@ const hardCardImage = `<svg xmlns="http://www.w3.org/2000/svg" width="${sectionC
     <!-- section problems solved -->
     <text font-size="${sectionCardPrimaryTextFontSize}" font-weight="600" font-family="${fontfamily}" fill="${primaryTextColor}" dominant-baseline="end">${solvedHardProblems}</text>
     <!-- section problems available -->
-    <text font-size="${sectionCardSecondaryTextFontSize}" font-weight="600" font-family="${fontfamily}" fill="${secondaryTextColor}" dominant-baseline="end" dx="${45+((solvedHardProblems.toString().length-1)*12)}">/ ${totalHardProblems}</text>
+    <text font-size="${sectionCardSecondaryTextFontSize}" font-weight="600" font-family="${fontfamily}" fill="${secondaryTextColor}" dominant-baseline="end" dx="${45+((solvedHardProblems.toString().length-1)*18)}">/ ${totalHardProblems}</text>
   </g>
 </svg>`;
 
