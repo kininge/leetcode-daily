@@ -9,6 +9,6 @@
     <!-- section problems solved -->
     <text font-size="35" font-weight="600" font-family="Inter, Arial, Helvetica, sans-serif" fill="#ffffff" dominant-baseline="end">10</text>
     <!-- section problems available -->
-    <text font-size="25" font-weight="600" font-family="Inter, Arial, Helvetica, sans-serif" fill="#767676" dominant-baseline="end" dx="57">/ 1897</text>
+    <text font-size="25" font-weight="600" font-family="Inter, Arial, Helvetica, sans-serif" fill="#767676" dominant-baseline="end" dx="63">/ 1897</text>
   </g>
 </svg>
