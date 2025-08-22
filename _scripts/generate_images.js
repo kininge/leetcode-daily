@@ -48,11 +48,11 @@ const easyCardImage = `<svg xmlns="http://www.w3.org/2000/svg" width="${sectionC
   <!-- card title -->
   <text x="16" y="28" font-size="${sectionTitleTextFontSize}" font-weight="600" font-family="${fontfamily}" fill="${easyTextColor}">Easy</text>
   
-  <g transform="translate(70, 90)" text-anchor="middle">
+  <g transform="translate(${70-((solvedEasyProblems.toString().length-1)*5)}, 90)" text-anchor="middle">
     <!-- section problems solved -->
     <text font-size="${sectionCardPrimaryTextFontSize}" font-weight="600" font-family="${fontfamily}" fill="${primaryTextColor}" dominant-baseline="end">${solvedEasyProblems}</text>
     <!-- section problems available -->
-    <text font-size="${sectionCardSecondaryTextFontSize}" font-weight="600" font-family="${fontfamily}" fill="${secondaryTextColor}" dominant-baseline="end" dx="45">/ ${totalEasyProblems}</text>
+    <text font-size="${sectionCardSecondaryTextFontSize}" font-weight="600" font-family="${fontfamily}" fill="${secondaryTextColor}" dominant-baseline="end" dx="${45+((solvedEasyProblems.toString().length-1)*5)}">/ ${totalEasyProblems}</text>
   </g>
 </svg>`;
 
@@ -66,11 +66,11 @@ const mediumCardImage = `<svg xmlns="http://www.w3.org/2000/svg" width="${sectio
   <!-- card title -->
   <text x="16" y="28" font-size="${sectionTitleTextFontSize}" font-weight="600" font-family="${fontfamily}" fill="${mediumTextColor}">Medium</text>
   
-  <g transform="translate(65, 90)" text-anchor="middle">
+  <g transform="translate(${70-((solvedMediumProblems.toString().length-1)*5)}, 90)" text-anchor="middle">
     <!-- section problems solved -->
     <text font-size="${sectionCardPrimaryTextFontSize}" font-weight="600" font-family="${fontfamily}" fill="${primaryTextColor}" dominant-baseline="end">${solvedMediumProblems}</text>
     <!-- section problems available -->
-    <text font-size="${sectionCardSecondaryTextFontSize}" font-weight="600" font-family="${fontfamily}" fill="${secondaryTextColor}" dominant-baseline="end" dx="50">/ ${totalMediumProblems}</text>
+    <text font-size="${sectionCardSecondaryTextFontSize}" font-weight="600" font-family="${fontfamily}" fill="${secondaryTextColor}" dominant-baseline="end" dx="${45+((solvedMediumProblems.toString().length-1)*5)}">/ ${totalMediumProblems}</text>
   </g>
 </svg>`;
 
@@ -84,11 +84,11 @@ const hardCardImage = `<svg xmlns="http://www.w3.org/2000/svg" width="${sectionC
   <!-- card title -->
   <text x="16" y="28" font-size="${sectionTitleTextFontSize}" font-weight="600" font-family="${fontfamily}" fill="${hardTextColor}">Hard</text>
   
-  <g transform="translate(70, 90)" text-anchor="middle">
+  <g transform="translate(${70-((solvedHardProblems.toString().length-1)*5)}, 90)" text-anchor="middle">
     <!-- section problems solved -->
     <text font-size="${sectionCardPrimaryTextFontSize}" font-weight="600" font-family="${fontfamily}" fill="${primaryTextColor}" dominant-baseline="end">${solvedHardProblems}</text>
     <!-- section problems available -->
-    <text font-size="${sectionCardSecondaryTextFontSize}" font-weight="600" font-family="${fontfamily}" fill="${secondaryTextColor}" dominant-baseline="end" dx="45">/ ${totalHardProblems}</text>
+    <text font-size="${sectionCardSecondaryTextFontSize}" font-weight="600" font-family="${fontfamily}" fill="${secondaryTextColor}" dominant-baseline="end" dx="${45+((solvedHardProblems.toString().length-1)*5)}">/ ${totalHardProblems}</text>
   </g>
 </svg>`;
 
