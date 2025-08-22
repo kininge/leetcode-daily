@@ -5,10 +5,10 @@
   <!-- card title -->
   <text x="16" y="28" font-size="18" font-weight="600" font-family="Inter, Arial, Helvetica, sans-serif" fill="#ffb700">Medium</text>
   
-  <g transform="translate(20, 90)" text-anchor="middle">
+  <g transform="translate(60, 90)" text-anchor="middle">
     <!-- section problems solved -->
     <text font-size="35" font-weight="600" font-family="Inter, Arial, Helvetica, sans-serif" fill="#ffffff" dominant-baseline="end">10</text>
     <!-- section problems available -->
-    <text font-size="25" font-weight="600" font-family="Inter, Arial, Helvetica, sans-serif" fill="#767676" dominant-baseline="end" dx="53">/ 1897</text>
+    <text font-size="25" font-weight="600" font-family="Inter, Arial, Helvetica, sans-serif" fill="#767676" dominant-baseline="end" dx="57">/ 1897</text>
   </g>
 </svg>
