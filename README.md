@@ -11,7 +11,7 @@
 ## Skills 
 
 [![Array](https://img.shields.io/badge/Array-gray)](./skills)
-[![[Math](https://img.shields.io/badge/Math-gray)](./skills)
+[![Math](https://img.shields.io/badge/Math-gray)](./skills)
 [![Number Theory](https://img.shields.io/badge/Number_Theory-gray)](./skills)
 [![Bit_Manipulation](https://img.shields.io/badge/Bit_Manipulation-gray)](./skills)
 [![Hash Map](https://img.shields.io/badge/Hash_Map-gray)](./skills)
