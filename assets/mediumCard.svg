@@ -7,7 +7,7 @@
   
   <g transform="translate(60, 90)" text-anchor="middle">
     <!-- section problems solved -->
-    <text font-size="35" font-weight="600" font-family="Inter, Arial, Helvetica, sans-serif" fill="#ffffff" dominant-baseline="end">12</text>
+    <text font-size="35" font-weight="600" font-family="Inter, Arial, Helvetica, sans-serif" fill="#ffffff" dominant-baseline="end">13</text>
     <!-- section problems available -->
     <text font-size="25" font-weight="600" font-family="Inter, Arial, Helvetica, sans-serif" fill="#767676" dominant-baseline="end" dx="63">/ 1897</text>
   </g>
