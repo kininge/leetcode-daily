@@ -10,17 +10,18 @@
 
 ## Skills 
 
-![Array](https://img.shields.io/badge/Array-gray)
-![Number Theory](https://img.shields.io/badge/Number_Theory-gray)
-![Bit_Manipulation](https://img.shields.io/badge/Bit_Manipulation-gray)
-![Hash map](https://img.shields.io/badge/Hash_Map-gray)
-![Sliding_Window](https://img.shields.io/badge/Sliding_Window-gray)
-![Prefix Sum](https://img.shields.io/badge/Prefix_Sum-gray)
-![Matrix](https://img.shields.io/badge/Matrix-gray)
-![Deapth First Search](https://img.shields.io/badge/Depth_First_Search-gray)
-![Dynamic Programming](https://img.shields.io/badge/Dynamic_Programming-gray)
-![Back Tracking](https://img.shields.io/badge/Back_Tracking-gray)
-![Sorting](https://img.shields.io/badge/Sorting-gray)
+[![Array](https://img.shields.io/badge/Array-gray)](./skills)
+[![[Math](https://img.shields.io/badge/Math-gray)](./skills)
+[![Number Theory](https://img.shields.io/badge/Number_Theory-gray)](./skills)
+[![Bit_Manipulation](https://img.shields.io/badge/Bit_Manipulation-gray)](./skills)
+[![Hash Map](https://img.shields.io/badge/Hash_Map-gray)](./skills)
+[![Sliding_Window](https://img.shields.io/badge/Sliding_Window-gray)](./skills)
+[![Prefix Sum](https://img.shields.io/badge/Prefix_Sum-gray)](./skills)
+[![Matrix](https://img.shields.io/badge/Matrix-gray)](./skills/matrix.md)
+[![Deapth First Search](https://img.shields.io/badge/Depth_First_Search-gray)](./skills)
+[![Dynamic Programming](https://img.shields.io/badge/Dynamic_Programming-gray)](./skills)
+[![Back Tracking](https://img.shields.io/badge/Back_Tracking-gray)](./skills)
+[![Sorting](https://img.shields.io/badge/Sorting-gray)](./skills/sorting.md)
 
 ---
 
