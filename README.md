@@ -20,6 +20,7 @@
 ![Deapth First Search](https://img.shields.io/badge/Depth_First_Search-gray)
 ![Dynamic Programming](https://img.shields.io/badge/Dynamic_Programming-gray)
 ![Back Tracking](https://img.shields.io/badge/Back_Tracking-gray)
+![Sorting](https://img.shields.io/badge/Sorting-gray)
 
 ---
 
