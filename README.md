@@ -21,7 +21,8 @@
 [![Deapth First Search](https://img.shields.io/badge/Depth_First_Search-gray)](./skills)
 [![Dynamic Programming](https://img.shields.io/badge/Dynamic_Programming-gray)](./skills)
 [![Back Tracking](https://img.shields.io/badge/Back_Tracking-gray)](./skills)
-[![Sorting](https://img.shields.io/badge/Sorting-gray)](./skills/sorting.md)
+[![Sorting](https://img.shields.io/badge/Sorting-gray)](./skills/sorting.md) 
+[![Sorting](https://img.shields.io/badge/Bit_Mask-gray)](./skills) 
 
 ---
 
