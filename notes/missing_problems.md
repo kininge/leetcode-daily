@@ -5,3 +5,4 @@
 - [![3495](https://img.shields.io/badge/2561-Minimum_Operations_to_Make_Array_Elements_Zero-blue)](https://leetcode.com/problems/minimum-operations-to-make-array-elements-zero/description/?envType=daily-question&envId=2025-09-06)
 - [![2749](https://img.shields.io/badge/2749-Minimum_Operations_to_Make_the_Integer_Zero-blue)](https://leetcode.com/problems/minimum-operations-to-make-the-integer-zero/?envType=daily-question&envId=2025-09-06)
 - [![2327](https://img.shields.io/badge/2327-Number_of_People_Aware_of_a_Secret-blue)](https://leetcode.com/problems/number-of-people-aware-of-a-secret/description/?envType=daily-question&envId=2025-09-09)
+- [![1733](https://img.shields.io/badge/1733-Minimum_Number_of_People_to_Teach-blue)](https://leetcode.com/problems/minimum-number-of-people-to-teach/description/?envType=daily-question&envId=2025-09-10)
