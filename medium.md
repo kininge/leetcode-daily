@@ -14,6 +14,7 @@ Click a problem to view your notes & solution.
 - [![2411](https://img.shields.io/badge/2411-Smallest_Subarrays_With_Maximum_Bitwise_OR-yellow)](/problems/2411.md)
 - [![2419](https://img.shields.io/badge/2419-longest_subarray_with_maximum_bitwise_and-yellow)](/problems/2419.md)
 - [![2438](https://img.shields.io/badge/2438-Range_Product_Queries_of_Powers-yellow)](/problems/2438.md)
+- [![2785](https://img.shields.io/badge/2785-Sort_Vowels_in_a_String-yellow)](/problems/2785.md) 
 - [![2787](https://img.shields.io/badge/2787-Ways_to_Express_an_Integer_as_Sum_of_Powers-yellow)](/problems/2787.md) 
 - [![3021](https://img.shields.io/badge/3021-Alice_and_Bob_Playing_Flower_Game-yellow)](/problems/3021.md) 
 - [![3025](https://img.shields.io/badge/3025-Find_the_Number_of_Ways_to_Place_People_I-yellow)](/problems/3025.md) 
