@@ -19,5 +19,6 @@ Click a problem to view your notes & solution.
 - [![3021](https://img.shields.io/badge/3021-Alice_and_Bob_Playing_Flower_Game-yellow)](/problems/3021.md) 
 - [![3025](https://img.shields.io/badge/3025-Find_the_Number_of_Ways_to_Place_People_I-yellow)](/problems/3025.md) 
 - [![3195](https://img.shields.io/badge/3195-Find_the_Minimum_Area_to_Cover_All_Ones_I-yellow)](/problems/3195.md)
+- [![3408](https://img.shields.io/badge/3408-Design_Task_Manager-yellow)](/problems/3408.md)
 - [![3446](https://img.shields.io/badge/3446-Sort_Matrix_by_Diagonals-yellow)](/problems/3446.md)
 
