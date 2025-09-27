@@ -8,7 +8,6 @@ Click a problem to view your notes & solution.
 - [![166](https://img.shields.io/badge/166-Fraction_to_Recurring_Decimal-yellow)](/problems/166.md) 
 - [![498](https://img.shields.io/badge/498-Diagonal_Traverse-yellow)](/problems/498.md)
 - [![611](https://img.shields.io/badge/611-Valid_Triangle_Number-yellow)](/problems/611.md)
-- [![812](https://img.shields.io/badge/812-Largest_Triangle_Area-yellow)](/problems/812.md)
 - [![869](https://img.shields.io/badge/869-Reordered_Power_of_2-yellow)](/problems/869.md)
 - [![898](https://img.shields.io/badge/898-Bitwise_ORs_of_Subarrays-yellow)](/problems/898.md)
 - [![904](https://img.shields.io/badge/904-Fruit_Into_Baskets-yellow)](/problems/904.md)   
