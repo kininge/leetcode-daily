@@ -5,7 +5,7 @@ const path = require("path");
 const dataPath = path.join(__dirname, "./data.json");
 
 
-const { totalCardWidth, totalCardHeight, totalCardBorderRadius, totalCardBackgroundColor, totalSolvedProblmes, totalProblems, primaryTextColor, secondaryTextColor, 
+const { totalCardWidth, totalCardHeight, totalCardBorderRadius, totalCardBackgroundColor, totalSolvedProblems, totalProblems, primaryTextColor, secondaryTextColor, 
 easyBackgroundColor, mediumBackgroundColor, hardBackgroundColor, solvedEasyProblems, totalEasyProblems, solvedMediumProblems, totalMediumProblems, 
 solvedHardProblems, totalHardProblems, totalCardEachBarBorderRadius, totalCardPrimaryTextFontSize, totalCardSecondaryTextFontSize, sectionCardWidth, 
 sectionCardHeight, sectionTitleTextFontSize, easyTextColor, fontfamily, sectionCardPrimaryTextFontSize, sectionCardSecondaryTextFontSize, 
