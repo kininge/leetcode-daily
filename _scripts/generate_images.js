@@ -13,9 +13,9 @@ mediumTextColor, hardTextColor} = require(dataPath);
 
 // generate total card
 const availabaleTotalCardWidth = totalCardWidth-40;
-const easyBarWidth = (solvedEasyProblems/totalSolvedProblmes)*availabaleTotalCardWidth;
-const mediumBarWidth = (solvedMediumProblems/totalSolvedProblmes)*availabaleTotalCardWidth;
-const hardBarWidth = (solvedHardProblems/totalSolvedProblmes)*availabaleTotalCardWidth;
+const easyBarWidth = (solvedEasyProblems/totalSolvedProblems)*availabaleTotalCardWidth;
+const mediumBarWidth = (solvedMediumProblems/totalSolvedProblems)*availabaleTotalCardWidth;
+const hardBarWidth = (solvedHardProblems/totalSolvedProblems)*availabaleTotalCardWidth;
 
 const totalCardImage = `<svg xmlns="http://www.w3.org/2000/svg" width="${totalCardWidth}" height="${totalCardHeight}" viewBox="0 0 ${totalCardWidth} ${totalCardHeight}">
   <!-- card background -->
@@ -24,12 +24,12 @@ const totalCardImage = `<svg xmlns="http://www.w3.org/2000/svg" width="${totalCa
   <!-- All problem solved data -->
   <g transform="translate(280, 120)" text-anchor="middle">
     <!-- total problems solved -->
-    <text font-size="${totalCardPrimaryTextFontSize}" font-weight="600" font-family="${fontfamily}" fill="${primaryTextColor}" dominant-baseline="end">${totalSolvedProblmes}</text>
+    <text font-size="${totalCardPrimaryTextFontSize}" font-weight="600" font-family="${fontfamily}" fill="${primaryTextColor}" dominant-baseline="end">${totalSolvedProblems}</text>
     <!-- total problems -->
     <text font-size="${totalCardSecondaryTextFontSize}" font-weight="600" font-family="${fontfamily}" fill="${secondaryTextColor}" dominant-baseline="end" dx="80">/ ${totalProblems}</text>
   </g>
 
-  <!-- horizontal bar represent each section problem solved -->
+  <!-- horizontal bar represents each section problem solved -->
   <g transform="translate(16, ${totalCardHeight-36})">
     <rect x="0" y="0" width="${easyBarWidth}" height="20" fill="${easyBackgroundColor}" rx="${totalCardEachBarBorderRadius}" /> 
     <rect x="${easyBarWidth+4}" y="0" width="${mediumBarWidth}" height="20" fill="${mediumBackgroundColor}" rx="${totalCardEachBarBorderRadius}" />
