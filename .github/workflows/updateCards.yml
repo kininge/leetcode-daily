@@ -1,35 +1,37 @@
-name: Update LeetCode Lists & Cards
+name: Update repo statistics 
 
 on:
-  push:
-    paths:
+  push: # whenever git push happened
+    paths: # run when file path here is changed in git push
       - "problems/**"
-      - "_scripts/**"
-      - "scripts/**"
       - ".github/workflows/**"
-  workflow_dispatch: {}
+  workflow_dispatch: {} # manually triggering is also possible
 
 permissions:
-  contents: write
+  contents: write # allow actions bot to read and push commits
 
-jobs:
-  update:
-    runs-on: ubuntu-latest
+jobs: # workflow can have multiple jobs - but we're going to add just 1
+  update: # job called update
+    runs-on: ubuntu-latest # choose the latest Ubuntu server
     steps:
-      - name: Checkout repository (full history)
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          persist-credentials: true   # allow pushing with GITHUB_TOKEN
 
+      # get commit history and GitHub credentials 
+      - name: Checkout repository
+        uses: actions/checkout@v4 # copy all commit history in runner
+        with:
+          fetch-depth: 0 # fetch full history (depth 0 means full)
+          persist-credentials: true   # remember GITHUB_TOKEN so later use  for git push
+
+      # install Node version 20 on our Ubuntu server
       - name: Setup Node.js 20
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v4 # install node
         with:
-          node-version: "20"
+          node-version: "20" # install node version 20
 
-      - name: Install npm deps (if any)
-        run: |
-          if [ -f package.json ]; then npm ci; fi
+      # install npm packages
+      - name: Install npm deps
+        run: | # if package.json exists, then install npm packages
+          if [ -f package.json ]; then npm ci; fi 
 
       - name: Detect changed problem files
         id: changed
