@@ -1,38 +1,102 @@
-name: Update LeetCode Card
+name: Update LeetCode Lists & Cards
 
 on:
-  push: # whenever git push happened
-    paths: # run when file path here is changed in git push
-      - "_scripts/data.json"
-  workflow_dispatch: # manually triggering also possible
+  push:
+    paths:
+      - "problems/**"
+      - "_scripts/**"
+      - "scripts/**"
+      - ".github/workflows/**"
+  workflow_dispatch: {}
 
 permissions:
-  contents: write # allow Actions bot to push commits
+  contents: write
 
-jobs: # workflow can have multipie jobs - but we going to add just 1 joib called 'build'
-  build: 
-    runs-on: ubuntu-latest # ask GitHub to spin up a new Linux machine with the latest Ubuntu OS for our commands
-
+jobs:
+  update:
+    runs-on: ubuntu-latest
     steps:
-      # download our repo in github temp server
-      - name: Checkout repo
+      - name: Checkout repository (full history)
         uses: actions/checkout@v4
-      
-      # install node.js version 20 on the server
-      - name: Setup Node.js
+        with:
+          fetch-depth: 0
+          persist-credentials: true   # allow pushing with GITHUB_TOKEN
+
+      - name: Setup Node.js 20
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-      
-      # run '_scripts/generateCards.js' file to generate image cards
-      - name: Run card generator
-        run: node _scripts/generate_images.js || exit 1
-      
-      # commit changes adn metion that it done by github bot
-      - name: Commit and push changes
+
+      - name: Install npm deps (if any)
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/*.svg
-          git commit -m "Update LeetCode cards"
-          git push
+          if [ -f package.json ]; then npm ci; fi
+
+      - name: Detect changed problem files
+        id: changed
+        run: |
+          # For push events: compare BEFORE..AFTER; fallback to list all problems for manual runs
+          if [ "${{ github.event_name }}" = "push" ]; then
+            echo "Event: push"
+            BEFORE="${{ github.event.before }}"
+            AFTER="${{ github.sha }}"
+            # ensure git refs exist
+            git fetch --no-tags --prune origin "$BEFORE" || true
+            git fetch --no-tags --prune origin "$AFTER" || true
+            CHANGED=$(git diff --name-only "$BEFORE" "$AFTER" -- 'problems/*.md' || true)
+          else
+            echo "Event: ${{ github.event_name }} (workflow_dispatch?) - processing all problems"
+            CHANGED=$(ls problems/*.md 2>/dev/null || true)
+          fi
+
+          # Filter out empty / whitespace
+          CHANGED=$(echo "$CHANGED" | sed '/^\s*$/d' | tr '\n' ' ')
+          echo "changed_files=$CHANGED" >> $GITHUB_OUTPUT
+          echo "Changed files: $CHANGED"
+      
+      - name: Run addProblem.js for each changed file
+        if: steps.changed.outputs.changed_files != ''
+        run: |
+          set -euo pipefail
+          for f in ${{ steps.changed.outputs.changed_files }}; do
+            if [ -f "$f" ]; then
+              echo "Processing $f"
+              node _scripts/addProblem.js "$f"
+            else
+              echo "Warning: file not found: $f"
+            fi
+          done
+
+      - name: Run image generator (optional) — only if scripts changed or assets needed
+        if: ${{ always() }}
+        run: |
+          if [ -f _scripts/generate_images.js ]; then
+            node _scripts/generate_images.js || echo "Image generator exited with non-zero; continuing"
+          else
+            echo "No image generator found, skipping"
+          fi
+
+      - name: Show git status (debug)
+        run: git --no-pager status --porcelain --untracked-files=no || true
+
+      - name: Commit and push changes (if any)
+        run: |
+          # Configure committer
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Stage the changes you expect (lists, data.json, generated assets)
+          git add easy.md medium.md hard.md _scripts/data.json assets/*.svg || true
+
+          # Only commit if there are staged changes
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore(actions): update problem lists & data.json — run by GitHub Actions [skip ci]" || {
+            echo "Commit failed or nothing to commit."
+            exit 0
+          }
+
+          # Push using the token provided by actions/checkout (persist-credentials: true)
+          git push origin HEAD:${{ github.ref_name }}
