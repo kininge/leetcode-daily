@@ -31,7 +31,8 @@
 📌 Grouping related problems together helps track progress & build intuition.  
 
 - [![Rectangles Series](https://img.shields.io/badge/Series-Rectangles_in_Matrix-blue?style=for-the-badge)](/series/rectangles-in-matrix.md)  
-- [![Design Series](https://img.shields.io/badge/Series-Design-blue?style=for-the-badge)](/series/design.md)  
+- [![Design Series](https://img.shields.io/badge/Series-Design-blue?style=for-the-badge)](/series/design.md)
+- [![Height and Depth Series](https://img.shields.io/badge/Series-Height_and_Depth-blue?style=for-the-badge)](/series/height-and-depth.md)  
 
 ---
 
