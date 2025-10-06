@@ -8,4 +8,5 @@
 - [![1733](https://img.shields.io/badge/1733-Minimum_Number_of_People_to_Teach-blue)](https://leetcode.com/problems/minimum-number-of-people-to-teach/description/?envType=daily-question&envId=2025-09-10)
 - [![1039](https://img.shields.io/badge/1039-Minimum_Score_Triangulation_of_Polygon-blue)](https://leetcode.com/problems/minimum-score-triangulation-of-polygon/description/?envType=daily-question&envId=2025-09-29)
 - [![417](https://img.shields.io/badge/417-Pacific_Atlantic_Water_Flow-blue)](https://leetcode.com/problems/pacific-atlantic-water-flow/?envType=daily-question&envId=2025-10-05)
+- [![778](https://img.shields.io/badge/778-Swim_in_Rising_Water-blue)](https://leetcode.com/problems/swim-in-rising-water/description/?envType=daily-question&envId=2025-10-06)
 
