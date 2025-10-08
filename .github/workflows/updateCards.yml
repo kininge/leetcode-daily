@@ -60,14 +60,19 @@ jobs: # workflow can have multiple jobs - but we're going to add just 1
         run: |
           set -euo pipefail
           set -x
-          for f in ${{ steps.changed.outputs.changed_files }}; do
+          # read the multiline output safely and iterate line-by-line
+          while IFS= read -r f; do
+            [ -z "$f" ] && continue
             if [ -f "$f" ]; then
-              echo "Processing $f"
+              echo "Processing: [$f]"
               node _scripts/addProblem.js "$f"
             else
-              echo "Warning: file not found: $f"
+              echo "Warning: file not found: [$f]"
             fi
-          done
+          done <<'FILES'
+          ${{ steps.changed.outputs.changed_files }}
+          FILES
+
 
       - name: Run image generator (optional) — only if scripts changed or assets needed
         if: ${{ always() }}
