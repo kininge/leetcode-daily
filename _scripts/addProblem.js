@@ -212,7 +212,7 @@ if (!fs.existsSync(difficultyFilePath)) {
 
     // Check if badge already exists
     if (badgeLines.includes(badgeMarkdown)) {
-        info(`Badge already present in ${difficultyFilePath}. Skipping.`);
+        infoLog(`Badge already present in ${difficultyFilePath}. Skipping.`);
     } else {
         // Insert badge in numeric order
         const allBadges = [...badgeLines, badgeMarkdown];
@@ -228,7 +228,7 @@ if (!fs.existsSync(difficultyFilePath)) {
         const newFileContent = [headerLine, '', ...allBadges].join('\n');
         fs.writeFileSync(difficultyFilePath, newFileContent, 'utf8');
 
-        info(`Inserted badge for problem #${problemNumber} into ${difficultyFilePath} in sorted order.`);
+        infoLog(`Inserted badge for problem #${problemNumber} into ${difficultyFilePath} in sorted order.`);
     }
 }
 
