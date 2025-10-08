@@ -61,6 +61,7 @@ jobs: # workflow can have multiple jobs - but we're going to add just 1
           set -euo pipefail
           set -x
           printf '%s\n' "${{ steps.changed.outputs.changed_files }}" | while IFS= read -r f; do
+            f="$(echo "$f" | sed -E 's/^[[:space:]]+|[[:space:]]+$//g')"   # defensive trim (optional)
             [ -z "$f" ] && continue
             if [ -f "$f" ]; then
               echo "Processing: [$f]"
