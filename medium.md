@@ -32,3 +32,4 @@ Click a problem to view your notes & solution.
 - [![3446](https://img.shields.io/badge/3446-Sort_Matrix_by_Diagonals-yellow)](/problems/3446.md)
 - [![3484](https://img.shields.io/badge/3484-Design_Spreadsheet-yellow)](/problems/3484.md)  
 
+- [![1](https://img.shields.io/badge/1-Test_Problem_By_Pritam-yellow)](/problems/1.md)
