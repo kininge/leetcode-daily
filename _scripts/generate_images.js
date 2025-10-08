@@ -1,8 +1,12 @@
 const fs = require("fs");
 const path = require("path");
 
+function infoLog(msg) { console.log('INFO:', msg); }
+function errorLog(msg) { console.error('ERROR:', msg); process.exit(1); }
+
 // Load problem data
 const dataPath = path.join(__dirname, "./data.json");
+infoLog(`got data.json at ${dataPath}`);
 
 
 const { totalCardWidth, totalCardHeight, totalCardBorderRadius, totalCardBackgroundColor, totalSolvedProblems, totalProblems, primaryTextColor, secondaryTextColor, 
@@ -10,6 +14,7 @@ easyBackgroundColor, mediumBackgroundColor, hardBackgroundColor, solvedEasyProbl
 solvedHardProblems, totalHardProblems, totalCardEachBarBorderRadius, totalCardPrimaryTextFontSize, totalCardSecondaryTextFontSize, sectionCardWidth, 
 sectionCardHeight, sectionTitleTextFontSize, easyTextColor, fontfamily, sectionCardPrimaryTextFontSize, sectionCardSecondaryTextFontSize, 
 mediumTextColor, hardTextColor} = require(dataPath);
+infoLog(`data for print: ${JSON.stringify({'totalSolvedProblems': totalSolvedProblems, 'solvedEasyProblems': solvedEasyProblems, 'solvedMediumProblems': solvedMediumProblems, 'solvedHardProblems': solvedHardProblems})}`);
 
 // generate total card
 const availabaleTotalCardWidth = totalCardWidth-40;
@@ -38,6 +43,7 @@ const totalCardImage = `<svg xmlns="http://www.w3.org/2000/svg" width="${totalCa
 </svg>`
 
 fs.writeFileSync(path.join(__dirname, "../assets/totalCard.svg"), totalCardImage);
+infoLog(`totalCardImage is generated --> ${totalSolvedProblems}/${totalProblems}`);
 
 
 // generate easy card 
@@ -57,6 +63,7 @@ const easyCardImage = `<svg xmlns="http://www.w3.org/2000/svg" width="${sectionC
 </svg>`;
 
 fs.writeFileSync(path.join(__dirname, "../assets/easyCard.svg"), easyCardImage);
+infoLog(`easyCardImage is generated --> ${solvedEasyProblems}/${totalEasyProblems}`);
 
 // generate medium card 
 const mediumCardImage = `<svg xmlns="http://www.w3.org/2000/svg" width="${sectionCardWidth+4}" height="${sectionCardHeight+4}" viewBox="0 0 ${sectionCardWidth+4} ${sectionCardHeight+4}">
@@ -75,6 +82,7 @@ const mediumCardImage = `<svg xmlns="http://www.w3.org/2000/svg" width="${sectio
 </svg>`;
 
 fs.writeFileSync(path.join(__dirname, "../assets/mediumCard.svg"), mediumCardImage);
+infoLog(`mediumCardImage is generated --> ${solvedMediumProblems}/${totalMediumProblems}`);
 
 // generate hard card 
 const hardCardImage = `<svg xmlns="http://www.w3.org/2000/svg" width="${sectionCardWidth+4}" height="${sectionCardHeight+4}" viewBox="0 0 ${sectionCardWidth+4} ${sectionCardHeight+4}">
@@ -93,3 +101,5 @@ const hardCardImage = `<svg xmlns="http://www.w3.org/2000/svg" width="${sectionC
 </svg>`;
 
 fs.writeFileSync(path.join(__dirname, "../assets/hardCard.svg"), hardCardImage);
+infoLog(`hardCardImage is generated --> ${solvedHardProblems}/${totalHardProblems}`);
+
