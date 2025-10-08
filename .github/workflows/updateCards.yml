@@ -74,11 +74,17 @@ jobs: # workflow can have multiple jobs - but we're going to add just 1
       - name: Run image generator (optional) — only if scripts changed or assets needed
         if: ${{ always() }}
         run: |
+          set -euxo pipefail
+          echo "🔍 Checking for image generator..."
           if [ -f _scripts/generate_images.js ]; then
-            node _scripts/generate_images.js || echo "Image generator exited with non-zero; continuing"
+            echo "✅ Found: _scripts/generate_images.js"
+            echo "⚙️  Running: node _scripts/generate_images.js"
+            node _scripts/generate_images.js || echo "⚠️  Image generator exited non-zero; continuing anyway"
           else
-            echo "No image generator found, skipping"
+            echo "ℹ️  No image generator found, skipping"
           fi
+          echo "🏁 Image generation step complete."
+
 
       - name: Show git status (debug)
         run: git --no-pager status --porcelain --untracked-files=no || true
