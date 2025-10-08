@@ -19,6 +19,3 @@ Click a problem to view your notes & solution.
 - [![3516](https://img.shields.io/badge/3516-Find_Closest_Person-brightgreen)](/problems/3516.md)
 - [![3477](https://img.shields.io/badge/3477-Fruits_Into_Baskets_II-brightgreen)](/problems/3477.md)
 - [![3541](https://img.shields.io/badge/3541-Find_Most_Frequent_Vowel_and_Consonant-brightgreen)](/problems/3541.md)
-
-
-- [![1](https://img.shields.io/badge/1-Test_Problem_By_Pritam-brightgreen)](/problems/1.md)
