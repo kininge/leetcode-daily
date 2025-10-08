@@ -60,7 +60,6 @@ jobs: # workflow can have multiple jobs - but we're going to add just 1
         run: |
           set -euo pipefail
           set -x
-          # read the multiline output safely and iterate line-by-line
           while IFS= read -r f; do
             [ -z "$f" ] && continue
             if [ -f "$f" ]; then
