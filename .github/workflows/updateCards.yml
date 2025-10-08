@@ -59,6 +59,7 @@ jobs: # workflow can have multiple jobs - but we're going to add just 1
         if: steps.changed.outputs.changed_files != ''
         run: |
           set -euo pipefail
+          set -x
           for f in ${{ steps.changed.outputs.changed_files }}; do
             if [ -f "$f" ]; then
               echo "Processing $f"
