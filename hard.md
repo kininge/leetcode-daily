@@ -9,3 +9,4 @@ Click a problem to view your notes & solution.
 - [![3027](https://img.shields.io/badge/3027-Find_the_Number_of_Ways_to_Place_People_II-red)](/problems/3027.md)
 - [![3369](https://img.shields.io/badge/3369-Find_the_Maximum_Number_of_Fruits_Collected-red)](/problems/3369.md)
 
+- [![1](https://img.shields.io/badge/1-Test_Problem_By_Pritam-red)](/problems/1.md)
