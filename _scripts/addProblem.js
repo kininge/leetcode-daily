@@ -187,16 +187,16 @@ const difficultyFileMap = {
 
 // STEP 12: Get file based on problem difficulty
 const difficultyFileName = difficultyFileMap[difficulty];
-infoLog('difficulty file:', difficultyFileName);
+infoLog(`difficulty file: ${difficultyFileName}`);
 if (!difficultyFileName) log("error", `${difficulty} is unknown difficulty`);
     
 // STEP 13: Get file path
 const difficultyFilePath = path.resolve(workingDirectory, difficultyFileName);
-infoLog('difficulty file path:', difficultyFilePath);
+infoLog(`difficulty file path: ${difficultyFilePath}`);
 if (!fs.existsSync(difficultyFilePath)) {
     const header = `# ${difficulty.charAt(0).toUpperCase() + difficulty.slice(1)} Problems\n\n`;
     fs.writeFileSync(difficultyFilePath, header, 'utf8');
-    infoLog('Created difficulty file:', difficultyFilePath);
+    infoLog(`Created difficulty file: ${difficultyFilePath}`);
 }
 
 // STEP 14: Insert badge in sorted order (instead of appending blindly)
