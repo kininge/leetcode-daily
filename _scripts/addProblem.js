@@ -102,7 +102,7 @@ if (!fs.existsSync(resolvedProblemFilePath)) log("error", `problem file ${proble
 // STEP 5: Read problem file
 const problemFileContent = fs.readFileSync(resolvedProblemFilePath, 'utf8');
 log(`problem file content: ${problemFileContent}`);
-const linesSplitedProblemFileContent = problemRaw.split(/\r?\n/);
+const linesSplitedProblemFileContent = problemFileContent.split(/\r?\n/);
 log(`line splited problem file content: ${linesSplitedProblemFileContent}`);
 
 // STEP 6: Verify at least 2 lines of code exist in problem file
