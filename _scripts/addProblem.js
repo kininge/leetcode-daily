@@ -199,13 +199,37 @@ if (!fs.existsSync(difficultyFilePath)) {
     infoLog('Created difficulty file:', difficultyFilePath);
 }
 
+// STEP 14: Insert badge in sorted order (instead of appending blindly)
+{
+    const fileText = fs.existsSync(difficultyFilePath)
+        ? fs.readFileSync(difficultyFilePath, 'utf8').trimEnd()
+        : '';
+    const lines = fileText.split(/\r?\n/);
 
-// STEP 14: Append badge if missing
-if (fileHasExactLine(difficultyFilePath, badgeMarkdown)) {
-    infoLog(`${badgeMarkdown} already present in ${difficultyFilePath}. Skipping append.`);
-} else {
-    fs.appendFileSync(difficultyFilePath, badgeMarkdown + '\n', 'utf8');
-    infoLog(`Appended badge to ${difficultyFilePath}`);
+    // Keep header (first line)
+    const headerLine = lines[0] || `# ${difficulty.charAt(0).toUpperCase() + difficulty.slice(1)} Problems`;
+    const badgeLines = lines.slice(1).map(l => l.trim()).filter(l => l);
+
+    // Check if badge already exists
+    if (badgeLines.includes(badgeMarkdown)) {
+        info(`Badge already present in ${difficultyFilePath}. Skipping.`);
+    } else {
+        // Insert badge in numeric order
+        const allBadges = [...badgeLines, badgeMarkdown];
+
+        // Extract problem numbers for sorting
+        allBadges.sort((a, b) => {
+            const numA = parseInt(a.match(/\[\!\[(\d+)\]/)?.[1] ?? Infinity, 10);
+            const numB = parseInt(b.match(/\[\!\[(\d+)\]/)?.[1] ?? Infinity, 10);
+            return numA - numB;
+        });
+
+        // Rebuild file content: header + sorted badges joined by newline (no trailing space)
+        const newFileContent = [headerLine, '', ...allBadges].join('\n');
+        fs.writeFileSync(difficultyFilePath, newFileContent, 'utf8');
+
+        info(`Inserted badge for problem #${problemNumber} into ${difficultyFilePath} in sorted order.`);
+    }
 }
 
 
