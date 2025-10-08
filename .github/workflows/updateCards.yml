@@ -60,7 +60,7 @@ jobs: # workflow can have multiple jobs - but we're going to add just 1
         run: |
           set -euo pipefail
           set -x
-          while IFS= read -r f; do
+          printf '%s\n' "${{ steps.changed.outputs.changed_files }}" | while IFS= read -r f; do
             [ -z "$f" ] && continue
             if [ -f "$f" ]; then
               echo "Processing: [$f]"
@@ -68,10 +68,7 @@ jobs: # workflow can have multiple jobs - but we're going to add just 1
             else
               echo "Warning: file not found: [$f]"
             fi
-          done <<'FILES'
-          ${{ steps.changed.outputs.changed_files }}
-          FILES
-
+          done
 
       - name: Run image generator (optional) — only if scripts changed or assets needed
         if: ${{ always() }}
