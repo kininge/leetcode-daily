@@ -1,26 +1,21 @@
 {
-    "totalSolvedProblems": 52,
+    "totalSolvedProblems": 53,
     "totalProblems": 3647,
-    
-    "solvedEasyProblems": 17,
+    "solvedEasyProblems": 18,
     "totalEasyProblems": 890,
     "easyBackgroundColor": "#1cbaba",
     "easyTextColor": "#1cbaba",
-
     "solvedMediumProblems": 29,
     "totalMediumProblems": 1897,
     "mediumBackgroundColor": "#ffb700",
     "mediumTextColor": "#ffb700",
-
     "solvedHardProblems": 6,
     "totalHardProblems": 860,
     "hardBackgroundColor": "#f63737",
     "hardTextColor": "#f63737",
-    
     "primaryTextColor": "#ffffff",
     "secondaryTextColor": "#767676",
     "fontfamily": "Inter, Arial, Helvetica, sans-serif",
-
     "totalCardWidth": 608,
     "totalCardHeight": 220,
     "totalCardPrimaryTextFontSize": 70,
@@ -29,7 +24,6 @@
     "totalCardPadding": 16,
     "totalCardBorderRadius": 8,
     "totalCardEachBarBorderRadius": 4,
-
     "sectionCardWidth": 200,
     "sectionCardHeight": 120,
     "sectionTitleTextFontSize": 18,
