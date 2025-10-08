@@ -80,7 +80,7 @@ function fileHasExactLine(filePath, line) {
 // -----------------------------
 
 // STEP 1:  Take arguments and validate
-const argus = process.argv.slice(3); // get all arguments to the process
+const argus = process.argv.slice(2); // get all arguments to the process
 log(`script arguments: ${argus}`);
 if (argus.length === 0) log("error", `missing argument: ${argus}`);
 
