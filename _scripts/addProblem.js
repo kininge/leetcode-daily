@@ -1,117 +1,237 @@
-// _scripts/addProblem.js
-// Usage: node _scripts/addProblem.js problems/235.md [--dry-run]
+#!/usr/bin/env node
+'use strict';
+/**
+ * Annotated & refactored version of _scripts/addProblem.js
+ * - clearer variable names
+ * - unicode-aware slugify
+ * - robust path resolution (tries script dir, then repo root)
+ * - atomic write for data.json (write tmp then rename)
+ * - safer JSON handling and better error messages
+ *
+ * Usage: node _scripts/addProblem.annotated.js problems/235.md [--dry-run]
+ *
+ * NOTE: This file is intended for review and educational purposes. It keeps
+ * the original behaviour but improves readability, variable names and safety.
+ */
 
-const fs = require('fs');
-const path = require('path');
+const fs = require('fs'); // filesystem to read, write, modify and delete files
+const path = require('path'); // to handle file paths
 
-function fail(msg) { console.error(msg); process.exit(1); }
-
-if (process.argv.length < 3) {
-  fail('Usage: node _scripts/addProblem.js <path-to-problem-md> [--dry-run]');
+// handle logs and errors
+function log(type="info", message) {
+    if(type === "info") console.log("INFO: ", message);
+    else if(type === "error"){
+       console.error('ERROR: ', message); 
+       process.exit(1); // end the process with error code 1
+    }
 }
 
-const problemPath = process.argv[2];
-const dryRun = process.argv.includes('--dry-run');
-
-if (!fs.existsSync(problemPath)) {
-  fail('File not found: ' + problemPath);
+// Atomic write: write to temp then rename (atomic on most OS filesystems)
+function writeFileAtomic(filePath, content) {
+    const tmp = filePath + '.tmp';
+    fs.writeFileSync(tmp, content, 'utf8');
+    fs.renameSync(tmp, filePath);
 }
 
-const raw = fs.readFileSync(problemPath, 'utf8');
-const lines = raw.split(/\r?\n/);
+// Safe JSON read: empty file -> {}
+function readJsonSafe(filePath) {
+    const raw = fs.existsSync(filePath) ? fs.readFileSync(filePath, 'utf8').trim() : '';
+    if (!raw) return {};
+    try {
+        return JSON.parse(raw);
+    } catch (err) {
+        log("error", `Invalid JSON in ${filePath}: ${err.message}`);
+    }
+}
 
-if (lines.length < 2) fail('Problem file must have at least two lines (title and difficulty).');
+// Unicode-aware slugify for badge text (keeps letters & numbers, replaces whitespace with _)
+function slugifyTitle(title) {
+    // Normalise unicode, strip diacritics, remove unsafe chars, and collapse spaces to '_'
+    // Uses Unicode property escapes (Node >= 10+ with flag or modern versions)
+    return title
+        .normalize('NFKD')
+        // remove diacritic marks
+        .replace(/\p{Diacritic}/gu, '')
+        // keep letters, numbers, spaces and hyphens; remove other punctuation
+        .replace(/[^\p{L}\p{N}\s-]/gu, '')
+        .trim()
+        .replace(/\s+/g, '_');
+}
 
-// Parse first line: "# 🧩 Problem #118 – Pascal's Triangle"
-const firstLine = lines[0].trim();
-const firstLineRegex = /#.*?Problem\s*#?(\d+)\s*[–-]\s*(.+)$/u;
-const m = firstLine.match(firstLineRegex);
-if (!m) fail("First line not in expected format. Example: \"# 🧩 Problem #118 – Pascal's Triangle\"");
+// Check if a file already contains an exact (trimmed) line
+function fileHasExactLine(filePath, line) {
+    if (!fs.existsSync(filePath)) return false;
+    const contents = fs.readFileSync(filePath, 'utf8');
+    const target = line.trim();
+    return contents.split(/\r?\n/).some(l => l.trim() === target);
+}
 
-const num = m[1];
-let title = m[2].trim();
+// -----------------------------
+// "process" is a global object in Node.js that represents the current running process. 
+// Useful properties:
+//.   1. process.argv — array of command-line arguments.
+//.   2. process.env — environment variables.
+//.   3. process.cwd() — current working directory.
+//.   4. process.exit(code) — exit program.
+//
+//    In our case workflow triggering command like --> "node _scripts/addProblem.js problems/235.md"
+//.   So, process.argv will be an array like:
+//.   [ 'node', '/path/to/_scripts/addProblem.js', 'problems/235.md' ]
+// -----------------------------
 
-// Parse difficulty from second line: "**Difficulty:** Easy"
-const secondLine = lines[1].trim();
+// STEP 1:  Take arguments and validate
+const argus = process.argv.slice(3); // get all arguments to the process
+log(`script arguments: ${argus}`);
+if (argus.length === 0) log("error", `missing argument: ${argus}`);
+
+// STEP 2: Seperate argument that seperates problem file name
+const problemFileArgus = argus[0];
+log(`problem file argument: ${problemFileArgus}`);
+
+// STEP 3: Get problem file path
+const workingDirectory = process.cwd(); // get working directory
+log(`working directory: ${workingDirectory}`);
+const scriptDirectory = path.dirname(__filename);
+log(`script directory: ${scriptDirectory}`);
+const resolvedProblemFilePath = path.resolve(workingDirectory, problemFileArgus);
+log(`problem file path: ${resolvedProblemFilePath}`);
+
+// STEP 4: Check problem file exists at path
+if (!fs.existsSync(resolvedProblemFilePath)) log("error", `problem file ${problemFileArgus} missing at: ${resolvedProblemFilePath}`);
+
+// STEP 5: Read problem file
+const problemFileContent = fs.readFileSync(resolvedProblemFilePath, 'utf8');
+log(`problem file content: ${problemFileContent}`);
+const linesSplitedProblemFileContent = problemRaw.split(/\r?\n/);
+log(`line splited problem file content: ${linesSplitedProblemFileContent}`);
+
+// STEP 6: Verify at least 2 lines of code exist in problem file
+if (linesSplitedProblemFileContent.length < 2) log("error", `problem file contains less than 2 lines`);
+log(`top 2 lines of problem file content: ${linesSplitedProblemFileContent.slice(0, 2)}`);
+
+
+// -----------------------------
+// Parse header (problem number and title)
+// Example first line: "# 🧩 Problem #118 – Pascal's Triangle"
+// Accepts hyphen, en-dash, em-dash
+// -----------------------------
+
+// STEP 7: Check problem file title match title format
+const problemFileTitle = linesSplitedProblemFileContent[0].trim();
+log(`problem file title: ${problemFileTitle}`);
+const headerRegex = /^#.*?Problem\s*#?(\d+)\s*[–—-]\s*(.+)$/u;
+const headerMatch = problemFileTitle.match(headerRegex);
+log(`problem file title header mactch: ${headerMatch}`);
+if (!headerMatch) log("error", `problem title does not match the format`);
+
+// STEP 8: Get problem number and title
+const problemNumber = headerMatch[1]; // string of digits
+log(`problem number: ${problemNumber}`);
+const problemTitle = headerMatch[2].trim();
+log(`problem title: ${problemTitle}`);
+
+
+// -----------------------------
+// Parse difficulty from second line, expected: "**Difficulty:** Easy"
+// -----------------------------
+
+// STEP 9: check problem file difficulty match the format
+const problemFileDifficultyLine = linesSplitedProblemFileContent[1].trim();
+log(`problem diffuculty line: ${problemFileDifficultyLine}`);
 const diffRegex = /\*\*Difficulty:\*\*\s*(Easy|Medium|Hard)/i;
-const md = secondLine.match(diffRegex);
-if (!md) fail('Second line must contain difficulty: "**Difficulty:** Easy|Medium|Hard"');
-const difficulty = md[1].toLowerCase(); // easy|medium|hard
+const diffMatch = problemFileDifficultyLine.match(diffRegex);
+log(`problem diffuculty match: ${diffMatch}`);
+if (!diffMatch) log("error", `problem difficulty does not match the format`);
 
-// sanitize title for badge (replace spaces with _, remove bad chars)
-const slug = title.replace(/\s+/g, '_').replace(/[^\w_]/g, '');
+// STEP 10: Get difficulty in lowercase
+const difficulty = diffMatch[1].toLowerCase(); // easy|medium|hard
 
-// choose color
-const badgeColor = difficulty === 'easy' ? 'brightgreen' : difficulty === 'medium' ? 'yellow' : 'red';
-const badgeLine = `- [![${num}](https://img.shields.io/badge/${num}-${encodeURIComponent(slug)}-${badgeColor})](/problems/${num}.md)`;
+// difficulty and associated colors
+const difficultyColorsMap = {
+    easy: "brightgreen",
+    medium: "yellow",
+    hard: "red"
+};
 
-// list files
-const lists = { easy: 'easy.md', medium: 'medium.md', hard: 'hard.md' };
-const targetListFile = lists[difficulty];
-if (!targetListFile) fail('Unknown difficulty: ' + difficulty);
+// STEP 11: Make ready problem badge
+const badgeSlug = slugifyTitle(problemTitle);
+log(`slugy problem title: ${badgeSlug}`);
+const badgeColor = difficultyColorsMap[difficulty];
+log(`${difficulty} is ${badgeColor} color`);
+const badgeMarkdown = `- [![${problemNumber}](https://img.shields.io/badge/${problemNumber}-${encodeURIComponent(badgeSlug)}-${badgeColor})](/problems/${problemNumber}.md)`;
+log(`problme badge: ${badgeMarkdown}`);
 
-function fileContainsLine(filePath, line) {
-  if (!fs.existsSync(filePath)) return false;
-  const txt = fs.readFileSync(filePath, 'utf8');
-  return txt.split(/\r?\n/).some(l => l.trim() === line.trim());
+log(`Problem #${problemNumber}: "${problemTitle}" (${difficulty})`);
+log('Badge:', badgeMarkdown);
+
+
+// -----------------------------
+// Determine target list file (easy.md, medium.md, hard.md)
+// Paths are resolved relative to repo root (cwd)
+// -----------------------------
+
+// difficulty and associated file
+const difficultyFileMap = { 
+    easy: 'easy.md', 
+    medium: 'medium.md', 
+    hard: 'hard.md' 
+};
+
+// STEP 12: Get file based on problem difficulty
+const difficultyFileName = difficultyFileMap[difficulty];
+log('difficulty file:', difficultyFileName);
+if (!difficultyFileName) log("error", `${difficulty} is unknown difficulty`);
+    
+// STEP 13: Get file path
+const difficultyFilePath = path.resolve(workingDirectory, difficultyFileName);
+log('difficulty file path:', difficultyFilePath);
+if (!fs.existsSync(difficultyFilePath)) {
+    const header = `# ${difficulty.charAt(0).toUpperCase() + difficulty.slice(1)} Problems\n\n`;
+    fs.writeFileSync(difficultyFilePath, header, 'utf8');
+    log('Created difficulty file:', difficultyFilePath);
 }
 
-// Dry run: show what would change
-console.log(`Problem #${num}: "${title}" (${difficulty})`);
-console.log('Badge:', badgeLine);
-if (dryRun) {
-  console.log('--dry-run enabled. Not modifying files.');
-  console.log(`Would append to ${targetListFile} if not present.`);
-  if (fs.existsSync('_scripts/data.json')) {
-    const j = JSON.parse(fs.readFileSync('_scripts/data.json','utf8') || '{}');
-    console.log('Current totals (data.json):', {
-      totalSolvedProblems: j.totalSolvedProblems,
-      solvedEasyProblems: j.solvedEasyProblems,
-      solvedMediumProblems: j.solvedMediumProblems,
-      solvedHardProblems: j.solvedHardProblems
-    });
-  } else {
-    console.log('_scripts/data.json not found.');
-  }
-  process.exit(0);
-}
 
-// Ensure list file exists
-if (!fs.existsSync(targetListFile)) {
-  fs.writeFileSync(targetListFile, `# ${difficulty.charAt(0).toUpperCase() + difficulty.slice(1)} Problems\n\n`);
-}
-
-// Avoid duplicates
-if (fileContainsLine(targetListFile, badgeLine)) {
-  console.log(`Badge already present in ${targetListFile}. Skipping append.`);
+// STEP 14: Append badge if missing
+if (fileHasExactLine(difficultyFilePath, badgeMarkdown)) {
+    log(`${badgeMarkdown} already present in ${targetListFilePath}. Skipping append.`);
 } else {
-  fs.appendFileSync(targetListFile, badgeLine + '\n', 'utf8');
-  console.log(`Appended badge to ${targetListFile}`);
+    fs.appendFileSync(targetListFilePath, badgeMarkdown + '\n', 'utf8');
+    log(`Appended badge to ${targetListFilePath}`);
 }
 
-// Update data.json
-const dataJsonPath = path.join('_scripts', 'data.json');
-if (!fs.existsSync(dataJsonPath)) {
-  fail('data.json not found at _scripts/data.json');
+
+// STEP 15: Locate data.json
+let dataJsonFilePath = path.join(scriptDirectory, 'data.json');
+log(`data.json file by ${scriptDirectory}: ${dataJsonFilePath}`);
+if (!fs.existsSync(dataJsonFilePath)) {
+    const alt = path.join(workingDirectory, '_scripts', 'data.json');
+    log(`data.json file by ${workingDirectory}: ${alt}`);
+
+    if (fs.existsSync(alt)) dataJsonFilePath = alt;
 }
+if (!fs.existsSync(dataJsonFilePath)) log("error", `data.json not found at _scripts/data.json or script directory.`);
 
-const rawData = fs.readFileSync(dataJsonPath, 'utf8');
-let json;
-try { json = JSON.parse(rawData); } catch (err) { fail('Invalid JSON in data.json'); }
+// STEP 16: Read data.json file
+const dataJsonRaw = fs.readFileSync(dataJsonFilePath, 'utf8');
+log(`data.json raw content: ${dataJsonRaw}`);
+const dataStats = readJsonSafe(dataJsonFilePath);
+log(`data.json parsed content: ${JSON.stringify(dataStats)}`);
 
-// Backup
-fs.writeFileSync(dataJsonPath + '.bak', rawData, 'utf8');
+// STEP 17: Backup data.json -> to avoid accidental overwrite of previous bak
+const bakPath = dataJsonFilePath + '.bak.' + new Date().toISOString().replace(/[:.]/g, '-');
+fs.writeFileSync(bakPath, dataJsonRaw || JSON.stringify({}, null, 4), 'utf8');
+log('Backed up data.json to', bakPath);
 
-json.totalSolvedProblems = (Number(json.totalSolvedProblems) || 0) + 1;
-if (difficulty === 'easy') json.solvedEasyProblems = (Number(json.solvedEasyProblems) || 0) + 1;
-if (difficulty === 'medium') json.solvedMediumProblems = (Number(json.solvedMediumProblems) || 0) + 1;
-if (difficulty === 'hard') json.solvedHardProblems = (Number(json.solvedHardProblems) || 0) + 1;
+// STEP 18: Update data.json stats
+log(`Before data.json update: ${JSON.stringify({'totalSolvedProblems': dataStats.totalSolvedProblems, 'solvedEasyProblems': dataStats.solvedEasyProblems, 'solvedMediumProblems': dataStats.solvedMediumProblems, 'solvedHardProblems': dataStats.solvedHardProblems})}`);
+dataStats.totalSolvedProblems = (Number(dataStats.totalSolvedProblems) || 0) + 1;
+if (difficulty === 'easy') dataStats.solvedEasyProblems = (Number(dataStats.solvedEasyProblems) || 0) + 1;
+if (difficulty === 'medium') dataStats.solvedMediumProblems = (Number(dataStats.solvedMediumProblems) || 0) + 1;
+if (difficulty === 'hard') dataStats.solvedHardProblems = (Number(dataStats.solvedHardProblems) || 0) + 1;
+log(`After data.json update: ${JSON.stringify({'totalSolvedProblems': dataStats.totalSolvedProblems, 'solvedEasyProblems': dataStats.solvedEasyProblems, 'solvedMediumProblems': dataStats.solvedMediumProblems, 'solvedHardProblems': dataStats.solvedHardProblems})}`);
 
-fs.writeFileSync(dataJsonPath, JSON.stringify(json, null, 4), 'utf8');
-console.log('Updated', dataJsonPath);
-console.log('New totals:', {
-  totalSolvedProblems: json.totalSolvedProblems,
-  solvedEasyProblems: json.solvedEasyProblems,
-  solvedMediumProblems: json.solvedMediumProblems,
-  solvedHardProblems: json.solvedHardProblems
-});
+// Write updated JSON atomically
+writeFileAtomic(dataJsonFilePath, JSON.stringify(dataStats, null, 4));
+log(`data.json updated successfully`);
+// End of script
