@@ -10,4 +10,4 @@
 - [![417](https://img.shields.io/badge/417-Pacific_Atlantic_Water_Flow-blue)](https://leetcode.com/problems/pacific-atlantic-water-flow/?envType=daily-question&envId=2025-10-05)
 - [![778](https://img.shields.io/badge/778-Swim_in_Rising_Water-blue)](https://leetcode.com/problems/swim-in-rising-water/description/?envType=daily-question&envId=2025-10-06)
 - [![3493](https://img.shields.io/badge/3493-Find_the_Minimum_Amount_of_Time_to_Brew_Potions-blue)](https://leetcode.com/problems/find-the-minimum-amount-of-time-to-brew-potions/description/?envType=daily-question&envId=2025-10-09)
-
+- [![3186](https://img.shields.io/badge/3186-Maximum_Total_Damage_With_Spell_Casting-blue)](https://leetcode.com/problems/maximum-total-damage-with-spell-casting/description/?envType=daily-question&envId=2025-10-11)
