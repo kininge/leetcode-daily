@@ -16,6 +16,7 @@ Click a problem to view your notes & solution.
 - [![2273](https://img.shields.io/badge/2273-Find_Resultant_Array_After_Removing_Anagrams-brightgreen)](/problems/2273.md)
 - [![3000](https://img.shields.io/badge/3000-Maximum_Area_of_Longest_Diagonal_Rectangle-brightgreen)](/problems/3000.md)
 - [![3005](https://img.shields.io/badge/3005-Count_Elements_With_Maximum_Frequency-brightgreen)](/problems/3005.md)
+- [![3349](https://img.shields.io/badge/3349-Adjacent_Increasing_Subarrays_Detection_I-brightgreen)](/problems/3349.md)
 - [![3477](https://img.shields.io/badge/3477-Fruits_Into_Baskets_II-brightgreen)](/problems/3477.md)
 - [![3516](https://img.shields.io/badge/3516-Find_Closest_Person-brightgreen)](/problems/3516.md)
 - [![3541](https://img.shields.io/badge/3541-Find_Most_Frequent_Vowel_and_Consonant-brightgreen)](/problems/3541.md)
