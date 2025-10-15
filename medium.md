@@ -1,7 +1,6 @@
 # 🟡 Medium Problems
 
 Click a problem to view your notes & solution.
-
 - [![11](https://img.shields.io/badge/11-Container_With_Most_Water-yellow)](/problems/11.md)
 - [![36](https://img.shields.io/badge/36-Valid_Sudoku-yellow)](/problems/36.md)
 - [![120](https://img.shields.io/badge/120-Triangle-yellow)](/problems/120.md)
@@ -30,6 +29,7 @@ Click a problem to view your notes & solution.
 - [![3100](https://img.shields.io/badge/3100-Water_Bottles_II-yellow)](/problems/3100.md)
 - [![3147](https://img.shields.io/badge/3147-Taking_Maximum_Energy_From_the_Mystic_Dungeon-yellow)](/problems/3147.md)
 - [![3195](https://img.shields.io/badge/3195-Find_the_Minimum_Area_to_Cover_All_Ones_I-yellow)](/problems/3195.md)
+- [![3350](https://img.shields.io/badge/3350-Adjacent_Increasing_Subarrays_Detection_II-yellow)](/problems/3350.md)
 - [![3408](https://img.shields.io/badge/3408-Design_Task_Manager-yellow)](/problems/3408.md)
 - [![3446](https://img.shields.io/badge/3446-Sort_Matrix_by_Diagonals-yellow)](/problems/3446.md)
 - [![3484](https://img.shields.io/badge/3484-Design_Spreadsheet-yellow)](/problems/3484.md)
