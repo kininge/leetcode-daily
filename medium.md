@@ -2,6 +2,7 @@
 
 
 Click a problem to view your notes & solution.
+- [![1](https://img.shields.io/badge/1-Pritam_Test-yellow)](/problems/1.md)
 - [![10](https://img.shields.io/badge/10-Pritam_Test-yellow)](/problems/10.md)
 - [![11](https://img.shields.io/badge/11-Container_With_Most_Water-yellow)](/problems/11.md)
 - [![36](https://img.shields.io/badge/36-Valid_Sudoku-yellow)](/problems/36.md)
