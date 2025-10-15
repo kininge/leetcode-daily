@@ -2,7 +2,6 @@
 
 Click a problem to view your notes & solution.
 
-- [![111](https://img.shields.io/badge/111-Pritam_Test_10-brightgreen)](/problems/111.md)
 - [![118](https://img.shields.io/badge/118-Pascals_Triangle-brightgreen)](/problems/118.md)
 - [![231](https://img.shields.io/badge/231-Power_of_Two-brightgreen)](/problems/231.md)
 - [![326](https://img.shields.io/badge/326-Power_of_Three-brightgreen)](/problems/326.md)
