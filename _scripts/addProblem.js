@@ -272,7 +272,7 @@ if (!fs.existsSync(difficultyFilePath)) {
     }
 }
 
-// STEP _: Check topic files in 'skills' folder - if missing create new topic file
+// STEP _: Check topic files in 'skills' folder - if missing, create new topic file
 const skillsFolderPath = path.resolve(workingDirectory, 'skills');
 infoLog(`skills folder path: ${skillsFolderPath}`);
 if (!fs.existsSync(skillsFolderPath)) {
@@ -339,6 +339,7 @@ topics.forEach(topic => {
             ];
 
             const newFileContent = newFileContentLines.join('\n') + '\n'; // ensure trailing newline
+            infoLog(`Updated ${topic} file: ${newFileContent}`);
             fs.writeFileSync(topicFilePath, newFileContent, 'utf8');
 
             infoLog(`Inserted badge for problem #${problemNumber} into ${topicFilePath} in sorted order.`);
