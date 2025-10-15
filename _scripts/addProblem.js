@@ -390,7 +390,7 @@ topics.forEach((topic) => {
       const newFileContent = newFileContentLines.join("\n") + "\n"; // ensure trailing newline
       infoLog(`new File ${newFileContent}`);
 
-      fs.writeFileSync(tmpPath, newFileContent, "utf8");
+      fs.writeFileSync(topicFilePath, newFileContent, "utf8");
 
 
 
