@@ -336,6 +336,8 @@ topics.forEach((topic) => {
       .trimEnd();
     const lines = fileText.length ? fileText.split("\n") : [];
 
+    infoLog(`Existing lines in ${topic}: ${lines}`);
+
     // Identify header block (everything up to the first line that contains a badge)
     // We'll consider a badge token as: [![<num>](https://img.shields.io/...)](./... or /problems/...)
     const badgeTokenRegex = /\[!\[(\d+)\]\]\([^)]+\)\)/g; // note: finds each badge token (global)
@@ -345,7 +347,11 @@ topics.forEach((topic) => {
     badgeTokenRegex.lastIndex = 0;
     if (firstBadgeLineIndex === -1) firstBadgeLineIndex = lines.length;
 
+    infoLog(`firstBadgeLineIndex: ${firstBadgeLineIndex}`);
+
     const headerBlock = lines.slice(0, firstBadgeLineIndex);
+
+    infoLog(`headerBlock: ${headerBlock}`);
 
     // Collect all existing badge tokens (may be multiple per line)
     const existingBadgesMap = new Map(); // Map<number, badgeMarkdownString>
@@ -373,6 +379,8 @@ topics.forEach((topic) => {
       }
     }
 
+    infoLog(`existingBadgesMap: ${existingBadgesMap.size} ${existingBadgesMap.keys()}`);
+
     // If badge already present, skip insertion; otherwise add the new badge
     if (existingBadgesMap.has(problemNumber)) {
       infoLog(
@@ -387,10 +395,9 @@ topics.forEach((topic) => {
 
       // Build sorted array of badge lines by numeric problem number (ascending)
       const sortedBadgeLines = Array.from(existingBadgesMap.entries())
-        .sort((a, b) => Number(a[0]) - Number(b[0]))
-        .map(([_, badgeLine]) => badgeLine);
+        .sort((a, b) => Number(a[0]) - Number(b[0]));
 
-      infoLog(`Sorted badges for ${topicFilePath}: ${sortedBadgeLines}`);
+      infoLog(`Sorted badges for ${topic}: ${sortedBadgeLines}`);
 
       // Rebuild file: headerBlock, single blank line, then each badge on its own line
       // Clean header: remove trailing blank lines
@@ -401,6 +408,8 @@ topics.forEach((topic) => {
       ) {
         headerTrimmed.pop();
       }
+
+      infoLog(`headerTrimmed: ${headerTrimmed}`);
 
       const newFileContentLines = [
         ...headerTrimmed,
