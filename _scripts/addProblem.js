@@ -338,24 +338,13 @@ topics.forEach((topic) => {
 
     infoLog(`Existing lines in ${topic}: ${lines}`);
 
-    // Identify header block (everything up to the first line that contains a badge)
-    // We'll consider a badge token as: [![<num>](https://img.shields.io/...)](./... or /problems/...)
-    const badgeTokenRegex = /\[!\[(\d+)\]\]\([^)]+\)\)/g; // note: finds each badge token (global)
-    // Find index of first line that contains any badge token
-    let firstBadgeLineIndex = lines.findIndex((l) => badgeTokenRegex.test(l));
-    // reset lastIndex for safe reuse
-    badgeTokenRegex.lastIndex = 0;
-    if (firstBadgeLineIndex === -1) firstBadgeLineIndex = lines.length;
-
-    infoLog(`firstBadgeLineIndex: ${firstBadgeLineIndex}`);
-
-    const headerBlock = lines.slice(0, firstBadgeLineIndex);
+    const headerBlock = lines.slice(0, 5);
 
     infoLog(`headerBlock: ${headerBlock}`);
 
     // Collect all existing badge tokens (may be multiple per line)
     const existingBadgesMap = new Map(); // Map<number, badgeMarkdownString>
-    for (let i = firstBadgeLineIndex; i < lines.length; i++) {
+    for (let i = 4; i < lines.length; i++) {
       const ln = lines[i];
       let m;
       // reset lastIndex before using global regex in loop
