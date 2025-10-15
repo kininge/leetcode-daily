@@ -324,7 +324,7 @@ topics.forEach((topic) => {
     lines += "Click a problem to view your notes & solution\n\n"; // general line and blank line
     lines += `${badgeMarkdown}\n`; // add current problem badge
 
-    // fs.writeFileSync(topicFilePath, lines, "utf8");
+    fs.writeFileSync(topicFilePath, lines, "utf8");
     infoLog(`Created new topic file: ${topicFilePath}`);
   } else {
     infoLog(`Topic file already exists: ${topicFilePath}`);
@@ -390,7 +390,7 @@ topics.forEach((topic) => {
       const newFileContent = newFileContentLines.join("\n") + "\n"; // ensure trailing newline
       infoLog(`new File ${newFileContent}`);
 
-    //   fs.writeFileSync(tmpPath, newFileContent, "utf8");
+      fs.writeFileSync(tmpPath, newFileContent, "utf8");
 
 
 
@@ -470,7 +470,7 @@ if (skillsIndex !== -1) {
       readmeLines[badgeLineIndex] =
         (readmeLines[badgeLineIndex] || "") + newBadge;
 
-    //   fs.writeFileSync(readmeFilePath, readmeLines.join("\n"), "utf8");
+      fs.writeFileSync(readmeFilePath, readmeLines.join("\n"), "utf8");
       infoLog(`Appended missing topic badge for "${topic}" to README.md`);
     } else {
       infoLog(`Topic "${topic}" already present in README.md. Skipping.`);
@@ -502,7 +502,7 @@ infoLog(`data.json parsed content: ${JSON.stringify(dataStats)}`);
 // STEP 17: Backup data.json -> to avoid accidental overwrite of previous bak
 const bakPath =
   dataJsonFilePath + ".bak." + new Date().toISOString().replace(/[:.]/g, "-");
-// fs.writeFileSync(bakPath, dataJsonRaw || JSON.stringify({}, null, 4), "utf8");
+fs.writeFileSync(bakPath, dataJsonRaw || JSON.stringify({}, null, 4), "utf8");
 infoLog("Backed up data.json to", bakPath);
 
 // STEP 18: Update data.json stats
@@ -535,6 +535,6 @@ infoLog(
 );
 
 // Write updated JSON atomically
-// writeFileAtomic(dataJsonFilePath, JSON.stringify(dataStats, null, 4));
+writeFileAtomic(dataJsonFilePath, JSON.stringify(dataStats, null, 4));
 infoLog(`data.json updated successfully`);
 // End of script
