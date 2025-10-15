@@ -256,8 +256,7 @@ if (!difficultyFileName) log("error", `${difficulty} is unknown difficulty`);
 const difficultyFilePath = path.resolve(workingDirectory, difficultyFileName);
 infoLog(`difficulty file path: ${difficultyFilePath}`);
 if (!fs.existsSync(difficultyFilePath)) {
-  const header = `# ${
-    difficulty.charAt(0).toUpperCase() + difficulty.slice(1)
+  const header = `# ${difficulty.charAt(0).toUpperCase() + difficulty.slice(1)
   } Problems\n\n`;
   fs.writeFileSync(difficultyFilePath, header, "utf8");
   infoLog(`Created difficulty file: ${difficultyFilePath}`);
@@ -271,11 +270,9 @@ if (!fs.existsSync(difficultyFilePath)) {
   const lines = fileText.split(/\r?\n/);
 
   // Keep header (first line)
-  const headerLine =
-    lines[0] ||
-    `# ${difficulty.charAt(0).toUpperCase() + difficulty.slice(1)} Problems`;
+  const headerLine = lines.slice(0, 4);
   const badgeLines = lines
-    .slice(1)
+    .slice(4)
     .map((l) => l.trim())
     .filter((l) => l);
 
@@ -294,7 +291,7 @@ if (!fs.existsSync(difficultyFilePath)) {
     });
 
     // Rebuild file content: header + sorted badges joined by newline (no trailing space)
-    const newFileContent = [headerLine, "", '', ...allBadges].join("\n");
+    const newFileContent = [...headerLine, ...allBadges].join("\n");
     fs.writeFileSync(difficultyFilePath, newFileContent, "utf8");
 
     infoLog(
@@ -338,7 +335,7 @@ topics.forEach((topic) => {
 
     infoLog(`Existing lines in ${topic}: ${lines}`);
 
-    const headerBlock = lines.slice(0, 5);
+    const headerBlock = lines.slice(0, 4);
 
     infoLog(`headerBlock: ${headerBlock}`);
 
@@ -365,7 +362,7 @@ topics.forEach((topic) => {
 
       // Build sorted array of badge lines by numeric problem number (ascending)
       const sortedBadgeLines = Array.from(existingBadgesMap.entries())
-        .sort((a, b) => Number(a[0]) - Number(b[0]));
+        .sort((a, b) => Number(a[0]) - Number(b[0])).map(([_, value]) => value);
 
       infoLog(`Sorted badges for ${topic}: ${sortedBadgeLines}`);
 
