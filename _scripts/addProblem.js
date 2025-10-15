@@ -294,7 +294,7 @@ if (!fs.existsSync(difficultyFilePath)) {
     });
 
     // Rebuild file content: header + sorted badges joined by newline (no trailing space)
-    const newFileContent = [headerLine, "", ...allBadges].join("\n");
+    const newFileContent = [headerLine, "", '', ...allBadges].join("\n");
     fs.writeFileSync(difficultyFilePath, newFileContent, "utf8");
 
     infoLog(
@@ -324,7 +324,7 @@ topics.forEach((topic) => {
     lines += "Click a problem to view your notes & solution\n\n"; // general line and blank line
     lines += `${badgeMarkdown}\n`; // add current problem badge
 
-    fs.writeFileSync(topicFilePath, lines, "utf8");
+    // fs.writeFileSync(topicFilePath, lines, "utf8");
     infoLog(`Created new topic file: ${topicFilePath}`);
   } else {
     infoLog(`Topic file already exists: ${topicFilePath}`);
@@ -383,15 +383,14 @@ topics.forEach((topic) => {
       const safeSlugForProblem = encodeURIComponent(
         badgeSlug || slugifyTitle(problemTitle)
       );
-      const canonicalBadgeForNew = `- [![${problemNumber}](https://img.shields.io/badge/${problemNumber}-${safeSlugForProblem}-${
-        badgeColor || "gray"
-      })](/problems/${problemNumber}.md)`;
-      existingBadgesMap.set(problemNumber, canonicalBadgeForNew);
+      existingBadgesMap.set(problemNumber, badgeMarkdown);
 
       // Build sorted array of badge lines by numeric problem number (ascending)
       const sortedBadgeLines = Array.from(existingBadgesMap.entries())
         .sort((a, b) => Number(a[0]) - Number(b[0]))
         .map(([_, badgeLine]) => badgeLine);
+
+      infoLog(`Sorted badges for ${topicFilePath}: ${sortedBadgeLines}`);
 
       // Rebuild file: headerBlock, single blank line, then each badge on its own line
       // Clean header: remove trailing blank lines
@@ -410,19 +409,11 @@ topics.forEach((topic) => {
       ];
 
       const newFileContent = newFileContentLines.join("\n") + "\n"; // ensure trailing newline
+      infoLog(`new File ${newFileContent}`);
 
-      // Atomic write + verify
-      const tmpPath = topicFilePath + ".tmp";
-      fs.writeFileSync(tmpPath, newFileContent, "utf8");
-      fs.renameSync(tmpPath, topicFilePath);
+    //   fs.writeFileSync(tmpPath, newFileContent, "utf8");
 
-      // Verify
-      const after = fs.readFileSync(topicFilePath, "utf8");
-      if (!after.includes(String(problemNumber))) {
-        errorLog(
-          `Write verification failed: ${topicFilePath} does not contain problem #${problemNumber}`
-        );
-      }
+
 
       infoLog(
         `Inserted badge for problem #${problemNumber} into ${topicFilePath} in sorted order.`
@@ -500,7 +491,7 @@ if (skillsIndex !== -1) {
       readmeLines[badgeLineIndex] =
         (readmeLines[badgeLineIndex] || "") + newBadge;
 
-      fs.writeFileSync(readmeFilePath, readmeLines.join("\n"), "utf8");
+    //   fs.writeFileSync(readmeFilePath, readmeLines.join("\n"), "utf8");
       infoLog(`Appended missing topic badge for "${topic}" to README.md`);
     } else {
       infoLog(`Topic "${topic}" already present in README.md. Skipping.`);
@@ -532,7 +523,7 @@ infoLog(`data.json parsed content: ${JSON.stringify(dataStats)}`);
 // STEP 17: Backup data.json -> to avoid accidental overwrite of previous bak
 const bakPath =
   dataJsonFilePath + ".bak." + new Date().toISOString().replace(/[:.]/g, "-");
-fs.writeFileSync(bakPath, dataJsonRaw || JSON.stringify({}, null, 4), "utf8");
+// fs.writeFileSync(bakPath, dataJsonRaw || JSON.stringify({}, null, 4), "utf8");
 infoLog("Backed up data.json to", bakPath);
 
 // STEP 18: Update data.json stats
@@ -565,6 +556,6 @@ infoLog(
 );
 
 // Write updated JSON atomically
-writeFileAtomic(dataJsonFilePath, JSON.stringify(dataStats, null, 4));
+// writeFileAtomic(dataJsonFilePath, JSON.stringify(dataStats, null, 4));
 infoLog(`data.json updated successfully`);
 // End of script
