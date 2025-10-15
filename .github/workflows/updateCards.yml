@@ -95,8 +95,12 @@ jobs: # workflow can have multiple jobs - but we're going to add just 1
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Stage the changes you expect (lists, data.json, generated assets)
-          git add easy.md medium.md hard.md _scripts/data.json assets/*.svg || true
+          # Stage the files we expect to change (include skills and README)
+          # Use explicit paths to avoid accidentally committing unrelated files.
+          git add easy.md medium.md hard.md README.md skills/*.md _scripts/data.json assets/*.svg || true
+
+          # Alternatively, to stage everything changed in the repo, use:
+          # git add -A
 
           # Only commit if there are staged changes
           if git diff --cached --quiet; then
@@ -104,10 +108,12 @@ jobs: # workflow can have multiple jobs - but we're going to add just 1
             exit 0
           fi
 
-          git commit -m "chore(actions): update problem lists & data.json — run by GitHub Actions [skip ci]" || {
+          git commit -m "chore(actions): update problem lists, skills and data.json — run by GitHub Actions [skip ci]" || {
             echo "Commit failed or nothing to commit."
             exit 0
           }
 
           # Push using the token provided by actions/checkout (persist-credentials: true)
+          # For pushing to the same branch as the event triggered, this is safe:
           git push origin HEAD:${{ github.ref_name }}
+
