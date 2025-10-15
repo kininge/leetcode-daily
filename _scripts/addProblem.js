@@ -345,27 +345,8 @@ topics.forEach((topic) => {
     // Collect all existing badge tokens (may be multiple per line)
     const existingBadgesMap = new Map(); // Map<number, badgeMarkdownString>
     for (let i = 4; i < lines.length; i++) {
-      const ln = lines[i];
-      let m;
-      // reset lastIndex before using global regex in loop
-      badgeTokenRegex.lastIndex = 0;
-      while ((m = badgeTokenRegex.exec(ln)) !== null) {
-        const num = parseInt(m[1], 10);
-        if (!Number.isNaN(num)) {
-          // m[0] is the matched token like: [![118](...)](...)
-          // We want to convert that to a canonical full badge line, so wrap with "- " prefix.
-          // But first try to extract the token string cleanly:
-          const token = m[0];
-          // Build a canonical line for this badge. Prefer the token's display name:
-          // Try to extract the label from token: [![LABEL](...)]
-          const labelMatch = token.match(/\[!\[([^\]]+)\]\]\([^\)]*\)/);
-          const label = labelMatch ? labelMatch[1] : String(num);
-          // For canonical URL target, try to link to /problems/<num>.md
-          const safeSlug = encodeURIComponent(label.split(" ").join("_"));
-          const canonicalBadge = `- [![${num}](https://img.shields.io/badge/${num}-${safeSlug}-gray)](/problems/${num}.md)`;
-          existingBadgesMap.set(num, canonicalBadge);
-        }
-      }
+      infoLog(lines[i]);
+      infoLog(lines[i]?.split("[![")[1]?.split("]")[0]);
     }
 
     infoLog(`existingBadgesMap: ${existingBadgesMap.size} ${existingBadgesMap.keys()}`);
