@@ -345,8 +345,8 @@ topics.forEach((topic) => {
     // Collect all existing badge tokens (may be multiple per line)
     const existingBadgesMap = new Map(); // Map<number, badgeMarkdownString>
     for (let i = 4; i < lines.length; i++) {
-      infoLog(lines[i]);
-      infoLog(lines[i]?.split("[![")[1]?.split("]")[0]);
+      const _problemNumber = lines[i]?.split("[![")[1]?.split("]")[0];
+      existingBadgesMap.set(_problemNumber, lines[i]);
     }
 
     infoLog(`existingBadgesMap: ${existingBadgesMap.size} ${existingBadgesMap.keys()}`);
