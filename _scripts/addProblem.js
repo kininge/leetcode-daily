@@ -72,6 +72,29 @@ function fileHasExactLine(filePath, line) {
 // Normalize function: remove BOM, replace NBSP with space, trim
 const normalizeLine = l => (l || '').replace(/\uFEFF/g, '').replace(/\u00A0/g, ' ').trim();
 
+function safeFileNameFromTopic(rawTopic) {
+  return rawTopic
+    .replace(/`/g, '')
+    .trim()
+    .toLowerCase()
+    .replace(/\s+/g, '_')
+    .replace(/[^a-z0-9_-]/g, '_')
+    .replace(/_+/g, '_')
+    .replace(/^_+|_+$/g, '');
+}
+
+function humanizeTopic(rawTopic){
+  return rawTopic
+    .replace(/`/g, '')
+    .trim()
+    .replace(/[_-]+/g, ' ')
+    .split(' ')
+    .filter(Boolean)
+    .map(w => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(' ');
+}
+
+
 // -----------------------------
 // "process" is a global object in Node.js that represents the current running process. 
 // Useful properties:
@@ -113,9 +136,9 @@ infoLog(`line splited problem file content: ${linesSplitedProblemFileContent}`);
 // Build array of non-empty normalized lines
 const nonEmptyLines = linesSplitedProblemFileContent.map(normalizeLine).filter(l => l.length > 0);
 
-// STEP 6: Verify at least 2 lines of code exist in problem file
-if (nonEmptyLines.length < 2) errorLog("error", `problem file contains less than 2 lines`);
-infoLog(`top 2 lines of problem file content: ${nonEmptyLines.slice(0, 2)}`);
+// STEP 6: Verify at least 3 lines of code exist in problem file
+if (nonEmptyLines.length < 3) errorLog(`problem file contains less than 3 lines`);
+infoLog(`top 3 lines of problem file content: ${nonEmptyLines.slice(0, 3)}`);
 
 
 // -----------------------------
@@ -130,7 +153,7 @@ infoLog(`problem file title: ${problemFileTitle}`);
 const headerRegex = /^#.*?Problem\s*#?(\d+)\s*[–—-]\s*(.+)$/u;
 const headerMatch = problemFileTitle.match(headerRegex);
 infoLog(`problem file title header mactch: ${headerMatch}`);
-if (!headerMatch) errorLog("error", `problem title does not match the format`);
+if (!headerMatch) errorLog(`problem title does not match the format`);
 
 // STEP 8: Get problem number and title
 const problemNumber = headerMatch[1]; // string of digits
@@ -149,7 +172,24 @@ infoLog(`problem diffuculty line: ${problemFileDifficultyLine}`);
 const diffRegex = /\*\*Difficulty:\*\*\s*(Easy|Medium|Hard)/i;
 const diffMatch = problemFileDifficultyLine.match(diffRegex);
 infoLog(`problem diffuculty match: ${diffMatch}`);
-if (!diffMatch) errorLog("error", `problem difficulty does not match the format`);
+if (!diffMatch) errorLog(`problem difficulty does not match the format`);
+
+// STEP _: extract problem topics
+const topicsRegex = /^\*\*Topics?:\*\*\s*(.+)$/i; // accept "Topic" or "Topics"
+const tagsRegex   = /^\*\*Tags?:\*\*\s*(.+)$/i;   // accept "Tag" or "Tags"
+// ensure the line exists
+if (!nonEmptyLines[2]) errorLog(`File ${file} missing topics/tags line (expected at line 3).`);
+const problemTopicsLine = normalizeLine(nonEmptyLines[2]); // use same normalizer everywhere
+infoLog(`problem topics line: ${problemTopicsLine}`);
+let thirdLineMatch = problemTopicsLine.match(topicsRegex) || problemTopicsLine.match(tagsRegex);
+if (!thirdLineMatch) errorLog(`problem topics: ${problemTopicsLine} does not match the format`);
+// split on comma (robust to spaces), remove backticks, trim each, remove empties
+const topics = thirdLineMatch[1]
+  .split(',')
+  .map(t => t.replace(/`/g, '').trim())
+  .filter(Boolean);
+infoLog(`parsed topics: ${JSON.stringify(topics)}`);
+
 
 // STEP 10: Get difficulty in lowercase
 const difficulty = diffMatch[1].toLowerCase(); // easy|medium|hard
@@ -232,6 +272,143 @@ if (!fs.existsSync(difficultyFilePath)) {
     }
 }
 
+// STEP _: Check topic files in 'skills' folder - if missing create new topic file
+const skillsFolderPath = path.resolve(workingDirectory, 'skills');
+infoLog(`skills folder path: ${skillsFolderPath}`);
+if (!fs.existsSync(skillsFolderPath)) {
+    fs.mkdirSync(skillsFolderPath);
+    infoLog(`Created skills folder at: ${skillsFolderPath}`);
+}
+topics.forEach(topic => {
+    const topicLower = topic.toLowerCase().trim();
+    const capsizedTopic = topic.split(" ").map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
+    const topicFileName = `${topicLower.split(" ").join("_")}.md`;
+    const topicFilePath = path.join(skillsFolderPath, topicFileName);
+    if (!fs.existsSync(topicFilePath)) {
+        let lines = "";
+        lines+= `# [⬅️](../README.md) ${capsizedTopic} \n\n`; // file header and blank line
+        lines+= "Click a problem to view your notes & solution\n\n"; // general line and blank line
+        lines+= `${badgeMarkdown}\n`; // add current problem badge
+        
+        fs.writeFileSync(topicFilePath, lines, 'utf8');
+        infoLog(`Created new topic file: ${topicFilePath}`);
+    } else {
+        infoLog(`Topic file already exists: ${topicFilePath}`);
+        // read file content
+        const fileText = fs.readFileSync(topicFilePath, 'utf8').replace(/\r\n/g, '\n').trimEnd();
+        const lines = fileText.length ? fileText.split('\n') : [];
+        // Regex to detect badge lines and capture the problem number
+        const badgeLineRegex = /^\s*-\s*\[!\[(\d+)\]\].*$/;
+        // Find first badge line index
+        let firstBadgeIndex = lines.findIndex(l => badgeLineRegex.test(l));
+        if (firstBadgeIndex === -1) firstBadgeIndex = lines.length; // badges will be appended after header (with blank line)
+        const headerBlock = lines.slice(0, firstBadgeIndex); // header lines (may include blank lines)
+        // Collect existing badges: Map<number, badgeLine>
+        const existingBadgesMap = new Map();
+        for (let i = firstBadgeIndex; i < lines.length; i++) {
+            const ln = lines[i].trim();
+            const m = ln.match(badgeLineRegex);
+            if (m) {
+                const num = parseInt(m[1], 10);
+                if (!Number.isNaN(num)) existingBadgesMap.set(num, ln);
+            }
+        }
+        // If badge already present, skip
+        if (existingBadgesMap.has(problemNumber)) {
+            infoLog(`Badge for problem #${problemNumber} already present in ${topicFilePath}. Skipping.`);
+        } else {
+            // Insert the new badge
+            existingBadgesMap.set(problemNumber, badgeMarkdown);
+
+            // Build sorted array of badge lines by numeric problem number
+            const sortedBadgeLines = Array.from(existingBadgesMap.entries())
+                .sort((a, b) => a[0] - b[0])
+                .map(([_, badgeLine]) => badgeLine);
+
+            // Rebuild file: headerBlock, blank line (if header doesn't already end with blank), then badges
+            // Ensure there is exactly one blank line between header and badges
+            const headerTrimmed = headerBlock.slice();
+            while (headerTrimmed.length && headerTrimmed[headerTrimmed.length - 1].trim() === '') {
+                headerTrimmed.pop();
+            }
+
+            const newFileContentLines = [
+                ...headerTrimmed,
+                '',               // single blank line
+                ...sortedBadgeLines
+            ];
+
+            const newFileContent = newFileContentLines.join('\n') + '\n'; // ensure trailing newline
+            fs.writeFileSync(topicFilePath, newFileContent, 'utf8');
+
+            infoLog(`Inserted badge for problem #${problemNumber} into ${topicFilePath} in sorted order.`);
+        }
+    }
+});
+
+// helpers (reuse these across your script)
+function safeFileNameFromTopic(rawTopic) {
+  return rawTopic
+    .replace(/`/g, '')
+    .trim()
+    .toLowerCase()
+    .replace(/\s+/g, '_')
+    .replace(/[^a-z0-9_-]/g, '_')
+    .replace(/_+/g, '_')
+    .replace(/^_+|_+$/g, '');
+}
+
+function humanizeTopic(rawTopic){
+  return rawTopic
+    .replace(/`/g, '')
+    .trim()
+    .replace(/[_-]+/g, ' ')
+    .split(' ')
+    .filter(Boolean)
+    .map(w => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(' ');
+}
+
+// STEP _: Ensure missing topics are added under ## Skills section (append at end)
+const readmeFilePath = path.resolve(workingDirectory, 'README.md');
+if (!fs.existsSync(readmeFilePath)) errorLog(`README.md not found at: ${readmeFilePath}`);
+let readmeContent = fs.readFileSync(readmeFilePath, 'utf8').replace(/\r\n/g, '\n');
+const readmeLines = readmeContent.split('\n');
+let skillsIndex = readmeLines.findIndex(line => line.trim() === '## Skills');
+infoLog(`'## Skills' found at line ${skillsIndex}`);
+if (skillsIndex !== -1) {
+    // find all topic badge lines after header
+    let badgeLineIndex = skillsIndex + 1;
+    while (badgeLineIndex < readmeLines.length && readmeLines[badgeLineIndex].trim() === '') badgeLineIndex++;
+    
+    // collect existing topics from badges
+    const existingTopicsBadges = (readmeLines[badgeLineIndex] || '').split(') ');
+    const existingTopics = new Set();
+    existingTopicsBadges.forEach(badge => {
+        if(badge){
+            const topic = badge.split("[![")[1]?.split("](")[0];
+            if (topic) existingTopics.add(topic?.toLocaleLowerCase());
+        }
+    });
+
+    // check our topics exist - if missing add the topic add end
+    topics.forEach(topic => {
+        const topicLower = topic.toLowerCase().trim();
+        if (!existingTopics.has(topicLower)) {
+            const capsizedTopic = topic.split(" ").map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
+            const topicFileName = `${topicLower.split(" ").join("_")}.md`;
+            const topicFilePath = path.join('skills', topicFileName);
+            const newBadge = `[![${capsizedTopic}](https://img.shields.io/badge/${capsizedTopic.split(" ").join("_")}-gray)](./${topicFilePath}) `;
+            
+            readmeLines[badgeLineIndex] = (readmeLines[badgeLineIndex] || '') + newBadge;
+            
+            fs.writeFileSync(readmeFilePath, readmeLines.join('\n'), 'utf8');
+            infoLog(`Appended missing topic badge for "${topic}" to README.md`);
+        } else {
+            infoLog(`Topic "${topic}" already present in README.md. Skipping.`);
+        }
+    });
+}
 
 // STEP 15: Locate data.json
 let dataJsonFilePath = path.join(scriptDirectory, 'data.json');

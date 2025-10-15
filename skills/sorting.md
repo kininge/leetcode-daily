@@ -1,5 +1,10 @@
-# Sorting
+# [⬅️](../README.md) Sorting 
 
-Click a problem to view your notes & solution.
+Click a problem to view your notes & solution
 
+- [![611](https://img.shields.io/badge/611-Valid_Triangle_Number-yellow)](/problems/611.md)
+- [![976](https://img.shields.io/badge/976-Largest_Perimeter_Triangle-brightgreen)](/problems/976.md)
+- [![2300](https://img.shields.io/badge/2300-Successful_Pairs_of_Spells_and_Potions-yellow)](/problems/2300.md)
+- [![2785](https://img.shields.io/badge/2785-Sort_Vowels_in_a_String-yellow)](/problems/2785.md)
+- [![3027](https://img.shields.io/badge/3027-Find_the_Number_of_Ways_to_Place_People_II-red)](/problems/3027.md)
 - [![3446](https://img.shields.io/badge/3446-Sort_Matrix_by_Diagonals-yellow)](/problems/3446.md)

@@ -1,5 +1,23 @@
-# Math
+# [⬅️](../README.md) Math 
 
-Click a problem to view your notes & solution.
+Click a problem to view your notes & solution
 
-
+- [![166](https://img.shields.io/badge/166-Fraction_to_Recurring_Decimal-yellow)](/problems/166.md)
+- [![231](https://img.shields.io/badge/231-Power_of_Two-brightgreen)](/problems/231.md)
+- [![326](https://img.shields.io/badge/326-Power_of_Three-brightgreen)](/problems/326.md)
+- [![342](https://img.shields.io/badge/342-Power_of_Four-brightgreen)](/problems/342.md)
+- [![679](https://img.shields.io/badge/679-24_Game-red)](/problems/679.md)
+- [![812](https://img.shields.io/badge/812-Largest_Triangle_Area-brightgreen)](/problems/812.md)
+- [![1304](https://img.shields.io/badge/1304-Find_N_Unique_Integers_Sum_up_to_Zero-brightgreen)](/problems/1304.md)
+- [![1317](https://img.shields.io/badge/1317-Convert_Integer_to_the_Sum_of_Two_No_Zero_Integers-brightgreen)](/problems/1317.md)
+- [![1323](https://img.shields.io/badge/1323-Maximum_69_Number-brightgreen)](/problems/1323.md)
+- [![1518](https://img.shields.io/badge/1518-Water_Bottles-brightgreen)](/problems/1518.md)
+- [![2221](https://img.shields.io/badge/2221-Find_Triangular_Sum_of_an_Array-yellow)](/problems/2221.md)
+- [![2348](https://img.shields.io/badge/2348-Number_of_Zero_Filled_Subarrays-yellow)](/problems/2348.md)
+- [![2419](https://img.shields.io/badge/2419-Longest_Subarray_With_Maximum_Bitwise_AND-yellow)](/problems/2419.md)
+- [![2438](https://img.shields.io/badge/2438-Range_Product_Queries_of_Powers-yellow)](/problems/2438.md)
+- [![2787](https://img.shields.io/badge/2787-Ways_to_Express_an_Integer_as_Sum_of_Powers-yellow)](/problems/2787.md)
+- [![3000](https://img.shields.io/badge/3000-Maximum_Area_of_Longest_Diagonal_Rectangle-brightgreen)](/problems/3000.md)
+- [![3021](https://img.shields.io/badge/3021-Alice_and_Bob_Playing_Flower_Game-yellow)](/problems/3021.md)
+- [![3100](https://img.shields.io/badge/3100-Water_Bottles_II-yellow)](/problems/3100.md)
+- [![3516](https://img.shields.io/badge/3516-Find_Closest_Person-brightgreen)](/problems/3516.md)

@@ -1,6 +1,7 @@
 # 🟡 Medium Problems
 
 Click a problem to view your notes & solution.
+
 - [![11](https://img.shields.io/badge/11-Container_With_Most_Water-yellow)](/problems/11.md)
 - [![36](https://img.shields.io/badge/36-Valid_Sudoku-yellow)](/problems/36.md)
 - [![120](https://img.shields.io/badge/120-Triangle-yellow)](/problems/120.md)
@@ -13,13 +14,14 @@ Click a problem to view your notes & solution.
 - [![904](https://img.shields.io/badge/904-Fruit_Into_Baskets-yellow)](/problems/904.md)
 - [![1277](https://img.shields.io/badge/1277-Count_Square_Submatrices_with_All_Ones-yellow)](/problems/1277.md)
 - [![1488](https://img.shields.io/badge/1488-Avoid_Flood_in_The_City-yellow)](/problems/1488.md)
-- [![1493](https://img.shields.io/badge/1493-Longest_Subarray_of_1's_After_Deleting_One_Element-yellow)](/problems/1493.md)
+- [![1493](https://img.shields.io/badge/1493-Longest_Subarray_of_1s_After_Deleting_One_Element-yellow)](/problems/1493.md)
+- [![1504](https://img.shields.io/badge/1504-Count_Submatrices_With_All_Ones-yellow)](/problems/1504.md)
 - [![1792](https://img.shields.io/badge/1792-Maximum_Average_Pass_Ratio-yellow)](/problems/1792.md)
 - [![2221](https://img.shields.io/badge/2221-Find_Triangular_Sum_of_an_Array-yellow)](/problems/2221.md)
 - [![2300](https://img.shields.io/badge/2300-Successful_Pairs_of_Spells_and_Potions-yellow)](/problems/2300.md)
 - [![2348](https://img.shields.io/badge/2348-Number_of_Zero_Filled_Subarrays-yellow)](/problems/2348.md)
 - [![2411](https://img.shields.io/badge/2411-Smallest_Subarrays_With_Maximum_Bitwise_OR-yellow)](/problems/2411.md)
-- [![2419](https://img.shields.io/badge/2419-longest_subarray_with_maximum_bitwise_and-yellow)](/problems/2419.md)
+- [![2419](https://img.shields.io/badge/2419-Longest_Subarray_With_Maximum_Bitwise_AND-yellow)](/problems/2419.md)
 - [![2438](https://img.shields.io/badge/2438-Range_Product_Queries_of_Powers-yellow)](/problems/2438.md)
 - [![2785](https://img.shields.io/badge/2785-Sort_Vowels_in_a_String-yellow)](/problems/2785.md)
 - [![2787](https://img.shields.io/badge/2787-Ways_to_Express_an_Integer_as_Sum_of_Powers-yellow)](/problems/2787.md)

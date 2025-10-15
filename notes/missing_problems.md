@@ -12,3 +12,4 @@
 - [![3493](https://img.shields.io/badge/3493-Find_the_Minimum_Amount_of_Time_to_Brew_Potions-blue)](https://leetcode.com/problems/find-the-minimum-amount-of-time-to-brew-potions/description/?envType=daily-question&envId=2025-10-09)
 - [![3186](https://img.shields.io/badge/3186-Maximum_Total_Damage_With_Spell_Casting-blue)](https://leetcode.com/problems/maximum-total-damage-with-spell-casting/description/?envType=daily-question&envId=2025-10-11)
 - [![3539](https://img.shields.io/badge/3539-Find_Sum_of_Array_Product_of_Magical_Sequences-blue)](https://leetcode.com/problems/find-sum-of-array-product-of-magical-sequences/description/?envType=daily-question&envId=2025-10-12)
+- [![84](https://img.shields.io/badge/84-Largest_Rectangle_in_Histogram-blue)](https://leetcode.com/problems/largest-rectangle-in-histogram/description/)
