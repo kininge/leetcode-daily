@@ -2,14 +2,12 @@
 
 
 Click a problem to view your notes & solution.
-- [![1](https://img.shields.io/badge/1-Pritam_Test-yellow)](/problems/1.md)
-- [![10](https://img.shields.io/badge/10-Pritam_Test-yellow)](/problems/10.md)
+
 - [![11](https://img.shields.io/badge/11-Container_With_Most_Water-yellow)](/problems/11.md)
 - [![36](https://img.shields.io/badge/36-Valid_Sudoku-yellow)](/problems/36.md)
 - [![120](https://img.shields.io/badge/120-Triangle-yellow)](/problems/120.md)
 - [![165](https://img.shields.io/badge/165-Compare_Version_Numbers-yellow)](/problems/165.md)
 - [![166](https://img.shields.io/badge/166-Fraction_to_Recurring_Decimal-yellow)](/problems/166.md)
-- [![180](https://img.shields.io/badge/180-Pritam_Test-yellow)](/problems/180.md)
 - [![498](https://img.shields.io/badge/498-Diagonal_Traverse-yellow)](/problems/498.md)
 - [![611](https://img.shields.io/badge/611-Valid_Triangle_Number-yellow)](/problems/611.md)
 - [![869](https://img.shields.io/badge/869-Reordered_Power_of_2-yellow)](/problems/869.md)
