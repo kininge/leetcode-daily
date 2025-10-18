@@ -13,3 +13,4 @@ Click a problem to view your notes & solution
 - [![3027](https://img.shields.io/badge/3027-Find_the_Number_of_Ways_to_Place_People_II-red)](/problems/3027.md)
 - [![3100](https://img.shields.io/badge/3100-Water_Bottles_II-yellow)](/problems/3100.md)
 - [![3349](https://img.shields.io/badge/3349-Adjacent_Increasing_Subarrays_Detection_I-brightgreen)](/problems/3349.md)
+- [![3397](https://img.shields.io/badge/3397-Maximum_Number_of_Distinct_Elements_After_Operations-yellow)](/problems/3397.md)

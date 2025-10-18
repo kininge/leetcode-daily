@@ -18,4 +18,5 @@ Click a problem to view your notes & solution
 - [![3000](https://img.shields.io/badge/3000-Maximum_Area_of_Longest_Diagonal_Rectangle-brightgreen)](/problems/3000.md)
 - [![3005](https://img.shields.io/badge/3005-Count_Elements_With_Maximum_Frequency-brightgreen)](/problems/3005.md)
 - [![3349](https://img.shields.io/badge/3349-Adjacent_Increasing_Subarrays_Detection_I-brightgreen)](/problems/3349.md)
+- [![3397](https://img.shields.io/badge/3397-Maximum_Number_of_Distinct_Elements_After_Operations-yellow)](/problems/3397.md)
 - [![3477](https://img.shields.io/badge/3477-Fruits_Into_Baskets_II-brightgreen)](/problems/3477.md)
