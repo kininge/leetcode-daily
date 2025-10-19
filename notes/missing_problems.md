@@ -13,3 +13,6 @@
 - [![3186](https://img.shields.io/badge/3186-Maximum_Total_Damage_With_Spell_Casting-blue)](https://leetcode.com/problems/maximum-total-damage-with-spell-casting/description/?envType=daily-question&envId=2025-10-11)
 - [![3539](https://img.shields.io/badge/3539-Find_Sum_of_Array_Product_of_Magical_Sequences-blue)](https://leetcode.com/problems/find-sum-of-array-product-of-magical-sequences/description/?envType=daily-question&envId=2025-10-12)
 - [![84](https://img.shields.io/badge/84-Largest_Rectangle_in_Histogram-blue)](https://leetcode.com/problems/largest-rectangle-in-histogram/description/)
+- [![1625](https://img.shields.io/badge/1625-Lexicographically_Smallest_String_After_Applying_Operations-blue)](https://leetcode.com/problems/lexicographically-smallest-string-after-applying-operations/?envType=daily-question&envId=2025-10-19)
+- [![3003](https://img.shields.io/badge/3003-Maximize_the_Number_of_Partitions_After_Operations-blue)](https://leetcode.com/problems/maximize-the-number-of-partitions-after-operations/?envType=daily-question&envId=2025-10-19)
+
