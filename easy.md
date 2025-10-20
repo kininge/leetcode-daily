@@ -13,6 +13,7 @@ Click a problem to view your notes & solution.
 - [![1323](https://img.shields.io/badge/1323-Maximum_69_Number-brightgreen)](/problems/1323.md)
 - [![1518](https://img.shields.io/badge/1518-Water_Bottles-brightgreen)](/problems/1518.md)
 - [![1935](https://img.shields.io/badge/1935-Maximum_Number_of_Words_You_Can_Type-brightgreen)](/problems/1935.md)
+- [![2011](https://img.shields.io/badge/2011-Final_Value_of_Variable_After_Performing_Operations-brightgreen)](/problems/2011.md)
 - [![2264](https://img.shields.io/badge/2264-Largest_3_Same_Digit_Number_in_String-brightgreen)](/problems/2264.md)
 - [![2273](https://img.shields.io/badge/2273-Find_Resultant_Array_After_Removing_Anagrams-brightgreen)](/problems/2273.md)
 - [![3000](https://img.shields.io/badge/3000-Maximum_Area_of_Longest_Diagonal_Rectangle-brightgreen)](/problems/3000.md)
