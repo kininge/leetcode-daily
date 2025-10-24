@@ -12,6 +12,7 @@ Click a problem to view your notes & solution
 - [![1317](https://img.shields.io/badge/1317-Convert_Integer_to_the_Sum_of_Two_No_Zero_Integers-brightgreen)](/problems/1317.md)
 - [![1323](https://img.shields.io/badge/1323-Maximum_69_Number-brightgreen)](/problems/1323.md)
 - [![1518](https://img.shields.io/badge/1518-Water_Bottles-brightgreen)](/problems/1518.md)
+- [![2048](https://img.shields.io/badge/2048-Next_Greater_Numerically_Balanced_Number-yellow)](/problems/2048.md)
 - [![2221](https://img.shields.io/badge/2221-Find_Triangular_Sum_of_an_Array-yellow)](/problems/2221.md)
 - [![2348](https://img.shields.io/badge/2348-Number_of_Zero_Filled_Subarrays-yellow)](/problems/2348.md)
 - [![2419](https://img.shields.io/badge/2419-Longest_Subarray_With_Maximum_Bitwise_AND-yellow)](/problems/2419.md)
