@@ -11,6 +11,7 @@ Click a problem to view your notes & solution
 - [![1304](https://img.shields.io/badge/1304-Find_N_Unique_Integers_Sum_up_to_Zero-brightgreen)](/problems/1304.md)
 - [![1493](https://img.shields.io/badge/1493-Longest_Subarray_of_1s_After_Deleting_One_Element-yellow)](/problems/1493.md)
 - [![2106](https://img.shields.io/badge/2106-Maximum_Fruits_Harvested_After_at_Most_K_Steps-red)](/problems/2106.md)
+- [![2125](https://img.shields.io/badge/2125-Number_of_Laser_Beams_in_a_Bank-yellow)](/problems/2125.md)
 - [![2221](https://img.shields.io/badge/2221-Find_Triangular_Sum_of_an_Array-yellow)](/problems/2221.md)
 - [![2348](https://img.shields.io/badge/2348-Number_of_Zero_Filled_Subarrays-yellow)](/problems/2348.md)
 - [![2411](https://img.shields.io/badge/2411-Smallest_Subarrays_With_Maximum_Bitwise_OR-yellow)](/problems/2411.md)

@@ -19,6 +19,7 @@ Click a problem to view your notes & solution.
 - [![1792](https://img.shields.io/badge/1792-Maximum_Average_Pass_Ratio-yellow)](/problems/1792.md)
 - [![2043](https://img.shields.io/badge/2043-Simple_Bank_System-yellow)](/problems/2043.md)
 - [![2048](https://img.shields.io/badge/2048-Next_Greater_Numerically_Balanced_Number-yellow)](/problems/2048.md)
+- [![2125](https://img.shields.io/badge/2125-Number_of_Laser_Beams_in_a_Bank-yellow)](/problems/2125.md)
 - [![2221](https://img.shields.io/badge/2221-Find_Triangular_Sum_of_an_Array-yellow)](/problems/2221.md)
 - [![2300](https://img.shields.io/badge/2300-Successful_Pairs_of_Spells_and_Potions-yellow)](/problems/2300.md)
 - [![2348](https://img.shields.io/badge/2348-Number_of_Zero_Filled_Subarrays-yellow)](/problems/2348.md)
