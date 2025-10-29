@@ -15,4 +15,5 @@ Click a problem to view your notes & solution
 - [![3346](https://img.shields.io/badge/3346-Maximum_Frequency_of_an_Element_After_Performing_Operations_I-yellow)](/problems/3346.md)
 - [![3347](https://img.shields.io/badge/3347-Maximum_Frequency_of_an_Element_After_Performing_Operations_II-red)](/problems/3347.md)
 - [![3349](https://img.shields.io/badge/3349-Adjacent_Increasing_Subarrays_Detection_I-brightgreen)](/problems/3349.md)
+- [![3370](https://img.shields.io/badge/3370-Smallest_Number_With_All_Set_Bits-brightgreen)](/problems/3370.md)
 - [![3397](https://img.shields.io/badge/3397-Maximum_Number_of_Distinct_Elements_After_Operations-yellow)](/problems/3397.md)
