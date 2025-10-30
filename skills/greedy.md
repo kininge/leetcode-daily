@@ -8,6 +8,7 @@ Click a problem to view your notes & solution
 - [![1323](https://img.shields.io/badge/1323-Maximum_69_Number-brightgreen)](/problems/1323.md)
 - [![1488](https://img.shields.io/badge/1488-Avoid_Flood_in_The_City-yellow)](/problems/1488.md)
 - [![1518](https://img.shields.io/badge/1518-Water_Bottles-brightgreen)](/problems/1518.md)
+- [![1526](https://img.shields.io/badge/1526-Minimum_Number_of_Increments_on_Subarrays_to_Form_a_Target_Array-red)](/problems/1526.md)
 - [![1792](https://img.shields.io/badge/1792-Maximum_Average_Pass_Ratio-yellow)](/problems/1792.md)
 - [![2106](https://img.shields.io/badge/2106-Maximum_Fruits_Harvested_After_at_Most_K_Steps-red)](/problems/2106.md)
 - [![3027](https://img.shields.io/badge/3027-Find_the_Number_of_Ways_to_Place_People_II-red)](/problems/3027.md)
