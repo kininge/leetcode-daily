@@ -21,6 +21,7 @@ Click a problem to view your notes & solution.
 - [![2048](https://img.shields.io/badge/2048-Next_Greater_Numerically_Balanced_Number-yellow)](/problems/2048.md)
 - [![2125](https://img.shields.io/badge/2125-Number_of_Laser_Beams_in_a_Bank-yellow)](/problems/2125.md)
 - [![2221](https://img.shields.io/badge/2221-Find_Triangular_Sum_of_an_Array-yellow)](/problems/2221.md)
+- [![2257](https://img.shields.io/badge/2257-Count_Unguarded_Cells_in_the_Grid-yellow)](/problems/2257.md)
 - [![2300](https://img.shields.io/badge/2300-Successful_Pairs_of_Spells_and_Potions-yellow)](/problems/2300.md)
 - [![2348](https://img.shields.io/badge/2348-Number_of_Zero_Filled_Subarrays-yellow)](/problems/2348.md)
 - [![2411](https://img.shields.io/badge/2411-Smallest_Subarrays_With_Maximum_Bitwise_OR-yellow)](/problems/2411.md)

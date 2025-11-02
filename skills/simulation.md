@@ -9,6 +9,7 @@ Click a problem to view your notes & solution
 - [![1716](https://img.shields.io/badge/1716-Calculate_Money_in_Leetcode_Bank-brightgreen)](/problems/1716.md)
 - [![2011](https://img.shields.io/badge/2011-Final_Value_of_Variable_After_Performing_Operations-brightgreen)](/problems/2011.md)
 - [![2221](https://img.shields.io/badge/2221-Find_Triangular_Sum_of_an_Array-yellow)](/problems/2221.md)
+- [![2257](https://img.shields.io/badge/2257-Count_Unguarded_Cells_in_the_Grid-yellow)](/problems/2257.md)
 - [![3100](https://img.shields.io/badge/3100-Water_Bottles_II-yellow)](/problems/3100.md)
 - [![3354](https://img.shields.io/badge/3354-Make_Array_Elements_Equal_to_Zero-brightgreen)](/problems/3354.md)
 - [![3446](https://img.shields.io/badge/3446-Sort_Matrix_by_Diagonals-yellow)](/problems/3446.md)
