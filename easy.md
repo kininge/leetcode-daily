@@ -20,7 +20,7 @@ Click a problem to view your notes & solution.
 - [![3000](https://img.shields.io/badge/3000-Maximum_Area_of_Longest_Diagonal_Rectangle-brightgreen)](/problems/3000.md)
 - [![3005](https://img.shields.io/badge/3005-Count_Elements_With_Maximum_Frequency-brightgreen)](/problems/3005.md)
 - [![3289](https://img.shields.io/badge/3289-The_Two_Sneaky_Numbers_of_Digitville-brightgreen)](/problems/3289.md)
-- [![3318](https://img.shields.io/badge/3318-Find_X-Sum_of_All_K-Long_Subarrays_I-brightgreen)](/problems/3318.md)
+- [![3318](https://img.shields.io/badge/3318-Find_X_Sum_of_All_K_Long_Subarrays_I-brightgreen)](/problems/3318.md)
 - [![3349](https://img.shields.io/badge/3349-Adjacent_Increasing_Subarrays_Detection_I-brightgreen)](/problems/3349.md)
 - [![3354](https://img.shields.io/badge/3354-Make_Array_Elements_Equal_to_Zero-brightgreen)](/problems/3354.md)
 - [![3370](https://img.shields.io/badge/3370-Smallest_Number_With_All_Set_Bits-brightgreen)](/problems/3370.md)
