@@ -14,6 +14,7 @@ Click a problem to view your notes & solution
 - [![1518](https://img.shields.io/badge/1518-Water_Bottles-brightgreen)](/problems/1518.md)
 - [![1716](https://img.shields.io/badge/1716-Calculate_Money_in_Leetcode_Bank-brightgreen)](/problems/1716.md)
 - [![2048](https://img.shields.io/badge/2048-Next_Greater_Numerically_Balanced_Number-yellow)](/problems/2048.md)
+- [![2169](https://img.shields.io/badge/2169-Count_Operations_to_Obtain_Zero-brightgreen)](/problems/2169.md)
 - [![2221](https://img.shields.io/badge/2221-Find_Triangular_Sum_of_an_Array-yellow)](/problems/2221.md)
 - [![2348](https://img.shields.io/badge/2348-Number_of_Zero_Filled_Subarrays-yellow)](/problems/2348.md)
 - [![2419](https://img.shields.io/badge/2419-Longest_Subarray_With_Maximum_Bitwise_AND-yellow)](/problems/2419.md)
