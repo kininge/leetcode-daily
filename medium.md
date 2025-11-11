@@ -7,6 +7,7 @@ Click a problem to view your notes & solution.
 - [![120](https://img.shields.io/badge/120-Triangle-yellow)](/problems/120.md)
 - [![165](https://img.shields.io/badge/165-Compare_Version_Numbers-yellow)](/problems/165.md)
 - [![166](https://img.shields.io/badge/166-Fraction_to_Recurring_Decimal-yellow)](/problems/166.md)
+- [![474](https://img.shields.io/badge/474-Ones_and_Zeroes-yellow)](/problems/474.md)
 - [![498](https://img.shields.io/badge/498-Diagonal_Traverse-yellow)](/problems/498.md)
 - [![611](https://img.shields.io/badge/611-Valid_Triangle_Number-yellow)](/problems/611.md)
 - [![869](https://img.shields.io/badge/869-Reordered_Power_of_2-yellow)](/problems/869.md)
