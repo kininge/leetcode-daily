@@ -29,6 +29,7 @@ Click a problem to view your notes & solution.
 - [![2411](https://img.shields.io/badge/2411-Smallest_Subarrays_With_Maximum_Bitwise_OR-yellow)](/problems/2411.md)
 - [![2419](https://img.shields.io/badge/2419-Longest_Subarray_With_Maximum_Bitwise_AND-yellow)](/problems/2419.md)
 - [![2438](https://img.shields.io/badge/2438-Range_Product_Queries_of_Powers-yellow)](/problems/2438.md)
+- [![2654](https://img.shields.io/badge/2654-Minimum_Number_of_Operations_to_Make_All_Array_Elements_Equal_to_1-yellow)](/problems/2654.md)
 - [![2785](https://img.shields.io/badge/2785-Sort_Vowels_in_a_String-yellow)](/problems/2785.md)
 - [![2787](https://img.shields.io/badge/2787-Ways_to_Express_an_Integer_as_Sum_of_Powers-yellow)](/problems/2787.md)
 - [![3021](https://img.shields.io/badge/3021-Alice_and_Bob_Playing_Flower_Game-yellow)](/problems/3021.md)
