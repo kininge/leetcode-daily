@@ -15,6 +15,7 @@ Click a problem to view your notes & solution
 - [![2169](https://img.shields.io/badge/2169-Count_Operations_to_Obtain_Zero-brightgreen)](/problems/2169.md)
 - [![3027](https://img.shields.io/badge/3027-Find_the_Number_of_Ways_to_Place_People_II-red)](/problems/3027.md)
 - [![3100](https://img.shields.io/badge/3100-Water_Bottles_II-yellow)](/problems/3100.md)
+- [![3228](https://img.shields.io/badge/3228-Maximum_Number_of_Operations_to_Move_Ones_to_the_End-yellow)](/problems/3228.md)
 - [![3346](https://img.shields.io/badge/3346-Maximum_Frequency_of_an_Element_After_Performing_Operations_I-yellow)](/problems/3346.md)
 - [![3347](https://img.shields.io/badge/3347-Maximum_Frequency_of_an_Element_After_Performing_Operations_II-red)](/problems/3347.md)
 - [![3349](https://img.shields.io/badge/3349-Adjacent_Increasing_Subarrays_Detection_I-brightgreen)](/problems/3349.md)
