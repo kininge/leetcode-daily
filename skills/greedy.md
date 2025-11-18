@@ -6,6 +6,7 @@ Click a problem to view your notes & solution
 - [![120](https://img.shields.io/badge/120-Triangle-yellow)](/problems/120.md)
 - [![976](https://img.shields.io/badge/976-Largest_Perimeter_Triangle-brightgreen)](/problems/976.md)
 - [![1323](https://img.shields.io/badge/1323-Maximum_69_Number-brightgreen)](/problems/1323.md)
+- [![1437](https://img.shields.io/badge/1437-Check_If_All_1s_Are_at_Least_Length_K_Places_Away-brightgreen)](/problems/1437.md)
 - [![1488](https://img.shields.io/badge/1488-Avoid_Flood_in_The_City-yellow)](/problems/1488.md)
 - [![1518](https://img.shields.io/badge/1518-Water_Bottles-brightgreen)](/problems/1518.md)
 - [![1526](https://img.shields.io/badge/1526-Minimum_Number_of_Increments_on_Subarrays_to_Form_a_Target_Array-red)](/problems/1526.md)
