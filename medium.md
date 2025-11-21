@@ -19,6 +19,7 @@ Click a problem to view your notes & solution.
 - [![1504](https://img.shields.io/badge/1504-Count_Submatrices_With_All_Ones-yellow)](/problems/1504.md)
 - [![1578](https://img.shields.io/badge/1578-Minimum_Time_to_Make_Rope_Colorful-yellow)](/problems/1578.md)
 - [![1792](https://img.shields.io/badge/1792-Maximum_Average_Pass_Ratio-yellow)](/problems/1792.md)
+- [![1930](https://img.shields.io/badge/1930-Unique_Length_3_Palindromic_Subsequences-yellow)](/problems/1930.md)
 - [![2043](https://img.shields.io/badge/2043-Simple_Bank_System-yellow)](/problems/2043.md)
 - [![2048](https://img.shields.io/badge/2048-Next_Greater_Numerically_Balanced_Number-yellow)](/problems/2048.md)
 - [![2125](https://img.shields.io/badge/2125-Number_of_Laser_Beams_in_a_Bank-yellow)](/problems/2125.md)

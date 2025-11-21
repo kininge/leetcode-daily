@@ -4,6 +4,7 @@ Click a problem to view your notes & solution
 
 - [![11](https://img.shields.io/badge/11-Container_With_Most_Water-yellow)](/problems/11.md)
 - [![1504](https://img.shields.io/badge/1504-Count_Submatrices_With_All_Ones-yellow)](/problems/1504.md)
+- [![1930](https://img.shields.io/badge/1930-Unique_Length_3_Palindromic_Subsequences-yellow)](/problems/1930.md)
 - [![2106](https://img.shields.io/badge/2106-Maximum_Fruits_Harvested_After_at_Most_K_Steps-red)](/problems/2106.md)
 - [![2536](https://img.shields.io/badge/2536-Increment_Submatrices_by_One-yellow)](/problems/2536.md)
 - [![3025](https://img.shields.io/badge/3025-Find_the_Number_of_Ways_to_Place_People_I-yellow)](/problems/3025.md)
