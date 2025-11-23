@@ -6,6 +6,7 @@ Click a problem to view your notes & solution
 - [![118](https://img.shields.io/badge/118-Pascals_Triangle-brightgreen)](/problems/118.md)
 - [![120](https://img.shields.io/badge/120-Triangle-yellow)](/problems/120.md)
 - [![474](https://img.shields.io/badge/474-Ones_and_Zeroes-yellow)](/problems/474.md)
+- [![1262](https://img.shields.io/badge/1262-Greatest_Sum_Divisible_by_Three-yellow)](/problems/1262.md)
 - [![1277](https://img.shields.io/badge/1277-Count_Square_Submatrices_with_All_Ones-yellow)](/problems/1277.md)
 - [![1504](https://img.shields.io/badge/1504-Count_Submatrices_With_All_Ones-yellow)](/problems/1504.md)
 - [![2787](https://img.shields.io/badge/2787-Ways_to_Express_an_Integer_as_Sum_of_Powers-yellow)](/problems/2787.md)

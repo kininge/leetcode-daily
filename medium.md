@@ -13,6 +13,7 @@ Click a problem to view your notes & solution.
 - [![869](https://img.shields.io/badge/869-Reordered_Power_of_2-yellow)](/problems/869.md)
 - [![898](https://img.shields.io/badge/898-Bitwise_ORs_of_Subarrays-yellow)](/problems/898.md)
 - [![904](https://img.shields.io/badge/904-Fruit_Into_Baskets-yellow)](/problems/904.md)
+- [![1262](https://img.shields.io/badge/1262-Greatest_Sum_Divisible_by_Three-yellow)](/problems/1262.md)
 - [![1277](https://img.shields.io/badge/1277-Count_Square_Submatrices_with_All_Ones-yellow)](/problems/1277.md)
 - [![1488](https://img.shields.io/badge/1488-Avoid_Flood_in_The_City-yellow)](/problems/1488.md)
 - [![1493](https://img.shields.io/badge/1493-Longest_Subarray_of_1s_After_Deleting_One_Element-yellow)](/problems/1493.md)
