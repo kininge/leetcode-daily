@@ -9,6 +9,7 @@ Click a problem to view your notes & solution
 - [![869](https://img.shields.io/badge/869-Reordered_Power_of_2-yellow)](/problems/869.md)
 - [![898](https://img.shields.io/badge/898-Bitwise_ORs_of_Subarrays-yellow)](/problems/898.md)
 - [![904](https://img.shields.io/badge/904-Fruit_Into_Baskets-yellow)](/problems/904.md)
+- [![1018](https://img.shields.io/badge/1018-Binary_Prefix_Divisible_By_5-brightgreen)](/problems/1018.md)
 - [![1262](https://img.shields.io/badge/1262-Greatest_Sum_Divisible_by_Three-yellow)](/problems/1262.md)
 - [![1304](https://img.shields.io/badge/1304-Find_N_Unique_Integers_Sum_up_to_Zero-brightgreen)](/problems/1304.md)
 - [![1437](https://img.shields.io/badge/1437-Check_If_All_1s_Are_at_Least_Length_K_Places_Away-brightgreen)](/problems/1437.md)

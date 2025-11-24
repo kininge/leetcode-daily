@@ -8,6 +8,7 @@ Click a problem to view your notes & solution
 - [![342](https://img.shields.io/badge/342-Power_of_Four-brightgreen)](/problems/342.md)
 - [![679](https://img.shields.io/badge/679-24_Game-red)](/problems/679.md)
 - [![812](https://img.shields.io/badge/812-Largest_Triangle_Area-brightgreen)](/problems/812.md)
+- [![1018](https://img.shields.io/badge/1018-Binary_Prefix_Divisible_By_5-brightgreen)](/problems/1018.md)
 - [![1262](https://img.shields.io/badge/1262-Greatest_Sum_Divisible_by_Three-yellow)](/problems/1262.md)
 - [![1304](https://img.shields.io/badge/1304-Find_N_Unique_Integers_Sum_up_to_Zero-brightgreen)](/problems/1304.md)
 - [![1317](https://img.shields.io/badge/1317-Convert_Integer_to_the_Sum_of_Two_No_Zero_Integers-brightgreen)](/problems/1317.md)
