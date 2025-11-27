@@ -45,6 +45,7 @@ Click a problem to view your notes & solution.
 - [![3228](https://img.shields.io/badge/3228-Maximum_Number_of_Operations_to_Move_Ones_to_the_End-yellow)](/problems/3228.md)
 - [![3346](https://img.shields.io/badge/3346-Maximum_Frequency_of_an_Element_After_Performing_Operations_I-yellow)](/problems/3346.md)
 - [![3350](https://img.shields.io/badge/3350-Adjacent_Increasing_Subarrays_Detection_II-yellow)](/problems/3350.md)
+- [![3381](https://img.shields.io/badge/3381-Maximum_Subarray_Sum_With_Length_Divisible_by_K-yellow)](/problems/3381.md)
 - [![3397](https://img.shields.io/badge/3397-Maximum_Number_of_Distinct_Elements_After_Operations-yellow)](/problems/3397.md)
 - [![3408](https://img.shields.io/badge/3408-Design_Task_Manager-yellow)](/problems/3408.md)
 - [![3446](https://img.shields.io/badge/3446-Sort_Matrix_by_Diagonals-yellow)](/problems/3446.md)

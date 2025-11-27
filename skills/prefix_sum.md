@@ -12,3 +12,4 @@ Click a problem to view your notes & solution
 - [![3147](https://img.shields.io/badge/3147-Taking_Maximum_Energy_From_the_Mystic_Dungeon-yellow)](/problems/3147.md)
 - [![3349](https://img.shields.io/badge/3349-Adjacent_Increasing_Subarrays_Detection_I-brightgreen)](/problems/3349.md)
 - [![3354](https://img.shields.io/badge/3354-Make_Array_Elements_Equal_to_Zero-brightgreen)](/problems/3354.md)
+- [![3381](https://img.shields.io/badge/3381-Maximum_Subarray_Sum_With_Length_Divisible_by_K-yellow)](/problems/3381.md)

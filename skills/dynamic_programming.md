@@ -14,3 +14,4 @@ Click a problem to view your notes & solution
 - [![3021](https://img.shields.io/badge/3021-Alice_and_Bob_Playing_Flower_Game-yellow)](/problems/3021.md)
 - [![3147](https://img.shields.io/badge/3147-Taking_Maximum_Energy_From_the_Mystic_Dungeon-yellow)](/problems/3147.md)
 - [![3363](https://img.shields.io/badge/3363-Find_the_Maximum_Number_of_Fruits_Collected-red)](/problems/3363.md)
+- [![3381](https://img.shields.io/badge/3381-Maximum_Subarray_Sum_With_Length_Divisible_by_K-yellow)](/problems/3381.md)

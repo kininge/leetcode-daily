@@ -12,8 +12,8 @@
 
   <!-- horizontal bar represents each section problem solved -->
   <g transform="translate(16, 184)">
-    <rect x="0" y="0" width="203.7391304347826" height="20" fill="#1cbaba" rx="4" /> 
-    <rect x="207.7391304347826" y="0" width="296.3478260869565" height="20" fill="#ffb700" rx="4" />
+    <rect x="0" y="0" width="197.56521739130434" height="20" fill="#1cbaba" rx="4" /> 
+    <rect x="201.56521739130434" y="0" width="302.5217391304348" height="20" fill="#ffb700" rx="4" />
     <rect x="508.0869565217391" y="0" width="67.91304347826087" height="20" fill="#f63737" rx="4" />
   </g>
 </svg>
