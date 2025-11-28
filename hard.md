@@ -9,6 +9,7 @@ Click a problem to view your notes & solution.
 - [![1526](https://img.shields.io/badge/1526-Minimum_Number_of_Increments_on_Subarrays_to_Form_a_Target_Array-red)](/problems/1526.md)
 - [![2106](https://img.shields.io/badge/2106-Maximum_Fruits_Harvested_After_at_Most_K_Steps-red)](/problems/2106.md)
 - [![2435](https://img.shields.io/badge/2435-Paths_in_Matrix_Whose_Sum_Is_Divisible_by_K-red)](/problems/2435.md)
+- [![2872](https://img.shields.io/badge/2872-Maximum_Number_of_K_Divisible_Components-red)](/problems/2872.md)
 - [![3027](https://img.shields.io/badge/3027-Find_the_Number_of_Ways_to_Place_People_II-red)](/problems/3027.md)
 - [![3321](https://img.shields.io/badge/3321-Find_X_Sum_of_All_K_Long_Subarrays_II-red)](/problems/3321.md)
 - [![3347](https://img.shields.io/badge/3347-Maximum_Frequency_of_an_Element_After_Performing_Operations_II-red)](/problems/3347.md)
