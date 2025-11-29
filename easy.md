@@ -32,5 +32,6 @@ Click a problem to view your notes & solution.
 - [![3370](https://img.shields.io/badge/3370-Smallest_Number_With_All_Set_Bits-brightgreen)](/problems/3370.md)
 - [![3461](https://img.shields.io/badge/3461-Check_If_Digits_Are_Equal_in_String_After_Operations_I-brightgreen)](/problems/3461.md)
 - [![3477](https://img.shields.io/badge/3477-Fruits_Into_Baskets_II-brightgreen)](/problems/3477.md)
+- [![3512](https://img.shields.io/badge/3512-Minimum_Operations_to_Make_Array_Sum_Divisible_by_K-brightgreen)](/problems/3512.md)
 - [![3516](https://img.shields.io/badge/3516-Find_Closest_Person-brightgreen)](/problems/3516.md)
 - [![3541](https://img.shields.io/badge/3541-Find_Most_Frequent_Vowel_and_Consonant-brightgreen)](/problems/3541.md)

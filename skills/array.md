@@ -30,3 +30,4 @@ Click a problem to view your notes & solution
 - [![3397](https://img.shields.io/badge/3397-Maximum_Number_of_Distinct_Elements_After_Operations-yellow)](/problems/3397.md)
 - [![3461](https://img.shields.io/badge/3461-Check_If_Digits_Are_Equal_in_String_After_Operations_I-brightgreen)](/problems/3461.md)
 - [![3477](https://img.shields.io/badge/3477-Fruits_Into_Baskets_II-brightgreen)](/problems/3477.md)
+- [![3512](https://img.shields.io/badge/3512-Minimum_Operations_to_Make_Array_Sum_Divisible_by_K-brightgreen)](/problems/3512.md)
