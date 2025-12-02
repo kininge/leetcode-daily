@@ -13,3 +13,4 @@ Click a problem to view your notes & solution
 - [![3349](https://img.shields.io/badge/3349-Adjacent_Increasing_Subarrays_Detection_I-brightgreen)](/problems/3349.md)
 - [![3354](https://img.shields.io/badge/3354-Make_Array_Elements_Equal_to_Zero-brightgreen)](/problems/3354.md)
 - [![3381](https://img.shields.io/badge/3381-Maximum_Subarray_Sum_With_Length_Divisible_by_K-yellow)](/problems/3381.md)
+- [![3623](https://img.shields.io/badge/3623-Count_Number_of_Trapezoids_I-yellow)](/problems/3623.md)
