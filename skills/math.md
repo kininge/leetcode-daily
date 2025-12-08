@@ -17,6 +17,7 @@ Click a problem to view your notes & solution
 - [![1518](https://img.shields.io/badge/1518-Water_Bottles-brightgreen)](/problems/1518.md)
 - [![1523](https://img.shields.io/badge/1523-Count_Odd_Numbers_in_an_Interval_Range-brightgreen)](/problems/1523.md)
 - [![1716](https://img.shields.io/badge/1716-Calculate_Money_in_Leetcode_Bank-brightgreen)](/problems/1716.md)
+- [![1925](https://img.shields.io/badge/1925-Count_Square_Sum_Triples-brightgreen)](/problems/1925.md)
 - [![2048](https://img.shields.io/badge/2048-Next_Greater_Numerically_Balanced_Number-yellow)](/problems/2048.md)
 - [![2169](https://img.shields.io/badge/2169-Count_Operations_to_Obtain_Zero-brightgreen)](/problems/2169.md)
 - [![2221](https://img.shields.io/badge/2221-Find_Triangular_Sum_of_an_Array-yellow)](/problems/2221.md)
