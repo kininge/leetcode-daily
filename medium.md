@@ -51,5 +51,6 @@ Click a problem to view your notes & solution.
 - [![3408](https://img.shields.io/badge/3408-Design_Task_Manager-yellow)](/problems/3408.md)
 - [![3446](https://img.shields.io/badge/3446-Sort_Matrix_by_Diagonals-yellow)](/problems/3446.md)
 - [![3484](https://img.shields.io/badge/3484-Design_Spreadsheet-yellow)](/problems/3484.md)
+- [![3531](https://img.shields.io/badge/3531-Count_Covered_Buildings-yellow)](/problems/3531.md)
 - [![3607](https://img.shields.io/badge/3607-Power_Grid_Maintenance-yellow)](/problems/3607.md)
 - [![3623](https://img.shields.io/badge/3623-Count_Number_of_Trapezoids_I-yellow)](/problems/3623.md)

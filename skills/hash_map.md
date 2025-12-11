@@ -20,5 +20,6 @@ Click a problem to view your notes & solution
 - [![3347](https://img.shields.io/badge/3347-Maximum_Frequency_of_an_Element_After_Performing_Operations_II-red)](/problems/3347.md)
 - [![3408](https://img.shields.io/badge/3408-Design_Task_Manager-yellow)](/problems/3408.md)
 - [![3484](https://img.shields.io/badge/3484-Design_Spreadsheet-yellow)](/problems/3484.md)
+- [![3531](https://img.shields.io/badge/3531-Count_Covered_Buildings-yellow)](/problems/3531.md)
 - [![3541](https://img.shields.io/badge/3541-Find_Most_Frequent_Vowel_and_Consonant-brightgreen)](/problems/3541.md)
 - [![3623](https://img.shields.io/badge/3623-Count_Number_of_Trapezoids_I-yellow)](/problems/3623.md)
