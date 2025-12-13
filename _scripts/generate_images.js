@@ -31,7 +31,7 @@ const totalCardImage = `<svg xmlns="http://www.w3.org/2000/svg" width="${totalCa
     <!-- total problems solved -->
     <text font-size="${totalCardPrimaryTextFontSize}" font-weight="600" font-family="${fontfamily}" fill="${primaryTextColor}" dominant-baseline="end">${totalSolvedProblems}</text>
     <!-- total problems -->
-    <text font-size="${totalCardSecondaryTextFontSize}" font-weight="600" font-family="${fontfamily}" fill="${secondaryTextColor}" dominant-baseline="end" dx="80">/ ${totalProblems}</text>
+    <text font-size="${totalCardSecondaryTextFontSize}" font-weight="600" font-family="${fontfamily}" fill="${secondaryTextColor}" dominant-baseline="end" dx="100">/ ${totalProblems}</text>
   </g>
 
   <!-- horizontal bar represents each section problem solved -->
