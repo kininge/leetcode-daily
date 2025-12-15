@@ -16,6 +16,7 @@ Click a problem to view your notes & solution
 - [![1493](https://img.shields.io/badge/1493-Longest_Subarray_of_1s_After_Deleting_One_Element-yellow)](/problems/1493.md)
 - [![1526](https://img.shields.io/badge/1526-Minimum_Number_of_Increments_on_Subarrays_to_Form_a_Target_Array-red)](/problems/1526.md)
 - [![2106](https://img.shields.io/badge/2106-Maximum_Fruits_Harvested_After_at_Most_K_Steps-red)](/problems/2106.md)
+- [![2110](https://img.shields.io/badge/2110-Number_of_Smooth_Descent_Periods_of_a_Stock-yellow)](/problems/2110.md)
 - [![2125](https://img.shields.io/badge/2125-Number_of_Laser_Beams_in_a_Bank-yellow)](/problems/2125.md)
 - [![2221](https://img.shields.io/badge/2221-Find_Triangular_Sum_of_an_Array-yellow)](/problems/2221.md)
 - [![2348](https://img.shields.io/badge/2348-Number_of_Zero_Filled_Subarrays-yellow)](/problems/2348.md)
