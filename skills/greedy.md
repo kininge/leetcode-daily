@@ -13,6 +13,7 @@ Click a problem to view your notes & solution
 - [![1526](https://img.shields.io/badge/1526-Minimum_Number_of_Increments_on_Subarrays_to_Form_a_Target_Array-red)](/problems/1526.md)
 - [![1578](https://img.shields.io/badge/1578-Minimum_Time_to_Make_Rope_Colorful-yellow)](/problems/1578.md)
 - [![1792](https://img.shields.io/badge/1792-Maximum_Average_Pass_Ratio-yellow)](/problems/1792.md)
+- [![2054](https://img.shields.io/badge/2054-Two_Best_Non_Overlapping_Events-yellow)](/problems/2054.md)
 - [![2106](https://img.shields.io/badge/2106-Maximum_Fruits_Harvested_After_at_Most_K_Steps-red)](/problems/2106.md)
 - [![2169](https://img.shields.io/badge/2169-Count_Operations_to_Obtain_Zero-brightgreen)](/problems/2169.md)
 - [![2211](https://img.shields.io/badge/2211-Count_Collisions_on_a_Road-yellow)](/problems/2211.md)

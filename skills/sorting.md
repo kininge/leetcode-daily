@@ -4,6 +4,7 @@ Click a problem to view your notes & solution
 
 - [![611](https://img.shields.io/badge/611-Valid_Triangle_Number-yellow)](/problems/611.md)
 - [![976](https://img.shields.io/badge/976-Largest_Perimeter_Triangle-brightgreen)](/problems/976.md)
+- [![2054](https://img.shields.io/badge/2054-Two_Best_Non_Overlapping_Events-yellow)](/problems/2054.md)
 - [![2300](https://img.shields.io/badge/2300-Successful_Pairs_of_Spells_and_Potions-yellow)](/problems/2300.md)
 - [![2785](https://img.shields.io/badge/2785-Sort_Vowels_in_a_String-yellow)](/problems/2785.md)
 - [![3027](https://img.shields.io/badge/3027-Find_the_Number_of_Ways_to_Place_People_II-red)](/problems/3027.md)
