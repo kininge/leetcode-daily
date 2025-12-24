@@ -19,6 +19,7 @@ Click a problem to view your notes & solution
 - [![2211](https://img.shields.io/badge/2211-Count_Collisions_on_a_Road-yellow)](/problems/2211.md)
 - [![2872](https://img.shields.io/badge/2872-Maximum_Number_of_K_Divisible_Components-red)](/problems/2872.md)
 - [![3027](https://img.shields.io/badge/3027-Find_the_Number_of_Ways_to_Place_People_II-red)](/problems/3027.md)
+- [![3074](https://img.shields.io/badge/3074-Apple_Redistribution_into_Boxes-brightgreen)](/problems/3074.md)
 - [![3100](https://img.shields.io/badge/3100-Water_Bottles_II-yellow)](/problems/3100.md)
 - [![3190](https://img.shields.io/badge/3190-Find_Minimum_Operations_to_Make_All_Elements_Divisible_by_Three-brightgreen)](/problems/3190.md)
 - [![3228](https://img.shields.io/badge/3228-Maximum_Number_of_Operations_to_Move_Ones_to_the_End-yellow)](/problems/3228.md)
