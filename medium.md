@@ -41,6 +41,7 @@ Click a problem to view your notes & solution.
 - [![2787](https://img.shields.io/badge/2787-Ways_to_Express_an_Integer_as_Sum_of_Powers-yellow)](/problems/2787.md)
 - [![3021](https://img.shields.io/badge/3021-Alice_and_Bob_Playing_Flower_Game-yellow)](/problems/3021.md)
 - [![3025](https://img.shields.io/badge/3025-Find_the_Number_of_Ways_to_Place_People_I-yellow)](/problems/3025.md)
+- [![3075](https://img.shields.io/badge/3075-Maximize_Happiness_of_Selected_Children-yellow)](/problems/3075.md)
 - [![3100](https://img.shields.io/badge/3100-Water_Bottles_II-yellow)](/problems/3100.md)
 - [![3147](https://img.shields.io/badge/3147-Taking_Maximum_Energy_From_the_Mystic_Dungeon-yellow)](/problems/3147.md)
 - [![3195](https://img.shields.io/badge/3195-Find_the_Minimum_Area_to_Cover_All_Ones_I-yellow)](/problems/3195.md)
