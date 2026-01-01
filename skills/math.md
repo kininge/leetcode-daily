@@ -2,6 +2,7 @@
 
 Click a problem to view your notes & solution
 
+- [![66](https://img.shields.io/badge/66-Plus_One-brightgreen)](/problems/66.md)
 - [![166](https://img.shields.io/badge/166-Fraction_to_Recurring_Decimal-yellow)](/problems/166.md)
 - [![231](https://img.shields.io/badge/231-Power_of_Two-brightgreen)](/problems/231.md)
 - [![326](https://img.shields.io/badge/326-Power_of_Three-brightgreen)](/problems/326.md)
