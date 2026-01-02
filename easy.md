@@ -10,6 +10,7 @@ Click a problem to view your notes & solution.
 - [![717](https://img.shields.io/badge/717-1_bit_and_2_bit_Characters-brightgreen)](/problems/717.md)
 - [![812](https://img.shields.io/badge/812-Largest_Triangle_Area-brightgreen)](/problems/812.md)
 - [![944](https://img.shields.io/badge/944-Delete_Columns_to_Make_Sorted-brightgreen)](/problems/944.md)
+- [![961](https://img.shields.io/badge/961-N_Repeated_Element_in_Size_2N_Array-brightgreen)](/problems/961.md)
 - [![976](https://img.shields.io/badge/976-Largest_Perimeter_Triangle-brightgreen)](/problems/976.md)
 - [![1018](https://img.shields.io/badge/1018-Binary_Prefix_Divisible_By_5-brightgreen)](/problems/1018.md)
 - [![1304](https://img.shields.io/badge/1304-Find_N_Unique_Integers_Sum_up_to_Zero-brightgreen)](/problems/1304.md)
