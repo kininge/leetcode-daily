@@ -8,6 +8,7 @@ Click a problem to view your notes & solution
 - [![326](https://img.shields.io/badge/326-Power_of_Three-brightgreen)](/problems/326.md)
 - [![342](https://img.shields.io/badge/342-Power_of_Four-brightgreen)](/problems/342.md)
 - [![679](https://img.shields.io/badge/679-24_Game-red)](/problems/679.md)
+- [![693](https://img.shields.io/badge/693-Binary_Number_with_Alternating_Bits-brightgreen)](/problems/693.md)
 - [![812](https://img.shields.io/badge/812-Largest_Triangle_Area-brightgreen)](/problems/812.md)
 - [![961](https://img.shields.io/badge/961-N_Repeated_Element_in_Size_2N_Array-brightgreen)](/problems/961.md)
 - [![1015](https://img.shields.io/badge/1015-Smallest_Integer_Divisible_by_K-yellow)](/problems/1015.md)
