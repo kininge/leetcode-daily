@@ -6,6 +6,7 @@ Click a problem to view your notes & solution
 - [![342](https://img.shields.io/badge/342-Power_of_Four-brightgreen)](/problems/342.md)
 - [![693](https://img.shields.io/badge/693-Binary_Number_with_Alternating_Bits-brightgreen)](/problems/693.md)
 - [![717](https://img.shields.io/badge/717-1_bit_and_2_bit_Characters-brightgreen)](/problems/717.md)
+- [![868](https://img.shields.io/badge/868-Binary_Gap-brightgreen)](/problems/868.md)
 - [![869](https://img.shields.io/badge/869-Reordered_Power_of_2-yellow)](/problems/869.md)
 - [![898](https://img.shields.io/badge/898-Bitwise_ORs_of_Subarrays-yellow)](/problems/898.md)
 - [![1018](https://img.shields.io/badge/1018-Binary_Prefix_Divisible_By_5-brightgreen)](/problems/1018.md)
