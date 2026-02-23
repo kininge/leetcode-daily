@@ -7,6 +7,7 @@ Click a problem to view your notes & solution
 - [![696](https://img.shields.io/badge/696-Count_Binary_Substrings-brightgreen)](/problems/696.md)
 - [![944](https://img.shields.io/badge/944-Delete_Columns_to_Make_Sorted-brightgreen)](/problems/944.md)
 - [![1323](https://img.shields.io/badge/1323-Maximum_69_Number-brightgreen)](/problems/1323.md)
+- [![1461](https://img.shields.io/badge/1461-Check_If_a_String_Contains_All_Binary_Codes_of_Size_K-yellow)](/problems/1461.md)
 - [![1578](https://img.shields.io/badge/1578-Minimum_Time_to_Make_Rope_Colorful-yellow)](/problems/1578.md)
 - [![1930](https://img.shields.io/badge/1930-Unique_Length_3_Palindromic_Subsequences-yellow)](/problems/1930.md)
 - [![1935](https://img.shields.io/badge/1935-Maximum_Number_of_Words_You_Can_Type-brightgreen)](/problems/1935.md)
