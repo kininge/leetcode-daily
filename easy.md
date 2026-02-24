@@ -16,6 +16,7 @@ Click a problem to view your notes & solution.
 - [![961](https://img.shields.io/badge/961-N_Repeated_Element_in_Size_2N_Array-brightgreen)](/problems/961.md)
 - [![976](https://img.shields.io/badge/976-Largest_Perimeter_Triangle-brightgreen)](/problems/976.md)
 - [![1018](https://img.shields.io/badge/1018-Binary_Prefix_Divisible_By_5-brightgreen)](/problems/1018.md)
+- [![1022](https://img.shields.io/badge/1022-Sum_of_Root_To_Leaf_Binary_Numbers-brightgreen)](/problems/1022.md)
 - [![1304](https://img.shields.io/badge/1304-Find_N_Unique_Integers_Sum_up_to_Zero-brightgreen)](/problems/1304.md)
 - [![1317](https://img.shields.io/badge/1317-Convert_Integer_to_the_Sum_of_Two_No_Zero_Integers-brightgreen)](/problems/1317.md)
 - [![1323](https://img.shields.io/badge/1323-Maximum_69_Number-brightgreen)](/problems/1323.md)
