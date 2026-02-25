@@ -21,6 +21,7 @@ Click a problem to view your notes & solution.
 - [![1317](https://img.shields.io/badge/1317-Convert_Integer_to_the_Sum_of_Two_No_Zero_Integers-brightgreen)](/problems/1317.md)
 - [![1323](https://img.shields.io/badge/1323-Maximum_69_Number-brightgreen)](/problems/1323.md)
 - [![1351](https://img.shields.io/badge/1351-Count_Negative_Numbers_in_a_Sorted_Matrix-brightgreen)](/problems/1351.md)
+- [![1356](https://img.shields.io/badge/1356-Sort_Integers_by_The_Number_of_1_Bits-brightgreen)](/problems/1356.md)
 - [![1437](https://img.shields.io/badge/1437-Check_If_All_1s_Are_at_Least_Length_K_Places_Away-brightgreen)](/problems/1437.md)
 - [![1518](https://img.shields.io/badge/1518-Water_Bottles-brightgreen)](/problems/1518.md)
 - [![1523](https://img.shields.io/badge/1523-Count_Odd_Numbers_in_an_Interval_Range-brightgreen)](/problems/1523.md)
