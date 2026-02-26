@@ -7,6 +7,7 @@ Click a problem to view your notes & solution
 - [![976](https://img.shields.io/badge/976-Largest_Perimeter_Triangle-brightgreen)](/problems/976.md)
 - [![1262](https://img.shields.io/badge/1262-Greatest_Sum_Divisible_by_Three-yellow)](/problems/1262.md)
 - [![1323](https://img.shields.io/badge/1323-Maximum_69_Number-brightgreen)](/problems/1323.md)
+- [![1404](https://img.shields.io/badge/1404-Number_of_Steps_to_Reduce_a_Number_in_Binary_Representation_to_One-yellow)](/problems/1404.md)
 - [![1437](https://img.shields.io/badge/1437-Check_If_All_1s_Are_at_Least_Length_K_Places_Away-brightgreen)](/problems/1437.md)
 - [![1488](https://img.shields.io/badge/1488-Avoid_Flood_in_The_City-yellow)](/problems/1488.md)
 - [![1518](https://img.shields.io/badge/1518-Water_Bottles-brightgreen)](/problems/1518.md)

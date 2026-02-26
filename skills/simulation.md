@@ -5,6 +5,7 @@ Click a problem to view your notes & solution
 - [![165](https://img.shields.io/badge/165-Compare_Version_Numbers-yellow)](/problems/165.md)
 - [![166](https://img.shields.io/badge/166-Fraction_to_Recurring_Decimal-yellow)](/problems/166.md)
 - [![498](https://img.shields.io/badge/498-Diagonal_Traverse-yellow)](/problems/498.md)
+- [![1404](https://img.shields.io/badge/1404-Number_of_Steps_to_Reduce_a_Number_in_Binary_Representation_to_One-yellow)](/problems/1404.md)
 - [![1488](https://img.shields.io/badge/1488-Avoid_Flood_in_The_City-yellow)](/problems/1488.md)
 - [![1716](https://img.shields.io/badge/1716-Calculate_Money_in_Leetcode_Bank-brightgreen)](/problems/1716.md)
 - [![2011](https://img.shields.io/badge/2011-Final_Value_of_Variable_After_Performing_Operations-brightgreen)](/problems/2011.md)
