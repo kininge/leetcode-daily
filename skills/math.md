@@ -20,6 +20,7 @@ Click a problem to view your notes & solution
 - [![1323](https://img.shields.io/badge/1323-Maximum_69_Number-brightgreen)](/problems/1323.md)
 - [![1518](https://img.shields.io/badge/1518-Water_Bottles-brightgreen)](/problems/1518.md)
 - [![1523](https://img.shields.io/badge/1523-Count_Odd_Numbers_in_an_Interval_Range-brightgreen)](/problems/1523.md)
+- [![1689](https://img.shields.io/badge/1689-Partitioning_Into_Minimum_Number_Of_Deci-Binary_Numbers-yellow)](/problems/1689.md)
 - [![1716](https://img.shields.io/badge/1716-Calculate_Money_in_Leetcode_Bank-brightgreen)](/problems/1716.md)
 - [![1925](https://img.shields.io/badge/1925-Count_Square_Sum_Triples-brightgreen)](/problems/1925.md)
 - [![2048](https://img.shields.io/badge/2048-Next_Greater_Numerically_Balanced_Number-yellow)](/problems/2048.md)
