@@ -14,6 +14,7 @@ Click a problem to view your notes & solution
 - [![1526](https://img.shields.io/badge/1526-Minimum_Number_of_Increments_on_Subarrays_to_Form_a_Target_Array-red)](/problems/1526.md)
 - [![1578](https://img.shields.io/badge/1578-Minimum_Time_to_Make_Rope_Colorful-yellow)](/problems/1578.md)
 - [![1689](https://img.shields.io/badge/1689-Partitioning_Into_Minimum_Number_Of_Deci-Binary_Numbers-yellow)](/problems/1689.md)
+- [![1758](https://img.shields.io/badge/1758-Minimum_Changes_To_Make_Alternating_Binary_String-brightgreen)](/problems/1758.md)
 - [![1792](https://img.shields.io/badge/1792-Maximum_Average_Pass_Ratio-yellow)](/problems/1792.md)
 - [![2054](https://img.shields.io/badge/2054-Two_Best_Non_Overlapping_Events-yellow)](/problems/2054.md)
 - [![2106](https://img.shields.io/badge/2106-Maximum_Fruits_Harvested_After_at_Most_K_Steps-red)](/problems/2106.md)

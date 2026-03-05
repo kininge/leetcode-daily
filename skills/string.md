@@ -11,6 +11,7 @@ Click a problem to view your notes & solution
 - [![1461](https://img.shields.io/badge/1461-Check_If_a_String_Contains_All_Binary_Codes_of_Size_K-yellow)](/problems/1461.md)
 - [![1578](https://img.shields.io/badge/1578-Minimum_Time_to_Make_Rope_Colorful-yellow)](/problems/1578.md)
 - [![1689](https://img.shields.io/badge/1689-Partitioning_Into_Minimum_Number_Of_Deci-Binary_Numbers-yellow)](/problems/1689.md)
+- [![1758](https://img.shields.io/badge/1758-Minimum_Changes_To_Make_Alternating_Binary_String-brightgreen)](/problems/1758.md)
 - [![1930](https://img.shields.io/badge/1930-Unique_Length_3_Palindromic_Subsequences-yellow)](/problems/1930.md)
 - [![1935](https://img.shields.io/badge/1935-Maximum_Number_of_Words_You_Can_Type-brightgreen)](/problems/1935.md)
 - [![2011](https://img.shields.io/badge/2011-Final_Value_of_Variable_After_Performing_Operations-brightgreen)](/problems/2011.md)
