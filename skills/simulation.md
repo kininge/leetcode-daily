@@ -8,6 +8,7 @@ Click a problem to view your notes & solution
 - [![1404](https://img.shields.io/badge/1404-Number_of_Steps_to_Reduce_a_Number_in_Binary_Representation_to_One-yellow)](/problems/1404.md)
 - [![1488](https://img.shields.io/badge/1488-Avoid_Flood_in_The_City-yellow)](/problems/1488.md)
 - [![1716](https://img.shields.io/badge/1716-Calculate_Money_in_Leetcode_Bank-brightgreen)](/problems/1716.md)
+- [![1914](https://img.shields.io/badge/1914-Cyclically_Rotating_a_Grid-yellow)](/problems/1914.md)
 - [![2011](https://img.shields.io/badge/2011-Final_Value_of_Variable_After_Performing_Operations-brightgreen)](/problems/2011.md)
 - [![2154](https://img.shields.io/badge/2154-Keep_Multiplying_Found_Values_by_Two-brightgreen)](/problems/2154.md)
 - [![2169](https://img.shields.io/badge/2169-Count_Operations_to_Obtain_Zero-brightgreen)](/problems/2169.md)
