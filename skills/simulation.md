@@ -15,6 +15,7 @@ Click a problem to view your notes & solution
 - [![2211](https://img.shields.io/badge/2211-Count_Collisions_on_a_Road-yellow)](/problems/2211.md)
 - [![2221](https://img.shields.io/badge/2221-Find_Triangular_Sum_of_an_Array-yellow)](/problems/2221.md)
 - [![2257](https://img.shields.io/badge/2257-Count_Unguarded_Cells_in_the_Grid-yellow)](/problems/2257.md)
+- [![2553](https://img.shields.io/badge/2553-Separate_the_Digits_in_an_Array-brightgreen)](/problems/2553.md)
 - [![3100](https://img.shields.io/badge/3100-Water_Bottles_II-yellow)](/problems/3100.md)
 - [![3354](https://img.shields.io/badge/3354-Make_Array_Elements_Equal_to_Zero-brightgreen)](/problems/3354.md)
 - [![3433](https://img.shields.io/badge/3433-Count_Mentions_Per_User-yellow)](/problems/3433.md)
