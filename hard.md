@@ -7,6 +7,7 @@ Click a problem to view your notes & solution.
 - [![407](https://img.shields.io/badge/407-Trapping_Rain_Water_II-red)](/problems/407.md)
 - [![679](https://img.shields.io/badge/679-24_Game-red)](/problems/679.md)
 - [![1526](https://img.shields.io/badge/1526-Minimum_Number_of_Increments_on_Subarrays_to_Form_a_Target_Array-red)](/problems/1526.md)
+- [![1665](https://img.shields.io/badge/1665-Minimum_Initial_Energy_to_Finish_Tasks-red)](/problems/1665.md)
 - [![2106](https://img.shields.io/badge/2106-Maximum_Fruits_Harvested_After_at_Most_K_Steps-red)](/problems/2106.md)
 - [![2435](https://img.shields.io/badge/2435-Paths_in_Matrix_Whose_Sum_Is_Divisible_by_K-red)](/problems/2435.md)
 - [![2872](https://img.shields.io/badge/2872-Maximum_Number_of_K_Divisible_Components-red)](/problems/2872.md)
