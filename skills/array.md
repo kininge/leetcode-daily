@@ -27,6 +27,7 @@ Click a problem to view your notes & solution
 - [![2411](https://img.shields.io/badge/2411-Smallest_Subarrays_With_Maximum_Bitwise_OR-yellow)](/problems/2411.md)
 - [![2419](https://img.shields.io/badge/2419-Longest_Subarray_With_Maximum_Bitwise_AND-yellow)](/problems/2419.md)
 - [![2553](https://img.shields.io/badge/2553-Separate_the_Digits_in_an_Array-brightgreen)](/problems/2553.md)
+- [![2784](https://img.shields.io/badge/2784-Check_if_Array_is_Good-brightgreen)](/problems/2784.md)
 - [![3000](https://img.shields.io/badge/3000-Maximum_Area_of_Longest_Diagonal_Rectangle-brightgreen)](/problems/3000.md)
 - [![3005](https://img.shields.io/badge/3005-Count_Elements_With_Maximum_Frequency-brightgreen)](/problems/3005.md)
 - [![3190](https://img.shields.io/badge/3190-Find_Minimum_Operations_to_Make_All_Elements_Divisible_by_Three-brightgreen)](/problems/3190.md)

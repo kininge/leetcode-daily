@@ -36,6 +36,7 @@ Click a problem to view your notes & solution.
 - [![2264](https://img.shields.io/badge/2264-Largest_3_Same_Digit_Number_in_String-brightgreen)](/problems/2264.md)
 - [![2273](https://img.shields.io/badge/2273-Find_Resultant_Array_After_Removing_Anagrams-brightgreen)](/problems/2273.md)
 - [![2553](https://img.shields.io/badge/2553-Separate_the_Digits_in_an_Array-brightgreen)](/problems/2553.md)
+- [![2784](https://img.shields.io/badge/2784-Check_if_Array_is_Good-brightgreen)](/problems/2784.md)
 - [![3000](https://img.shields.io/badge/3000-Maximum_Area_of_Longest_Diagonal_Rectangle-brightgreen)](/problems/3000.md)
 - [![3005](https://img.shields.io/badge/3005-Count_Elements_With_Maximum_Frequency-brightgreen)](/problems/3005.md)
 - [![3074](https://img.shields.io/badge/3074-Apple_Redistribution_into_Boxes-brightgreen)](/problems/3074.md)
