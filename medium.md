@@ -5,6 +5,7 @@ Click a problem to view your notes & solution.
 - [![11](https://img.shields.io/badge/11-Container_With_Most_Water-yellow)](/problems/11.md)
 - [![36](https://img.shields.io/badge/36-Valid_Sudoku-yellow)](/problems/36.md)
 - [![120](https://img.shields.io/badge/120-Triangle-yellow)](/problems/120.md)
+- [![153](https://img.shields.io/badge/153-Find_Minimum_in_Rotated_Sorted_Array-yellow)](/problems/153.md)
 - [![165](https://img.shields.io/badge/165-Compare_Version_Numbers-yellow)](/problems/165.md)
 - [![166](https://img.shields.io/badge/166-Fraction_to_Recurring_Decimal-yellow)](/problems/166.md)
 - [![474](https://img.shields.io/badge/474-Ones_and_Zeroes-yellow)](/problems/474.md)

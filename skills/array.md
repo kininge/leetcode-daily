@@ -5,6 +5,7 @@ Click a problem to view your notes & solution
 - [![66](https://img.shields.io/badge/66-Plus_One-brightgreen)](/problems/66.md)
 - [![118](https://img.shields.io/badge/118-Pascals_Triangle-brightgreen)](/problems/118.md)
 - [![120](https://img.shields.io/badge/120-Triangle-yellow)](/problems/120.md)
+- [![153](https://img.shields.io/badge/153-Find_Minimum_in_Rotated_Sorted_Array-yellow)](/problems/153.md)
 - [![498](https://img.shields.io/badge/498-Diagonal_Traverse-yellow)](/problems/498.md)
 - [![717](https://img.shields.io/badge/717-1_bit_and_2_bit_Characters-brightgreen)](/problems/717.md)
 - [![869](https://img.shields.io/badge/869-Reordered_Power_of_2-yellow)](/problems/869.md)
