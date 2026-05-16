@@ -4,6 +4,7 @@ Click a problem to view your notes & solution.
 
 - [![37](https://img.shields.io/badge/37-Sudoku_Solver-red)](/problems/37.md)
 - [![85](https://img.shields.io/badge/85-Maximal_Rectangle-red)](/problems/85.md)
+- [![154](https://img.shields.io/badge/154-Find_Minimum_in_Rotated_Sorted_Array_II-red)](/problems/154.md)
 - [![407](https://img.shields.io/badge/407-Trapping_Rain_Water_II-red)](/problems/407.md)
 - [![679](https://img.shields.io/badge/679-24_Game-red)](/problems/679.md)
 - [![1526](https://img.shields.io/badge/1526-Minimum_Number_of_Increments_on_Subarrays_to_Form_a_Target_Array-red)](/problems/1526.md)
