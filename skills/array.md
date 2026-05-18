@@ -16,6 +16,7 @@ Click a problem to view your notes & solution
 - [![1018](https://img.shields.io/badge/1018-Binary_Prefix_Divisible_By_5-brightgreen)](/problems/1018.md)
 - [![1262](https://img.shields.io/badge/1262-Greatest_Sum_Divisible_by_Three-yellow)](/problems/1262.md)
 - [![1304](https://img.shields.io/badge/1304-Find_N_Unique_Integers_Sum_up_to_Zero-brightgreen)](/problems/1304.md)
+- [![1345](https://img.shields.io/badge/1345-Jump_Game_IV-red)](/problems/1345.md)
 - [![1356](https://img.shields.io/badge/1356-Sort_Integers_by_The_Number_of_1_Bits-brightgreen)](/problems/1356.md)
 - [![1437](https://img.shields.io/badge/1437-Check_If_All_1s_Are_at_Least_Length_K_Places_Away-brightgreen)](/problems/1437.md)
 - [![1493](https://img.shields.io/badge/1493-Longest_Subarray_of_1s_After_Deleting_One_Element-yellow)](/problems/1493.md)
