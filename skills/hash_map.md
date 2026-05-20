@@ -14,6 +14,7 @@ Click a problem to view your notes & solution
 - [![1935](https://img.shields.io/badge/1935-Maximum_Number_of_Words_You_Can_Type-brightgreen)](/problems/1935.md)
 - [![2154](https://img.shields.io/badge/2154-Keep_Multiplying_Found_Values_by_Two-brightgreen)](/problems/2154.md)
 - [![2273](https://img.shields.io/badge/2273-Find_Resultant_Array_After_Removing_Anagrams-brightgreen)](/problems/2273.md)
+- [![2657](https://img.shields.io/badge/2657-Find_the_Prefix_Common_Array_of_Two_Arrays-yellow)](/problems/2657.md)
 - [![2784](https://img.shields.io/badge/2784-Check_if_Array_is_Good-brightgreen)](/problems/2784.md)
 - [![3005](https://img.shields.io/badge/3005-Count_Elements_With_Maximum_Frequency-brightgreen)](/problems/3005.md)
 - [![3217](https://img.shields.io/badge/3217-Delete_Nodes_From_Linked_List_Present_in_Array-yellow)](/problems/3217.md)
