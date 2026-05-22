@@ -4,6 +4,7 @@ Click a problem to view your notes & solution
 
 611,- [![611](https://img.shields.io/badge/611-Valid_Triangle_Number-yellow)](/problems/611.md)
 
+- [![33](https://img.shields.io/badge/33-Search_in_Rotated_Sorted_Array-yellow)](/problems/33.md)
 - [![153](https://img.shields.io/badge/153-Find_Minimum_in_Rotated_Sorted_Array-yellow)](/problems/153.md)
 - [![154](https://img.shields.io/badge/154-Find_Minimum_in_Rotated_Sorted_Array_II-red)](/problems/154.md)
 180,- [![180](https://img.shields.io/badge/180-Pritam_Test-yellow)](/problems/180.md)

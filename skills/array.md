@@ -2,6 +2,7 @@
 
 Click a problem to view your notes & solution
 
+- [![33](https://img.shields.io/badge/33-Search_in_Rotated_Sorted_Array-yellow)](/problems/33.md)
 - [![66](https://img.shields.io/badge/66-Plus_One-brightgreen)](/problems/66.md)
 - [![118](https://img.shields.io/badge/118-Pascals_Triangle-brightgreen)](/problems/118.md)
 - [![120](https://img.shields.io/badge/120-Triangle-yellow)](/problems/120.md)
