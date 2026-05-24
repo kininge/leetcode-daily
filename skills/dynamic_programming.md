@@ -8,6 +8,7 @@ Click a problem to view your notes & solution
 - [![474](https://img.shields.io/badge/474-Ones_and_Zeroes-yellow)](/problems/474.md)
 - [![1262](https://img.shields.io/badge/1262-Greatest_Sum_Divisible_by_Three-yellow)](/problems/1262.md)
 - [![1277](https://img.shields.io/badge/1277-Count_Square_Submatrices_with_All_Ones-yellow)](/problems/1277.md)
+- [![1340](https://img.shields.io/badge/1340-Jump_Game_V-red)](/problems/1340.md)
 - [![1504](https://img.shields.io/badge/1504-Count_Submatrices_With_All_Ones-yellow)](/problems/1504.md)
 - [![2435](https://img.shields.io/badge/2435-Paths_in_Matrix_Whose_Sum_Is_Divisible_by_K-red)](/problems/2435.md)
 - [![2770](https://img.shields.io/badge/2770-Maximum_Number_of_Jumps_to_Reach_the_Last_Index-yellow)](/problems/2770.md)
