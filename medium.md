@@ -27,6 +27,7 @@ Click a problem to view your notes & solution.
 - [![1578](https://img.shields.io/badge/1578-Minimum_Time_to_Make_Rope_Colorful-yellow)](/problems/1578.md)
 - [![1689](https://img.shields.io/badge/1689-Partitioning_Into_Minimum_Number_Of_Deci-Binary_Numbers-yellow)](/problems/1689.md)
 - [![1792](https://img.shields.io/badge/1792-Maximum_Average_Pass_Ratio-yellow)](/problems/1792.md)
+- [![1871](https://img.shields.io/badge/1871-Jump_Game_VII-yellow)](/problems/1871.md)
 - [![1914](https://img.shields.io/badge/1914-Cyclically_Rotating_a_Grid-yellow)](/problems/1914.md)
 - [![1930](https://img.shields.io/badge/1930-Unique_Length_3_Palindromic_Subsequences-yellow)](/problems/1930.md)
 - [![2043](https://img.shields.io/badge/2043-Simple_Bank_System-yellow)](/problems/2043.md)

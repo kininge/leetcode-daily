@@ -10,6 +10,7 @@ Click a problem to view your notes & solution
 - [![1277](https://img.shields.io/badge/1277-Count_Square_Submatrices_with_All_Ones-yellow)](/problems/1277.md)
 - [![1340](https://img.shields.io/badge/1340-Jump_Game_V-red)](/problems/1340.md)
 - [![1504](https://img.shields.io/badge/1504-Count_Submatrices_With_All_Ones-yellow)](/problems/1504.md)
+- [![1871](https://img.shields.io/badge/1871-Jump_Game_VII-yellow)](/problems/1871.md)
 - [![2435](https://img.shields.io/badge/2435-Paths_in_Matrix_Whose_Sum_Is_Divisible_by_K-red)](/problems/2435.md)
 - [![2770](https://img.shields.io/badge/2770-Maximum_Number_of_Jumps_to_Reach_the_Last_Index-yellow)](/problems/2770.md)
 - [![2787](https://img.shields.io/badge/2787-Ways_to_Express_an_Integer_as_Sum_of_Powers-yellow)](/problems/2787.md)
