@@ -21,6 +21,7 @@ Click a problem to view your notes & solution
 - [![2553](https://img.shields.io/badge/2553-Separate_the_Digits_in_an_Array-brightgreen)](/problems/2553.md)
 - [![2785](https://img.shields.io/badge/2785-Sort_Vowels_in_a_String-yellow)](/problems/2785.md)
 - [![3043](https://img.shields.io/badge/3043-Find_the_Length_of_the_Longest_Common_Prefix-yellow)](/problems/3043.md)
+- [![3120](https://img.shields.io/badge/3120-Count_the_Number_of_Special_Characters_I-brightgreen)](/problems/3120.md)
 - [![3228](https://img.shields.io/badge/3228-Maximum_Number_of_Operations_to_Move_Ones_to_the_End-yellow)](/problems/3228.md)
 - [![3541](https://img.shields.io/badge/3541-Find_Most_Frequent_Vowel_and_Consonant-brightgreen)](/problems/3541.md)
 - [![3606](https://img.shields.io/badge/3606-Coupon_Code_Validator-brightgreen)](/problems/3606.md)
