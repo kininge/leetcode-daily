@@ -54,6 +54,7 @@ Click a problem to view your notes & solution.
 - [![3043](https://img.shields.io/badge/3043-Find_the_Length_of_the_Longest_Common_Prefix-yellow)](/problems/3043.md)
 - [![3075](https://img.shields.io/badge/3075-Maximize_Happiness_of_Selected_Children-yellow)](/problems/3075.md)
 - [![3100](https://img.shields.io/badge/3100-Water_Bottles_II-yellow)](/problems/3100.md)
+- [![3121](https://img.shields.io/badge/3121-Count_the_Number_of_Special_Characters_II-yellow)](/problems/3121.md)
 - [![3147](https://img.shields.io/badge/3147-Taking_Maximum_Energy_From_the_Mystic_Dungeon-yellow)](/problems/3147.md)
 - [![3195](https://img.shields.io/badge/3195-Find_the_Minimum_Area_to_Cover_All_Ones_I-yellow)](/problems/3195.md)
 - [![3217](https://img.shields.io/badge/3217-Delete_Nodes_From_Linked_List_Present_in_Array-yellow)](/problems/3217.md)

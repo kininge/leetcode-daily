@@ -39,6 +39,7 @@ Click a problem to view your notes & solution
 - [![3000](https://img.shields.io/badge/3000-Maximum_Area_of_Longest_Diagonal_Rectangle-brightgreen)](/problems/3000.md)
 - [![3005](https://img.shields.io/badge/3005-Count_Elements_With_Maximum_Frequency-brightgreen)](/problems/3005.md)
 - [![3043](https://img.shields.io/badge/3043-Find_the_Length_of_the_Longest_Common_Prefix-yellow)](/problems/3043.md)
+- [![3121](https://img.shields.io/badge/3121-Count_the_Number_of_Special_Characters_II-yellow)](/problems/3121.md)
 - [![3190](https://img.shields.io/badge/3190-Find_Minimum_Operations_to_Make_All_Elements_Divisible_by_Three-brightgreen)](/problems/3190.md)
 - [![3289](https://img.shields.io/badge/3289-The_Two_Sneaky_Numbers_of_Digitville-brightgreen)](/problems/3289.md)
 - [![3318](https://img.shields.io/badge/3318-Find_X_Sum_of_All_K_Long_Subarrays_I-brightgreen)](/problems/3318.md)
