@@ -15,6 +15,7 @@ Click a problem to view your notes & solution.
 - [![2435](https://img.shields.io/badge/2435-Paths_in_Matrix_Whose_Sum_Is_Divisible_by_K-red)](/problems/2435.md)
 - [![2872](https://img.shields.io/badge/2872-Maximum_Number_of_K_Divisible_Components-red)](/problems/2872.md)
 - [![3027](https://img.shields.io/badge/3027-Find_the_Number_of_Ways_to_Place_People_II-red)](/problems/3027.md)
+- [![3093](https://img.shields.io/badge/3093-Longest_Common_Suffix_Queries-red)](/problems/3093.md)
 - [![3321](https://img.shields.io/badge/3321-Find_X_Sum_of_All_K_Long_Subarrays_II-red)](/problems/3321.md)
 - [![3347](https://img.shields.io/badge/3347-Maximum_Frequency_of_an_Element_After_Performing_Operations_II-red)](/problems/3347.md)
 - [![3363](https://img.shields.io/badge/3363-Find_the_Maximum_Number_of_Fruits_Collected-red)](/problems/3363.md)

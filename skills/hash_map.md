@@ -18,6 +18,7 @@ Click a problem to view your notes & solution
 - [![2784](https://img.shields.io/badge/2784-Check_if_Array_is_Good-brightgreen)](/problems/2784.md)
 - [![3005](https://img.shields.io/badge/3005-Count_Elements_With_Maximum_Frequency-brightgreen)](/problems/3005.md)
 - [![3043](https://img.shields.io/badge/3043-Find_the_Length_of_the_Longest_Common_Prefix-yellow)](/problems/3043.md)
+- [![3093](https://img.shields.io/badge/3093-Longest_Common_Suffix_Queries-red)](/problems/3093.md)
 - [![3120](https://img.shields.io/badge/3120-Count_the_Number_of_Special_Characters_I-brightgreen)](/problems/3120.md)
 - [![3121](https://img.shields.io/badge/3121-Count_the_Number_of_Special_Characters_II-yellow)](/problems/3121.md)
 - [![3217](https://img.shields.io/badge/3217-Delete_Nodes_From_Linked_List_Present_in_Array-yellow)](/problems/3217.md)
