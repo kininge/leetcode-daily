@@ -42,6 +42,7 @@ Click a problem to view your notes & solution
 - [![3121](https://img.shields.io/badge/3121-Count_the_Number_of_Special_Characters_II-yellow)](/problems/3121.md)
 - [![3190](https://img.shields.io/badge/3190-Find_Minimum_Operations_to_Make_All_Elements_Divisible_by_Three-brightgreen)](/problems/3190.md)
 - [![3289](https://img.shields.io/badge/3289-The_Two_Sneaky_Numbers_of_Digitville-brightgreen)](/problems/3289.md)
+- [![3300](https://img.shields.io/badge/3300-Minimum_Element_After_Replacement_With_Digit_Sum-brightgreen)](/problems/3300.md)
 - [![3318](https://img.shields.io/badge/3318-Find_X_Sum_of_All_K_Long_Subarrays_I-brightgreen)](/problems/3318.md)
 - [![3349](https://img.shields.io/badge/3349-Adjacent_Increasing_Subarrays_Detection_I-brightgreen)](/problems/3349.md)
 - [![3397](https://img.shields.io/badge/3397-Maximum_Number_of_Distinct_Elements_After_Operations-yellow)](/problems/3397.md)

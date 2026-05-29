@@ -38,6 +38,7 @@ Click a problem to view your notes & solution
 - [![3021](https://img.shields.io/badge/3021-Alice_and_Bob_Playing_Flower_Game-yellow)](/problems/3021.md)
 - [![3100](https://img.shields.io/badge/3100-Water_Bottles_II-yellow)](/problems/3100.md)
 - [![3190](https://img.shields.io/badge/3190-Find_Minimum_Operations_to_Make_All_Elements_Divisible_by_Three-brightgreen)](/problems/3190.md)
+- [![3300](https://img.shields.io/badge/3300-Minimum_Element_After_Replacement_With_Digit_Sum-brightgreen)](/problems/3300.md)
 - [![3354](https://img.shields.io/badge/3354-Make_Array_Elements_Equal_to_Zero-brightgreen)](/problems/3354.md)
 - [![3370](https://img.shields.io/badge/3370-Smallest_Number_With_All_Set_Bits-brightgreen)](/problems/3370.md)
 - [![3432](https://img.shields.io/badge/3432-Count_Partitions_with_Even_Sum_Difference-brightgreen)](/problems/3432.md)
