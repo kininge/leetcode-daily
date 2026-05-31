@@ -35,6 +35,7 @@ Click a problem to view your notes & solution.
 - [![2054](https://img.shields.io/badge/2054-Two_Best_Non_Overlapping_Events-yellow)](/problems/2054.md)
 - [![2110](https://img.shields.io/badge/2110-Number_of_Smooth_Descent_Periods_of_a_Stock-yellow)](/problems/2110.md)
 - [![2125](https://img.shields.io/badge/2125-Number_of_Laser_Beams_in_a_Bank-yellow)](/problems/2125.md)
+- [![2126](https://img.shields.io/badge/2126-Destroying_Asteroids-yellow)](/problems/2126.md)
 - [![2211](https://img.shields.io/badge/2211-Count_Collisions_on_a_Road-yellow)](/problems/2211.md)
 - [![2221](https://img.shields.io/badge/2221-Find_Triangular_Sum_of_an_Array-yellow)](/problems/2221.md)
 - [![2257](https://img.shields.io/badge/2257-Count_Unguarded_Cells_in_the_Grid-yellow)](/problems/2257.md)

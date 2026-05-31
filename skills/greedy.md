@@ -19,6 +19,7 @@ Click a problem to view your notes & solution
 - [![1792](https://img.shields.io/badge/1792-Maximum_Average_Pass_Ratio-yellow)](/problems/1792.md)
 - [![2054](https://img.shields.io/badge/2054-Two_Best_Non_Overlapping_Events-yellow)](/problems/2054.md)
 - [![2106](https://img.shields.io/badge/2106-Maximum_Fruits_Harvested_After_at_Most_K_Steps-red)](/problems/2106.md)
+- [![2126](https://img.shields.io/badge/2126-Destroying_Asteroids-yellow)](/problems/2126.md)
 - [![2169](https://img.shields.io/badge/2169-Count_Operations_to_Obtain_Zero-brightgreen)](/problems/2169.md)
 - [![2211](https://img.shields.io/badge/2211-Count_Collisions_on_a_Road-yellow)](/problems/2211.md)
 - [![2872](https://img.shields.io/badge/2872-Maximum_Number_of_K_Divisible_Components-red)](/problems/2872.md)
