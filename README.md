@@ -23,6 +23,12 @@
 
 ---
 
+## Important Algorithms 
+
+[![Heap](https://img.shields.io/badge/Heap-red)](./algorithams/heap.ts)
+
+---
+
 ⭐ Star this repo if you're on a similar journey!
 
 **Pritam Kininge**
