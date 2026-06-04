@@ -23,3 +23,4 @@ Click a problem to view your notes & solution
 - [![3461](https://img.shields.io/badge/3461-Check_If_Digits_Are_Equal_in_String_After_Operations_I-brightgreen)](/problems/3461.md)
 - [![3516](https://img.shields.io/badge/3516-Find_Closest_Person-brightgreen)](/problems/3516.md)
 - [![3633](https://img.shields.io/badge/3633-Earliest_Finish_Time_for_Land_and_Water_Rides_I-brightgreen)](/problems/3633.md)
+- [![3751](https://img.shields.io/badge/3751-Total_Waviness_of_Numbers_in_Range_I-yellow)](/problems/3751.md)
