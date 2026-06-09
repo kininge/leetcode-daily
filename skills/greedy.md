@@ -36,3 +36,4 @@ Click a problem to view your notes & solution
 - [![3370](https://img.shields.io/badge/3370-Smallest_Number_With_All_Set_Bits-brightgreen)](/problems/3370.md)
 - [![3381](https://img.shields.io/badge/3381-Maximum_Subarray_Sum_With_Length_Divisible_by_K-yellow)](/problems/3381.md)
 - [![3397](https://img.shields.io/badge/3397-Maximum_Number_of_Distinct_Elements_After_Operations-yellow)](/problems/3397.md)
+- [![3689](https://img.shields.io/badge/3689-Maximum_Total_Subarray_Value_I-yellow)](/problems/3689.md)

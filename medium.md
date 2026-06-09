@@ -73,4 +73,5 @@ Click a problem to view your notes & solution.
 - [![3531](https://img.shields.io/badge/3531-Count_Covered_Buildings-yellow)](/problems/3531.md)
 - [![3607](https://img.shields.io/badge/3607-Power_Grid_Maintenance-yellow)](/problems/3607.md)
 - [![3623](https://img.shields.io/badge/3623-Count_Number_of_Trapezoids_I-yellow)](/problems/3623.md)
+- [![3689](https://img.shields.io/badge/3689-Maximum_Total_Subarray_Value_I-yellow)](/problems/3689.md)
 - [![3751](https://img.shields.io/badge/3751-Total_Waviness_of_Numbers_in_Range_I-yellow)](/problems/3751.md)
