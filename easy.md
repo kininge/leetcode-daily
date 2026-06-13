@@ -60,3 +60,4 @@ Click a problem to view your notes & solution.
 - [![3541](https://img.shields.io/badge/3541-Find_Most_Frequent_Vowel_and_Consonant-brightgreen)](/problems/3541.md)
 - [![3606](https://img.shields.io/badge/3606-Coupon_Code_Validator-brightgreen)](/problems/3606.md)
 - [![3633](https://img.shields.io/badge/3633-Earliest_Finish_Time_for_Land_and_Water_Rides_I-brightgreen)](/problems/3633.md)
+- [![3838](https://img.shields.io/badge/3838-Weighted_Word_Mapping-brightgreen)](/problems/3838.md)

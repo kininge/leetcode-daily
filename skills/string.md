@@ -27,3 +27,4 @@ Click a problem to view your notes & solution
 - [![3228](https://img.shields.io/badge/3228-Maximum_Number_of_Operations_to_Move_Ones_to_the_End-yellow)](/problems/3228.md)
 - [![3541](https://img.shields.io/badge/3541-Find_Most_Frequent_Vowel_and_Consonant-brightgreen)](/problems/3541.md)
 - [![3606](https://img.shields.io/badge/3606-Coupon_Code_Validator-brightgreen)](/problems/3606.md)
+- [![3838](https://img.shields.io/badge/3838-Weighted_Word_Mapping-brightgreen)](/problems/3838.md)
