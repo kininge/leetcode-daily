@@ -33,6 +33,7 @@ Click a problem to view your notes & solution.
 - [![2043](https://img.shields.io/badge/2043-Simple_Bank_System-yellow)](/problems/2043.md)
 - [![2048](https://img.shields.io/badge/2048-Next_Greater_Numerically_Balanced_Number-yellow)](/problems/2048.md)
 - [![2054](https://img.shields.io/badge/2054-Two_Best_Non_Overlapping_Events-yellow)](/problems/2054.md)
+- [![2095](https://img.shields.io/badge/2095-Delete_the_Middle_Node_of_a_Linked_List-yellow)](/problems/2095.md)
 - [![2110](https://img.shields.io/badge/2110-Number_of_Smooth_Descent_Periods_of_a_Stock-yellow)](/problems/2110.md)
 - [![2125](https://img.shields.io/badge/2125-Number_of_Laser_Beams_in_a_Bank-yellow)](/problems/2125.md)
 - [![2126](https://img.shields.io/badge/2126-Destroying_Asteroids-yellow)](/problems/2126.md)

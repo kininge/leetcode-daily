@@ -8,6 +8,7 @@ Click a problem to view your notes & solution
 - [![1351](https://img.shields.io/badge/1351-Count_Negative_Numbers_in_a_Sorted_Matrix-brightgreen)](/problems/1351.md)
 - [![1493](https://img.shields.io/badge/1493-Longest_Subarray_of_1s_After_Deleting_One_Element-yellow)](/problems/1493.md)
 - [![1578](https://img.shields.io/badge/1578-Minimum_Time_to_Make_Rope_Colorful-yellow)](/problems/1578.md)
+- [![2095](https://img.shields.io/badge/2095-Delete_the_Middle_Node_of_a_Linked_List-yellow)](/problems/2095.md)
 - [![2211](https://img.shields.io/badge/2211-Count_Collisions_on_a_Road-yellow)](/problems/2211.md)
 - [![2300](https://img.shields.io/badge/2300-Successful_Pairs_of_Spells_and_Potions-yellow)](/problems/2300.md)
 - [![2540](https://img.shields.io/badge/2540-Minimum_Common_Value-brightgreen)](/problems/2540.md)
