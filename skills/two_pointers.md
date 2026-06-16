@@ -14,3 +14,4 @@ Click a problem to view your notes & solution
 - [![2540](https://img.shields.io/badge/2540-Minimum_Common_Value-brightgreen)](/problems/2540.md)
 - [![3346](https://img.shields.io/badge/3346-Maximum_Frequency_of_an_Element_After_Performing_Operations_I-yellow)](/problems/3346.md)
 - [![3347](https://img.shields.io/badge/3347-Maximum_Frequency_of_an_Element_After_Performing_Operations_II-red)](/problems/3347.md)
+- [![3612](https://img.shields.io/badge/3612-Process_String_with_Special_Operations_I-yellow)](/problems/3612.md)
