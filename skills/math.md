@@ -46,3 +46,4 @@ Click a problem to view your notes & solution
 - [![3512](https://img.shields.io/badge/3512-Minimum_Operations_to_Make_Array_Sum_Divisible_by_K-brightgreen)](/problems/3512.md)
 - [![3516](https://img.shields.io/badge/3516-Find_Closest_Person-brightgreen)](/problems/3516.md)
 - [![3623](https://img.shields.io/badge/3623-Count_Number_of_Trapezoids_I-yellow)](/problems/3623.md)
+- [![3737](https://img.shields.io/badge/3737-Count_Subarrays_With_Majority_Element_I-yellow)](/problems/3737.md)

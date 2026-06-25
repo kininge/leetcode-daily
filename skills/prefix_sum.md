@@ -18,3 +18,4 @@ Click a problem to view your notes & solution
 - [![3381](https://img.shields.io/badge/3381-Maximum_Subarray_Sum_With_Length_Divisible_by_K-yellow)](/problems/3381.md)
 - [![3432](https://img.shields.io/badge/3432-Count_Partitions_with_Even_Sum_Difference-brightgreen)](/problems/3432.md)
 - [![3623](https://img.shields.io/badge/3623-Count_Number_of_Trapezoids_I-yellow)](/problems/3623.md)
+- [![3737](https://img.shields.io/badge/3737-Count_Subarrays_With_Majority_Element_I-yellow)](/problems/3737.md)

@@ -78,4 +78,5 @@ Click a problem to view your notes & solution.
 - [![3612](https://img.shields.io/badge/3612-Process_String_with_Special_Operations_I-yellow)](/problems/3612.md)
 - [![3623](https://img.shields.io/badge/3623-Count_Number_of_Trapezoids_I-yellow)](/problems/3623.md)
 - [![3689](https://img.shields.io/badge/3689-Maximum_Total_Subarray_Value_I-yellow)](/problems/3689.md)
+- [![3737](https://img.shields.io/badge/3737-Count_Subarrays_With_Majority_Element_I-yellow)](/problems/3737.md)
 - [![3751](https://img.shields.io/badge/3751-Total_Waviness_of_Numbers_in_Range_I-yellow)](/problems/3751.md)
