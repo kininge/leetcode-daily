@@ -3,6 +3,7 @@
 Click a problem to view your notes & solution
 
 - [![904](https://img.shields.io/badge/904-Fruit_Into_Baskets-yellow)](/problems/904.md)
+- [![1358](https://img.shields.io/badge/1358-Number_of_Substrings_Containing_All_Three_Characters-yellow)](/problems/1358.md)
 - [![1461](https://img.shields.io/badge/1461-Check_If_a_String_Contains_All_Binary_Codes_of_Size_K-yellow)](/problems/1461.md)
 - [![1493](https://img.shields.io/badge/1493-Longest_Subarray_of_1s_After_Deleting_One_Element-yellow)](/problems/1493.md)
 - [![1871](https://img.shields.io/badge/1871-Jump_Game_VII-yellow)](/problems/1871.md)
