@@ -56,6 +56,7 @@ Click a problem to view your notes & solution.
 - [![2770](https://img.shields.io/badge/2770-Maximum_Number_of_Jumps_to_Reach_the_Last_Index-yellow)](/problems/2770.md)
 - [![2785](https://img.shields.io/badge/2785-Sort_Vowels_in_a_String-yellow)](/problems/2785.md)
 - [![2787](https://img.shields.io/badge/2787-Ways_to_Express_an_Integer_as_Sum_of_Powers-yellow)](/problems/2787.md)
+- [![2812](https://img.shields.io/badge/2812-Find_the_Safest_Path_in_a_Grid-yellow)](/problems/2812.md)
 - [![3021](https://img.shields.io/badge/3021-Alice_and_Bob_Playing_Flower_Game-yellow)](/problems/3021.md)
 - [![3025](https://img.shields.io/badge/3025-Find_the_Number_of_Ways_to_Place_People_I-yellow)](/problems/3025.md)
 - [![3043](https://img.shields.io/badge/3043-Find_the_Length_of_the_Longest_Common_Prefix-yellow)](/problems/3043.md)

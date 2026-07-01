@@ -17,6 +17,7 @@ Click a problem to view your notes & solution
 - [![2257](https://img.shields.io/badge/2257-Count_Unguarded_Cells_in_the_Grid-yellow)](/problems/2257.md)
 - [![2435](https://img.shields.io/badge/2435-Paths_in_Matrix_Whose_Sum_Is_Divisible_by_K-red)](/problems/2435.md)
 - [![2536](https://img.shields.io/badge/2536-Increment_Submatrices_by_One-yellow)](/problems/2536.md)
+- [![2812](https://img.shields.io/badge/2812-Find_the_Safest_Path_in_a_Grid-yellow)](/problems/2812.md)
 - [![3195](https://img.shields.io/badge/3195-Find_the_Minimum_Area_to_Cover_All_Ones_I-yellow)](/problems/3195.md)
 - [![3363](https://img.shields.io/badge/3363-Find_the_Maximum_Number_of_Fruits_Collected-red)](/problems/3363.md)
 - [![3446](https://img.shields.io/badge/3446-Sort_Matrix_by_Diagonals-yellow)](/problems/3446.md)
