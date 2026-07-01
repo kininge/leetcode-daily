@@ -1,4 +1,4 @@
-class CHeap{
+class MyHeap{
     _heap = []; // heap is complete-binery-tree - We can represent this as array
 
     // This function 'True' if argument1 more prior than argument2 node
