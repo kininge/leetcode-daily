@@ -4,59 +4,65 @@ type NODE<T> = {
     val: T;
 }
 class MyQueue<T> {
-    head: NODE<T>;
-    tail: NODE<T>;
+    private _size:number;
+    private _head: NODE<T> | null;
+    private _tail: NODE<T> | null;
 
     constructor(){
-        this.head = null;
-        this.tail = null;
+        this._size = 0;
+        this._head = null;
+        this._tail = null;
     }
 
     // add at end
-    append(val: T): void {
-        const newNode: NODE<T> = { next: null, prev: null, val };
-        // first node case 
-        if(this.head === null){
-            this.head = newNode;
-            this.tail = newNode;
-        } 
-        // single node 
-        else if(this.head.next === null){
-            newNode.prev = this.head;
-            this.head.next = newNode;
+    enqueue(val: T): void {
+        const newNode: NODE<T> = {
+            next: null,
+            prev: this._tail,
+            val
+        };
 
-            this.tail = newNode;
+        if (this._tail) {
+            this._tail.next = newNode;
+        } else {
+            this._head = newNode;
         }
-        // add after tail
-        else {
-            newNode.prev = this.tail;
-            this.tail.next = newNode;
-            
-            this.tail = newNode;
-        }
+
+        this._tail = newNode;
+        this._size++;
     }
 
     // remove first
-    pop(): T|null {
+    dequeue(): T|null {
         let headNodeVal: T|null = null;
 
-        if(this.head){
-            headNodeVal = this.head.val;
-            this.head = this.head.next; // head change
+        if(this._head){
+            headNodeVal = this._head.val;
+            this._head = this._head.next; // head change
             
             // if we just have 1 node
-            if(this.head === null){
-                this.tail = null;
+            if(this._head === null){
+                this._tail = null;
             } else {
-                this.head.prev = null;
+                this._head.prev = null;
             }
+
+            this._size--;
         }
 
         return headNodeVal;
     }
 
     // check head
-    peak(){
-        return this.head;
+    peek(): T | null {
+        return this._head ? this._head.val : null;
+    }
+
+    isEmpty(): boolean{
+        return this._head === null;
+    }
+
+    size(): number{
+        return this._size;
     }
 }
