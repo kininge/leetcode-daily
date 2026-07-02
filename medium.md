@@ -67,6 +67,7 @@ Click a problem to view your notes & solution.
 - [![3195](https://img.shields.io/badge/3195-Find_the_Minimum_Area_to_Cover_All_Ones_I-yellow)](/problems/3195.md)
 - [![3217](https://img.shields.io/badge/3217-Delete_Nodes_From_Linked_List_Present_in_Array-yellow)](/problems/3217.md)
 - [![3228](https://img.shields.io/badge/3228-Maximum_Number_of_Operations_to_Move_Ones_to_the_End-yellow)](/problems/3228.md)
+- [![3286](https://img.shields.io/badge/3286-Find_a_Safe_Walk_Through_a_Grid-yellow)](/problems/3286.md)
 - [![3346](https://img.shields.io/badge/3346-Maximum_Frequency_of_an_Element_After_Performing_Operations_I-yellow)](/problems/3346.md)
 - [![3350](https://img.shields.io/badge/3350-Adjacent_Increasing_Subarrays_Detection_II-yellow)](/problems/3350.md)
 - [![3381](https://img.shields.io/badge/3381-Maximum_Subarray_Sum_With_Length_Divisible_by_K-yellow)](/problems/3381.md)
