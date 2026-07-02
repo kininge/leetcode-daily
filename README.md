@@ -31,7 +31,7 @@
 
 ## 🧠 Decision Handbook
 
-[![Pattern Recognition](https://img.shields.io/badge/Decision-Handbook-green?style=for-the-badge)](./Pattern Recognition/Pattern Recognition Handbook.md)
+[![Pattern Recognition](https://img.shields.io/badge/Decision-Handbook-green?style=for-the-badge)](decision-handbook.md)
 
 ---
 
