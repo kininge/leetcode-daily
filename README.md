@@ -29,6 +29,12 @@
 
 ---
 
+## 🧠 Decision Handbook
+
+[![Pattern Recognition](https://img.shields.io/badge/Decision-Handbook-green?style=for-the-badge)](./Pattern Recognition/Pattern Recognition Handbook.md)
+
+---
+
 ⭐ Star this repo if you're on a similar journey!
 
 **Pritam Kininge**
