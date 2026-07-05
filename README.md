@@ -25,7 +25,7 @@
 
 ## Important Algorithms 
 
-[![Heap](https://img.shields.io/badge/Heap-red)](./algorithams/heap.ts) [![Queue](https://img.shields.io/badge/Queue-red)](./algorithams/queue.ts)
+[![Heap](https://img.shields.io/badge/Heap-red)](./algorithams/heap.ts) [![Queue](https://img.shields.io/badge/Queue-red)](./algorithams/queue.ts) [![Union Find](https://img.shields.io/badge/union-find-red)](./algorithams/union-find.ts)
 
 ---
 
