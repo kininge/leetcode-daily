@@ -50,6 +50,7 @@ Click a problem to view your notes & solution.
 - [![2411](https://img.shields.io/badge/2411-Smallest_Subarrays_With_Maximum_Bitwise_OR-yellow)](/problems/2411.md)
 - [![2419](https://img.shields.io/badge/2419-Longest_Subarray_With_Maximum_Bitwise_AND-yellow)](/problems/2419.md)
 - [![2438](https://img.shields.io/badge/2438-Range_Product_Queries_of_Powers-yellow)](/problems/2438.md)
+- [![2492](https://img.shields.io/badge/2492-Minimum_Score_of_a_Path_Between_Two_Cities-yellow)](/problems/2492.md)
 - [![2536](https://img.shields.io/badge/2536-Increment_Submatrices_by_One-yellow)](/problems/2536.md)
 - [![2654](https://img.shields.io/badge/2654-Minimum_Number_of_Operations_to_Make_All_Array_Elements_Equal_to_1-yellow)](/problems/2654.md)
 - [![2657](https://img.shields.io/badge/2657-Find_the_Prefix_Common_Array_of_Two_Arrays-yellow)](/problems/2657.md)
