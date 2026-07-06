@@ -19,6 +19,7 @@ Click a problem to view your notes & solution.
 - [![1161](https://img.shields.io/badge/1161-Maximum_Level_Sum_of_a_Binary_Tree-yellow)](/problems/1161.md)
 - [![1262](https://img.shields.io/badge/1262-Greatest_Sum_Divisible_by_Three-yellow)](/problems/1262.md)
 - [![1277](https://img.shields.io/badge/1277-Count_Square_Submatrices_with_All_Ones-yellow)](/problems/1277.md)
+- [![1288](https://img.shields.io/badge/1288-Remove_Covered_Intervals-yellow)](/problems/1288.md)
 - [![1344](https://img.shields.io/badge/1344-Angle_Between_Hands_of_a_Clock-yellow)](/problems/1344.md)
 - [![1358](https://img.shields.io/badge/1358-Number_of_Substrings_Containing_All_Three_Characters-yellow)](/problems/1358.md)
 - [![1404](https://img.shields.io/badge/1404-Number_of_Steps_to_Reduce_a_Number_in_Binary_Representation_to_One-yellow)](/problems/1404.md)
