@@ -25,4 +25,5 @@ Click a problem to view your notes & solution
 - [![3612](https://img.shields.io/badge/3612-Process_String_with_Special_Operations_I-yellow)](/problems/3612.md)
 - [![3633](https://img.shields.io/badge/3633-Earliest_Finish_Time_for_Land_and_Water_Rides_I-brightgreen)](/problems/3633.md)
 - [![3751](https://img.shields.io/badge/3751-Total_Waviness_of_Numbers_in_Range_I-yellow)](/problems/3751.md)
+- [![3754](https://img.shields.io/badge/3754-Concatenate_Non-Zero_Digits_and_Multiply_by_Sum_I-brightgreen)](/problems/3754.md)
 - [![3838](https://img.shields.io/badge/3838-Weighted_Word_Mapping-brightgreen)](/problems/3838.md)
