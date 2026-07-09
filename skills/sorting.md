@@ -23,4 +23,5 @@ Click a problem to view your notes & solution
 - [![3347](https://img.shields.io/badge/3347-Maximum_Frequency_of_an_Element_After_Performing_Operations_II-red)](/problems/3347.md)
 - [![3397](https://img.shields.io/badge/3397-Maximum_Number_of_Distinct_Elements_After_Operations-yellow)](/problems/3397.md)
 - [![3446](https://img.shields.io/badge/3446-Sort_Matrix_by_Diagonals-yellow)](/problems/3446.md)
+- [![3532](https://img.shields.io/badge/3532-Path_Existence_Queries_in_a_Graph_I-yellow)](/problems/3532.md)
 - [![3606](https://img.shields.io/badge/3606-Coupon_Code_Validator-brightgreen)](/problems/3606.md)
