@@ -15,6 +15,7 @@ Click a problem to view your notes & solution
 - [![1015](https://img.shields.io/badge/1015-Smallest_Integer_Divisible_by_K-yellow)](/problems/1015.md)
 - [![1018](https://img.shields.io/badge/1018-Binary_Prefix_Divisible_By_5-brightgreen)](/problems/1018.md)
 - [![1262](https://img.shields.io/badge/1262-Greatest_Sum_Divisible_by_Three-yellow)](/problems/1262.md)
+- [![1291](https://img.shields.io/badge/1291-Sequential_Digits-yellow)](/problems/1291.md)
 - [![1304](https://img.shields.io/badge/1304-Find_N_Unique_Integers_Sum_up_to_Zero-brightgreen)](/problems/1304.md)
 - [![1317](https://img.shields.io/badge/1317-Convert_Integer_to_the_Sum_of_Two_No_Zero_Integers-brightgreen)](/problems/1317.md)
 - [![1323](https://img.shields.io/badge/1323-Maximum_69_Number-brightgreen)](/problems/1323.md)
