@@ -26,6 +26,7 @@ Click a problem to view your notes & solution
 - [![1582](https://img.shields.io/badge/1582-Special_Positions_in_a_Binary_Matrix-brightgreen)](/problems/1582.md)
 - [![1732](https://img.shields.io/badge/1732-Find_the_Highest_Altitude-brightgreen)](/problems/1732.md)
 - [![1752](https://img.shields.io/badge/1752-Check_if_Array_Is_Sorted_and_Rotated-brightgreen)](/problems/1752.md)
+- [![1979](https://img.shields.io/badge/1979-Find_Greatest_Common_Divisor_of_Array-brightgreen)](/problems/1979.md)
 - [![2106](https://img.shields.io/badge/2106-Maximum_Fruits_Harvested_After_at_Most_K_Steps-red)](/problems/2106.md)
 - [![2110](https://img.shields.io/badge/2110-Number_of_Smooth_Descent_Periods_of_a_Stock-yellow)](/problems/2110.md)
 - [![2125](https://img.shields.io/badge/2125-Number_of_Laser_Beams_in_a_Bank-yellow)](/problems/2125.md)

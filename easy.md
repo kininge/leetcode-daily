@@ -34,6 +34,7 @@ Click a problem to view your notes & solution.
 - [![1925](https://img.shields.io/badge/1925-Count_Square_Sum_Triples-brightgreen)](/problems/1925.md)
 - [![1935](https://img.shields.io/badge/1935-Maximum_Number_of_Words_You_Can_Type-brightgreen)](/problems/1935.md)
 - [![1967](https://img.shields.io/badge/1967-Number_of_Strings_That_Appear_as_Substrings_in_Word-brightgreen)](/problems/1967.md)
+- [![1979](https://img.shields.io/badge/1979-Find_Greatest_Common_Divisor_of_Array-brightgreen)](/problems/1979.md)
 - [![2011](https://img.shields.io/badge/2011-Final_Value_of_Variable_After_Performing_Operations-brightgreen)](/problems/2011.md)
 - [![2144](https://img.shields.io/badge/2144-Minimum_Cost_of_Buying_Candies_With_Discount-brightgreen)](/problems/2144.md)
 - [![2154](https://img.shields.io/badge/2154-Keep_Multiplying_Found_Values_by_Two-brightgreen)](/problems/2154.md)
