@@ -8,6 +8,7 @@ Click a problem to view your notes & solution
 - [![407](https://img.shields.io/badge/407-Trapping_Rain_Water_II-red)](/problems/407.md)
 - [![498](https://img.shields.io/badge/498-Diagonal_Traverse-yellow)](/problems/498.md)
 - [![944](https://img.shields.io/badge/944-Delete_Columns_to_Make_Sorted-brightgreen)](/problems/944.md)
+- [![1260](https://img.shields.io/badge/1260-Shift_2D_Grid-brightgreen)](/problems/1260.md)
 - [![1277](https://img.shields.io/badge/1277-Count_Square_Submatrices_with_All_Ones-yellow)](/problems/1277.md)
 - [![1351](https://img.shields.io/badge/1351-Count_Negative_Numbers_in_a_Sorted_Matrix-brightgreen)](/problems/1351.md)
 - [![1504](https://img.shields.io/badge/1504-Count_Submatrices_With_All_Ones-yellow)](/problems/1504.md)
