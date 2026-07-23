@@ -18,3 +18,4 @@ Click a problem to view your notes & solution
 - [![2419](https://img.shields.io/badge/2419-Longest_Subarray_With_Maximum_Bitwise_AND-yellow)](/problems/2419.md)
 - [![2438](https://img.shields.io/badge/2438-Range_Product_Queries_of_Powers-yellow)](/problems/2438.md)
 - [![3370](https://img.shields.io/badge/3370-Smallest_Number_With_All_Set_Bits-brightgreen)](/problems/3370.md)
+- [![3513](https://img.shields.io/badge/3513-Number_of_Unique_XOR_Triplets_I-yellow)](/problems/3513.md)
