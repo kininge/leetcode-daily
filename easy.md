@@ -7,6 +7,7 @@ Click a problem to view your notes & solution.
 - [![231](https://img.shields.io/badge/231-Power_of_Two-brightgreen)](/problems/231.md)
 - [![326](https://img.shields.io/badge/326-Power_of_Three-brightgreen)](/problems/326.md)
 - [![342](https://img.shields.io/badge/342-Power_of_Four-brightgreen)](/problems/342.md)
+- [![628](https://img.shields.io/badge/628-Maximum_Product_of_Three_Numbers-brightgreen)](/problems/628.md)
 - [![693](https://img.shields.io/badge/693-Binary_Number_with_Alternating_Bits-brightgreen)](/problems/693.md)
 - [![696](https://img.shields.io/badge/696-Count_Binary_Substrings-brightgreen)](/problems/696.md)
 - [![717](https://img.shields.io/badge/717-1_bit_and_2_bit_Characters-brightgreen)](/problems/717.md)

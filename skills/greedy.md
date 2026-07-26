@@ -4,6 +4,7 @@ Click a problem to view your notes & solution
 
 - [![11](https://img.shields.io/badge/11-Container_With_Most_Water-yellow)](/problems/11.md)
 - [![120](https://img.shields.io/badge/120-Triangle-yellow)](/problems/120.md)
+- [![628](https://img.shields.io/badge/628-Maximum_Product_of_Three_Numbers-brightgreen)](/problems/628.md)
 - [![976](https://img.shields.io/badge/976-Largest_Perimeter_Triangle-brightgreen)](/problems/976.md)
 - [![1262](https://img.shields.io/badge/1262-Greatest_Sum_Divisible_by_Three-yellow)](/problems/1262.md)
 - [![1288](https://img.shields.io/badge/1288-Remove_Covered_Intervals-yellow)](/problems/1288.md)
