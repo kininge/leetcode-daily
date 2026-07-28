@@ -28,6 +28,7 @@ Click a problem to view your notes & solution
 - [![3120](https://img.shields.io/badge/3120-Count_the_Number_of_Special_Characters_I-brightgreen)](/problems/3120.md)
 - [![3121](https://img.shields.io/badge/3121-Count_the_Number_of_Special_Characters_II-yellow)](/problems/3121.md)
 - [![3228](https://img.shields.io/badge/3228-Maximum_Number_of_Operations_to_Move_Ones_to_the_End-yellow)](/problems/3228.md)
+- [![3517](https://img.shields.io/badge/3517-Smallest_Palindromic_Rearrangement_I-yellow)](/problems/3517.md)
 - [![3541](https://img.shields.io/badge/3541-Find_Most_Frequent_Vowel_and_Consonant-brightgreen)](/problems/3541.md)
 - [![3606](https://img.shields.io/badge/3606-Coupon_Code_Validator-brightgreen)](/problems/3606.md)
 - [![3612](https://img.shields.io/badge/3612-Process_String_with_Special_Operations_I-yellow)](/problems/3612.md)

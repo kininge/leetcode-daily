@@ -5,15 +5,15 @@
   <!-- All problem solved data -->
   <g transform="translate(280, 120)" text-anchor="middle">
     <!-- total problems solved -->
-    <text font-size="70" font-weight="600" font-family="Inter, Arial, Helvetica, sans-serif" fill="#ffffff" dominant-baseline="end">173</text>
+    <text font-size="70" font-weight="600" font-family="Inter, Arial, Helvetica, sans-serif" fill="#ffffff" dominant-baseline="end">174</text>
     <!-- total problems -->
     <text font-size="25" font-weight="600" font-family="Inter, Arial, Helvetica, sans-serif" fill="#767676" dominant-baseline="end" dx="100">/ 3999</text>
   </g>
 
   <!-- horizontal bar represents each section problem solved -->
   <g transform="translate(16, 184)">
-    <rect x="0" y="0" width="226.54335260115607" height="20" fill="#1cbaba" rx="4" /> 
-    <rect x="230.54335260115607" y="0" width="285.64161849710985" height="20" fill="#ffb700" rx="4" />
-    <rect x="520.1849710982659" y="0" width="55.81502890173411" height="20" fill="#f63737" rx="4" />
+    <rect x="0" y="0" width="225.24137931034483" height="20" fill="#1cbaba" rx="4" /> 
+    <rect x="229.24137931034483" y="0" width="287.264367816092" height="20" fill="#ffb700" rx="4" />
+    <rect x="520.5057471264367" y="0" width="55.49425287356322" height="20" fill="#f63737" rx="4" />
   </g>
 </svg>
