@@ -1,6 +1,6 @@
 {
     "totalSolvedProblems": 175,
-    "totalProblems": 4003,
+    "totalProblems": 4005,
     "solvedEasyProblems": 70,
     "totalEasyProblems": 956,
     "easyBackgroundColor": "#1cbaba",
@@ -10,7 +10,7 @@
     "mediumBackgroundColor": "#ffb700",
     "mediumTextColor": "#ffb700",
     "solvedHardProblems": 17,
-    "totalHardProblems": 956,
+    "totalHardProblems": 958,
     "hardBackgroundColor": "#f63737",
     "hardTextColor": "#f63737",
     "primaryTextColor": "#ffffff",
