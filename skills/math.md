@@ -39,6 +39,7 @@ Click a problem to view your notes & solution
 - [![2654](https://img.shields.io/badge/2654-Minimum_Number_of_Operations_to_Make_All_Array_Elements_Equal_to_1-yellow)](/problems/2654.md)
 - [![2787](https://img.shields.io/badge/2787-Ways_to_Express_an_Integer_as_Sum_of_Powers-yellow)](/problems/2787.md)
 - [![3000](https://img.shields.io/badge/3000-Maximum_Area_of_Longest_Diagonal_Rectangle-brightgreen)](/problems/3000.md)
+- [![3014](https://img.shields.io/badge/3014-Minimum_Number_of_Pushes_to_Type_Word_I-brightgreen)](/problems/3014.md)
 - [![3021](https://img.shields.io/badge/3021-Alice_and_Bob_Playing_Flower_Game-yellow)](/problems/3021.md)
 - [![3100](https://img.shields.io/badge/3100-Water_Bottles_II-yellow)](/problems/3100.md)
 - [![3190](https://img.shields.io/badge/3190-Find_Minimum_Operations_to_Make_All_Elements_Divisible_by_Three-brightgreen)](/problems/3190.md)
