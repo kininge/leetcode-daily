@@ -13,6 +13,7 @@ Click a problem to view your notes & solution
 - [![2211](https://img.shields.io/badge/2211-Count_Collisions_on_a_Road-yellow)](/problems/2211.md)
 - [![2300](https://img.shields.io/badge/2300-Successful_Pairs_of_Spells_and_Potions-yellow)](/problems/2300.md)
 - [![2540](https://img.shields.io/badge/2540-Minimum_Common_Value-brightgreen)](/problems/2540.md)
+- [![3090](https://img.shields.io/badge/3090-Maximum_Length_Substring_With_Two_Occurrences-brightgreen)](/problems/3090.md)
 - [![3346](https://img.shields.io/badge/3346-Maximum_Frequency_of_an_Element_After_Performing_Operations_I-yellow)](/problems/3346.md)
 - [![3347](https://img.shields.io/badge/3347-Maximum_Frequency_of_an_Element_After_Performing_Operations_II-red)](/problems/3347.md)
 - [![3612](https://img.shields.io/badge/3612-Process_String_with_Special_Operations_I-yellow)](/problems/3612.md)

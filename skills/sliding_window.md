@@ -11,5 +11,6 @@ Click a problem to view your notes & solution
 - [![2264](https://img.shields.io/badge/2264-Largest_3_Same_Digit_Number_in_String-brightgreen)](/problems/2264.md)
 - [![2348](https://img.shields.io/badge/2348-Number_of_Zero_Filled_Subarrays-yellow)](/problems/2348.md)
 - [![2958](https://img.shields.io/badge/2958-Length_of_Longest_Subarray_With_at_Most_K_Frequency-yellow)](/problems/2958.md)
+- [![3090](https://img.shields.io/badge/3090-Maximum_Length_Substring_With_Two_Occurrences-brightgreen)](/problems/3090.md)
 - [![3318](https://img.shields.io/badge/3318-Find_X_Sum_of_All_K_Long_Subarrays_I-brightgreen)](/problems/3318.md)
 - [![3321](https://img.shields.io/badge/3321-Find_X_Sum_of_All_K_Long_Subarrays_II-red)](/problems/3321.md)
