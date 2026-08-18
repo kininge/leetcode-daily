@@ -14,3 +14,4 @@ Click a problem to view your notes & solution
 - [![3090](https://img.shields.io/badge/3090-Maximum_Length_Substring_With_Two_Occurrences-brightgreen)](/problems/3090.md)
 - [![3318](https://img.shields.io/badge/3318-Find_X_Sum_of_All_K_Long_Subarrays_I-brightgreen)](/problems/3318.md)
 - [![3321](https://img.shields.io/badge/3321-Find_X_Sum_of_All_K_Long_Subarrays_II-red)](/problems/3321.md)
+- [![3471](https://img.shields.io/badge/3471--_Find_the_Largest_Almost_Missing_Integer-brightgreen)](/problems/3471.md)
