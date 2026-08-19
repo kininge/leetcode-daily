@@ -9,6 +9,7 @@ Click a problem to view your notes & solution
 - [![904](https://img.shields.io/badge/904-Fruit_Into_Baskets-yellow)](/problems/904.md)
 - [![1189](https://img.shields.io/badge/1189-Maximum_Number_of_Balloons-brightgreen)](/problems/1189.md)
 - [![1345](https://img.shields.io/badge/1345-Jump_Game_IV-red)](/problems/1345.md)
+- [![1386](https://img.shields.io/badge/1386-Cinema_Seat_Allocation-yellow)](/problems/1386.md)
 - [![1461](https://img.shields.io/badge/1461-Check_If_a_String_Contains_All_Binary_Codes_of_Size_K-yellow)](/problems/1461.md)
 - [![1488](https://img.shields.io/badge/1488-Avoid_Flood_in_The_City-yellow)](/problems/1488.md)
 - [![1930](https://img.shields.io/badge/1930-Unique_Length_3_Palindromic_Subsequences-yellow)](/problems/1930.md)

@@ -9,6 +9,7 @@ Click a problem to view your notes & solution
 - [![1262](https://img.shields.io/badge/1262-Greatest_Sum_Divisible_by_Three-yellow)](/problems/1262.md)
 - [![1288](https://img.shields.io/badge/1288-Remove_Covered_Intervals-yellow)](/problems/1288.md)
 - [![1323](https://img.shields.io/badge/1323-Maximum_69_Number-brightgreen)](/problems/1323.md)
+- [![1386](https://img.shields.io/badge/1386-Cinema_Seat_Allocation-yellow)](/problems/1386.md)
 - [![1404](https://img.shields.io/badge/1404-Number_of_Steps_to_Reduce_a_Number_in_Binary_Representation_to_One-yellow)](/problems/1404.md)
 - [![1437](https://img.shields.io/badge/1437-Check_If_All_1s_Are_at_Least_Length_K_Places_Away-brightgreen)](/problems/1437.md)
 - [![1464](https://img.shields.io/badge/1464-Maximum_Product_of_Two_Elements_in_an_Array-brightgreen)](/problems/1464.md)

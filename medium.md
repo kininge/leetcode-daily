@@ -23,6 +23,7 @@ Click a problem to view your notes & solution.
 - [![1291](https://img.shields.io/badge/1291-Sequential_Digits-yellow)](/problems/1291.md)
 - [![1344](https://img.shields.io/badge/1344-Angle_Between_Hands_of_a_Clock-yellow)](/problems/1344.md)
 - [![1358](https://img.shields.io/badge/1358-Number_of_Substrings_Containing_All_Three_Characters-yellow)](/problems/1358.md)
+- [![1386](https://img.shields.io/badge/1386-Cinema_Seat_Allocation-yellow)](/problems/1386.md)
 - [![1404](https://img.shields.io/badge/1404-Number_of_Steps_to_Reduce_a_Number_in_Binary_Representation_to_One-yellow)](/problems/1404.md)
 - [![1461](https://img.shields.io/badge/1461-Check_If_a_String_Contains_All_Binary_Codes_of_Size_K-yellow)](/problems/1461.md)
 - [![1488](https://img.shields.io/badge/1488-Avoid_Flood_in_The_City-yellow)](/problems/1488.md)
