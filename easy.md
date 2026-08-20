@@ -52,6 +52,7 @@ Click a problem to view your notes & solution.
 - [![3000](https://img.shields.io/badge/3000-Maximum_Area_of_Longest_Diagonal_Rectangle-brightgreen)](/problems/3000.md)
 - [![3005](https://img.shields.io/badge/3005-Count_Elements_With_Maximum_Frequency-brightgreen)](/problems/3005.md)
 - [![3014](https://img.shields.io/badge/3014-Minimum_Number_of_Pushes_to_Type_Word_I-brightgreen)](/problems/3014.md)
+- [![3069](https://img.shields.io/badge/3069-Distribute_Elements_Into_Two_Arrays_I-brightgreen)](/problems/3069.md)
 - [![3074](https://img.shields.io/badge/3074-Apple_Redistribution_into_Boxes-brightgreen)](/problems/3074.md)
 - [![3090](https://img.shields.io/badge/3090-Maximum_Length_Substring_With_Two_Occurrences-brightgreen)](/problems/3090.md)
 - [![3120](https://img.shields.io/badge/3120-Count_the_Number_of_Special_Characters_I-brightgreen)](/problems/3120.md)
