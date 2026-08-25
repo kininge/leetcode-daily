@@ -39,4 +39,5 @@ Click a problem to view your notes & solution
 - [![3531](https://img.shields.io/badge/3531-Count_Covered_Buildings-yellow)](/problems/3531.md)
 - [![3541](https://img.shields.io/badge/3541-Find_Most_Frequent_Vowel_and_Consonant-brightgreen)](/problems/3541.md)
 - [![3623](https://img.shields.io/badge/3623-Count_Number_of_Trapezoids_I-yellow)](/problems/3623.md)
+- [![3718](https://img.shields.io/badge/3718-Smallest_Missing_Multiple_of_K-brightgreen)](/problems/3718.md)
 - [![3731](https://img.shields.io/badge/3731-Find_Missing_Elements-brightgreen)](/problems/3731.md)
