@@ -39,6 +39,7 @@ Click a problem to view your notes & solution.
 - [![2043](https://img.shields.io/badge/2043-Simple_Bank_System-yellow)](/problems/2043.md)
 - [![2048](https://img.shields.io/badge/2048-Next_Greater_Numerically_Balanced_Number-yellow)](/problems/2048.md)
 - [![2054](https://img.shields.io/badge/2054-Two_Best_Non_Overlapping_Events-yellow)](/problems/2054.md)
+- [![2058](https://img.shields.io/badge/2058-Find_the_Minimum_and_Maximum_Number_of_Nodes_Between_Critical_Points-yellow)](/problems/2058.md)
 - [![2091](https://img.shields.io/badge/2091-Removing_Minimum_and_Maximum_From_Array-yellow)](/problems/2091.md)
 - [![2095](https://img.shields.io/badge/2095-Delete_the_Middle_Node_of_a_Linked_List-yellow)](/problems/2095.md)
 - [![2110](https://img.shields.io/badge/2110-Number_of_Smooth_Descent_Periods_of_a_Stock-yellow)](/problems/2110.md)
