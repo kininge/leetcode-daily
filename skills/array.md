@@ -66,3 +66,4 @@ Click a problem to view your notes & solution
 - [![3737](https://img.shields.io/badge/3737-Count_Subarrays_With_Majority_Element_I-yellow)](/problems/3737.md)
 - [![3838](https://img.shields.io/badge/3838-Weighted_Word_Mapping-brightgreen)](/problems/3838.md)
 - [![3903](https://img.shields.io/badge/3903-Smallest_Stable_Index_I-brightgreen)](/problems/3903.md)
+- [![3904](https://img.shields.io/badge/3904-Smallest_Stable_Index_II-yellow)](/problems/3904.md)
