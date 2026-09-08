@@ -80,4 +80,5 @@ Click a problem to view your notes & solution.
 - [![3731](https://img.shields.io/badge/3731-Find_Missing_Elements-brightgreen)](/problems/3731.md)
 - [![3754](https://img.shields.io/badge/3754-Concatenate_Non-Zero_Digits_and_Multiply_by_Sum_I-brightgreen)](/problems/3754.md)
 - [![3838](https://img.shields.io/badge/3838-Weighted_Word_Mapping-brightgreen)](/problems/3838.md)
+- [![3870](https://img.shields.io/badge/3870-Count_Commas_in_Range-brightgreen)](/problems/3870.md)
 - [![3903](https://img.shields.io/badge/3903-Smallest_Stable_Index_I-brightgreen)](/problems/3903.md)
