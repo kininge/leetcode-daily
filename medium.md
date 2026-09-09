@@ -97,4 +97,5 @@ Click a problem to view your notes & solution.
 - [![3689](https://img.shields.io/badge/3689-Maximum_Total_Subarray_Value_I-yellow)](/problems/3689.md)
 - [![3737](https://img.shields.io/badge/3737-Count_Subarrays_With_Majority_Element_I-yellow)](/problems/3737.md)
 - [![3751](https://img.shields.io/badge/3751-Total_Waviness_of_Numbers_in_Range_I-yellow)](/problems/3751.md)
+- [![3871](https://img.shields.io/badge/3871-Count_Commas_in_Range_II-yellow)](/problems/3871.md)
 - [![3904](https://img.shields.io/badge/3904-Smallest_Stable_Index_II-yellow)](/problems/3904.md)

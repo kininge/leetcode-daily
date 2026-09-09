@@ -58,3 +58,4 @@ Click a problem to view your notes & solution
 - [![3737](https://img.shields.io/badge/3737-Count_Subarrays_With_Majority_Element_I-yellow)](/problems/3737.md)
 - [![3754](https://img.shields.io/badge/3754-Concatenate_Non-Zero_Digits_and_Multiply_by_Sum_I-brightgreen)](/problems/3754.md)
 - [![3870](https://img.shields.io/badge/3870-Count_Commas_in_Range-brightgreen)](/problems/3870.md)
+- [![3871](https://img.shields.io/badge/3871-Count_Commas_in_Range_II-yellow)](/problems/3871.md)
