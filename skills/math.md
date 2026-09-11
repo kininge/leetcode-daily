@@ -48,6 +48,7 @@ Click a problem to view your notes & solution
 - [![3354](https://img.shields.io/badge/3354-Make_Array_Elements_Equal_to_Zero-brightgreen)](/problems/3354.md)
 - [![3370](https://img.shields.io/badge/3370-Smallest_Number_With_All_Set_Bits-brightgreen)](/problems/3370.md)
 - [![3432](https://img.shields.io/badge/3432-Count_Partitions_with_Even_Sum_Difference-brightgreen)](/problems/3432.md)
+- [![3483](https://img.shields.io/badge/3483-Unique_3-Digit_Even_Numbers-brightgreen)](/problems/3483.md)
 - [![3512](https://img.shields.io/badge/3512-Minimum_Operations_to_Make_Array_Sum_Divisible_by_K-brightgreen)](/problems/3512.md)
 - [![3513](https://img.shields.io/badge/3513-Number_of_Unique_XOR_Triplets_I-yellow)](/problems/3513.md)
 - [![3516](https://img.shields.io/badge/3516-Find_Closest_Person-brightgreen)](/problems/3516.md)
