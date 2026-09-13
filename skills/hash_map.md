@@ -4,6 +4,7 @@ Click a problem to view your notes & solution
 
 - [![36](https://img.shields.io/badge/36-Valid_Sudoku-yellow)](/problems/36.md)
 - [![166](https://img.shields.io/badge/166-Fraction_to_Recurring_Decimal-yellow)](/problems/166.md)
+- [![835](https://img.shields.io/badge/835-Image_Overlap-yellow)](/problems/835.md)
 - [![869](https://img.shields.io/badge/869-Reordered_Power_of_2-yellow)](/problems/869.md)
 - [![898](https://img.shields.io/badge/898-Bitwise_ORs_of_Subarrays-yellow)](/problems/898.md)
 - [![904](https://img.shields.io/badge/904-Fruit_Into_Baskets-yellow)](/problems/904.md)
