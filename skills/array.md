@@ -27,6 +27,7 @@ Click a problem to view your notes & solution
 - [![1493](https://img.shields.io/badge/1493-Longest_Subarray_of_1s_After_Deleting_One_Element-yellow)](/problems/1493.md)
 - [![1526](https://img.shields.io/badge/1526-Minimum_Number_of_Increments_on_Subarrays_to_Form_a_Target_Array-red)](/problems/1526.md)
 - [![1582](https://img.shields.io/badge/1582-Special_Positions_in_a_Binary_Matrix-brightgreen)](/problems/1582.md)
+- [![1658](https://img.shields.io/badge/1658-Minimum_Operations_to_Reduce_X_to_Zero-yellow)](/problems/1658.md)
 - [![1732](https://img.shields.io/badge/1732-Find_the_Highest_Altitude-brightgreen)](/problems/1732.md)
 - [![1752](https://img.shields.io/badge/1752-Check_if_Array_Is_Sorted_and_Rotated-brightgreen)](/problems/1752.md)
 - [![1979](https://img.shields.io/badge/1979-Find_Greatest_Common_Divisor_of_Array-brightgreen)](/problems/1979.md)

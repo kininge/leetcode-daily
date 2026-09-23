@@ -6,6 +6,7 @@ Click a problem to view your notes & solution
 - [![1358](https://img.shields.io/badge/1358-Number_of_Substrings_Containing_All_Three_Characters-yellow)](/problems/1358.md)
 - [![1461](https://img.shields.io/badge/1461-Check_If_a_String_Contains_All_Binary_Codes_of_Size_K-yellow)](/problems/1461.md)
 - [![1493](https://img.shields.io/badge/1493-Longest_Subarray_of_1s_After_Deleting_One_Element-yellow)](/problems/1493.md)
+- [![1658](https://img.shields.io/badge/1658-Minimum_Operations_to_Reduce_X_to_Zero-yellow)](/problems/1658.md)
 - [![1871](https://img.shields.io/badge/1871-Jump_Game_VII-yellow)](/problems/1871.md)
 - [![2106](https://img.shields.io/badge/2106-Maximum_Fruits_Harvested_After_at_Most_K_Steps-red)](/problems/2106.md)
 - [![2264](https://img.shields.io/badge/2264-Largest_3_Same_Digit_Number_in_String-brightgreen)](/problems/2264.md)
