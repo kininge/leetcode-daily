@@ -75,6 +75,7 @@ Click a problem to view your notes & solution.
 - [![3516](https://img.shields.io/badge/3516-Find_Closest_Person-brightgreen)](/problems/3516.md)
 - [![3536](https://img.shields.io/badge/3536-Maximum_Product_of_Two_Digits-brightgreen)](/problems/3536.md)
 - [![3541](https://img.shields.io/badge/3541-Find_Most_Frequent_Vowel_and_Consonant-brightgreen)](/problems/3541.md)
+- [![3550](https://img.shields.io/badge/3550-Smallest_Index_With_Digit_Sum_Equal_to_Index-brightgreen)](/problems/3550.md)
 - [![3606](https://img.shields.io/badge/3606-Coupon_Code_Validator-brightgreen)](/problems/3606.md)
 - [![3622](https://img.shields.io/badge/3622-Check_Divisibility_by_Digit_Sum_and_Product-brightgreen)](/problems/3622.md)
 - [![3633](https://img.shields.io/badge/3633-Earliest_Finish_Time_for_Land_and_Water_Rides_I-brightgreen)](/problems/3633.md)

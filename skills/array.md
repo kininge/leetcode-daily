@@ -62,6 +62,7 @@ Click a problem to view your notes & solution
 - [![3477](https://img.shields.io/badge/3477-Fruits_Into_Baskets_II-brightgreen)](/problems/3477.md)
 - [![3483](https://img.shields.io/badge/3483-Unique_3-Digit_Even_Numbers-brightgreen)](/problems/3483.md)
 - [![3512](https://img.shields.io/badge/3512-Minimum_Operations_to_Make_Array_Sum_Divisible_by_K-brightgreen)](/problems/3512.md)
+- [![3550](https://img.shields.io/badge/3550-Smallest_Index_With_Digit_Sum_Equal_to_Index-brightgreen)](/problems/3550.md)
 - [![3612](https://img.shields.io/badge/3612-Process_String_with_Special_Operations_I-yellow)](/problems/3612.md)
 - [![3689](https://img.shields.io/badge/3689-Maximum_Total_Subarray_Value_I-yellow)](/problems/3689.md)
 - [![3718](https://img.shields.io/badge/3718-Smallest_Missing_Multiple_of_K-brightgreen)](/problems/3718.md)
