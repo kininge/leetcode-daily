@@ -12,6 +12,7 @@ Click a problem to view your notes & solution
 - [![1404](https://img.shields.io/badge/1404-Number_of_Steps_to_Reduce_a_Number_in_Binary_Representation_to_One-yellow)](/problems/1404.md)
 - [![1461](https://img.shields.io/badge/1461-Check_If_a_String_Contains_All_Binary_Codes_of_Size_K-yellow)](/problems/1461.md)
 - [![1578](https://img.shields.io/badge/1578-Minimum_Time_to_Make_Rope_Colorful-yellow)](/problems/1578.md)
+- [![1614](https://img.shields.io/badge/1614-Maximum_Nesting_Depth_of_the_Parentheses-brightgreen)](/problems/1614.md)
 - [![1689](https://img.shields.io/badge/1689-Partitioning_Into_Minimum_Number_Of_Deci-Binary_Numbers-yellow)](/problems/1689.md)
 - [![1758](https://img.shields.io/badge/1758-Minimum_Changes_To_Make_Alternating_Binary_String-brightgreen)](/problems/1758.md)
 - [![1930](https://img.shields.io/badge/1930-Unique_Length_3_Palindromic_Subsequences-yellow)](/problems/1930.md)

@@ -31,6 +31,7 @@ Click a problem to view your notes & solution.
 - [![1518](https://img.shields.io/badge/1518-Water_Bottles-brightgreen)](/problems/1518.md)
 - [![1523](https://img.shields.io/badge/1523-Count_Odd_Numbers_in_an_Interval_Range-brightgreen)](/problems/1523.md)
 - [![1582](https://img.shields.io/badge/1582-Special_Positions_in_a_Binary_Matrix-brightgreen)](/problems/1582.md)
+- [![1614](https://img.shields.io/badge/1614-Maximum_Nesting_Depth_of_the_Parentheses-brightgreen)](/problems/1614.md)
 - [![1716](https://img.shields.io/badge/1716-Calculate_Money_in_Leetcode_Bank-brightgreen)](/problems/1716.md)
 - [![1732](https://img.shields.io/badge/1732-Find_the_Highest_Altitude-brightgreen)](/problems/1732.md)
 - [![1752](https://img.shields.io/badge/1752-Check_if_Array_Is_Sorted_and_Rotated-brightgreen)](/problems/1752.md)
