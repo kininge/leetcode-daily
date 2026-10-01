@@ -2,6 +2,7 @@
 
 Click a problem to view your notes & solution
 
+- [![20](https://img.shields.io/badge/20-Valid_Parentheses-brightgreen)](/problems/20.md)
 - [![165](https://img.shields.io/badge/165-Compare_Version_Numbers-yellow)](/problems/165.md)
 - [![166](https://img.shields.io/badge/166-Fraction_to_Recurring_Decimal-yellow)](/problems/166.md)
 - [![696](https://img.shields.io/badge/696-Count_Binary_Substrings-brightgreen)](/problems/696.md)

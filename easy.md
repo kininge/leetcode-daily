@@ -2,6 +2,7 @@
 
 Click a problem to view your notes & solution.
 
+- [![20](https://img.shields.io/badge/20-Valid_Parentheses-brightgreen)](/problems/20.md)
 - [![66](https://img.shields.io/badge/66-Plus_One-brightgreen)](/problems/66.md)
 - [![118](https://img.shields.io/badge/118-Pascals_Triangle-brightgreen)](/problems/118.md)
 - [![231](https://img.shields.io/badge/231-Power_of_Two-brightgreen)](/problems/231.md)
