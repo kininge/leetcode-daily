@@ -2,6 +2,7 @@
 
 Click a problem to view your notes & solution.
 
+- [![32](https://img.shields.io/badge/32-Longest_Valid_Parentheses-red)](/problems/32.md)
 - [![37](https://img.shields.io/badge/37-Sudoku_Solver-red)](/problems/37.md)
 - [![85](https://img.shields.io/badge/85-Maximal_Rectangle-red)](/problems/85.md)
 - [![154](https://img.shields.io/badge/154-Find_Minimum_in_Rotated_Sorted_Array_II-red)](/problems/154.md)

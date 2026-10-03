@@ -2,6 +2,7 @@
 
 Click a problem to view your notes & solution
 
+- [![32](https://img.shields.io/badge/32-Longest_Valid_Parentheses-red)](/problems/32.md)
 - [![85](https://img.shields.io/badge/85-Maximal_Rectangle-red)](/problems/85.md)
 - [![118](https://img.shields.io/badge/118-Pascals_Triangle-brightgreen)](/problems/118.md)
 - [![120](https://img.shields.io/badge/120-Triangle-yellow)](/problems/120.md)
