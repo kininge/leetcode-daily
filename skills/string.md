@@ -9,6 +9,7 @@ Click a problem to view your notes & solution
 - [![166](https://img.shields.io/badge/166-Fraction_to_Recurring_Decimal-yellow)](/problems/166.md)
 - [![696](https://img.shields.io/badge/696-Count_Binary_Substrings-brightgreen)](/problems/696.md)
 - [![944](https://img.shields.io/badge/944-Delete_Columns_to_Make_Sorted-brightgreen)](/problems/944.md)
+- [![1021](https://img.shields.io/badge/1021-Remove_Outermost_Parentheses-brightgreen)](/problems/1021.md)
 - [![1189](https://img.shields.io/badge/1189-Maximum_Number_of_Balloons-brightgreen)](/problems/1189.md)
 - [![1323](https://img.shields.io/badge/1323-Maximum_69_Number-brightgreen)](/problems/1323.md)
 - [![1358](https://img.shields.io/badge/1358-Number_of_Substrings_Containing_All_Three_Characters-yellow)](/problems/1358.md)
