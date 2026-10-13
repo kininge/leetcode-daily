@@ -26,3 +26,4 @@ Click a problem to view your notes & solution
 - [![3446](https://img.shields.io/badge/3446-Sort_Matrix_by_Diagonals-yellow)](/problems/3446.md)
 - [![3532](https://img.shields.io/badge/3532-Path_Existence_Queries_in_a_Graph_I-yellow)](/problems/3532.md)
 - [![3606](https://img.shields.io/badge/3606-Coupon_Code_Validator-brightgreen)](/problems/3606.md)
+- [![3727](https://img.shields.io/badge/3727-Maximum_Alternating_Sum_of_Squares-yellow)](/problems/3727.md)

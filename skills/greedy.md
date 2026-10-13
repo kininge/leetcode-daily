@@ -47,3 +47,4 @@ Click a problem to view your notes & solution
 - [![3517](https://img.shields.io/badge/3517-Smallest_Palindromic_Rearrangement_I-yellow)](/problems/3517.md)
 - [![3536](https://img.shields.io/badge/3536-Maximum_Product_of_Two_Digits-brightgreen)](/problems/3536.md)
 - [![3689](https://img.shields.io/badge/3689-Maximum_Total_Subarray_Value_I-yellow)](/problems/3689.md)
+- [![3727](https://img.shields.io/badge/3727-Maximum_Alternating_Sum_of_Squares-yellow)](/problems/3727.md)
