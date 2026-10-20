@@ -10,6 +10,7 @@ Click a problem to view your notes & solution
 - [![1665](https://img.shields.io/badge/1665-Minimum_Initial_Energy_to_Finish_Tasks-red)](/problems/1665.md)
 - [![1833](https://img.shields.io/badge/1833-Maximum_Ice_Cream_Bars-yellow)](/problems/1833.md)
 - [![2054](https://img.shields.io/badge/2054-Two_Best_Non_Overlapping_Events-yellow)](/problems/2054.md)
+- [![2089](https://img.shields.io/badge/2089-Find_Target_Indices_After_Sorting_Array-brightgreen)](/problems/2089.md)
 - [![2126](https://img.shields.io/badge/2126-Destroying_Asteroids-yellow)](/problems/2126.md)
 - [![2144](https://img.shields.io/badge/2144-Minimum_Cost_of_Buying_Candies_With_Discount-brightgreen)](/problems/2144.md)
 - [![2300](https://img.shields.io/badge/2300-Successful_Pairs_of_Spells_and_Potions-yellow)](/problems/2300.md)

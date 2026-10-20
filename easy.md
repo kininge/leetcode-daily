@@ -43,6 +43,7 @@ Click a problem to view your notes & solution.
 - [![1967](https://img.shields.io/badge/1967-Number_of_Strings_That_Appear_as_Substrings_in_Word-brightgreen)](/problems/1967.md)
 - [![1979](https://img.shields.io/badge/1979-Find_Greatest_Common_Divisor_of_Array-brightgreen)](/problems/1979.md)
 - [![2011](https://img.shields.io/badge/2011-Final_Value_of_Variable_After_Performing_Operations-brightgreen)](/problems/2011.md)
+- [![2089](https://img.shields.io/badge/2089-Find_Target_Indices_After_Sorting_Array-brightgreen)](/problems/2089.md)
 - [![2144](https://img.shields.io/badge/2144-Minimum_Cost_of_Buying_Candies_With_Discount-brightgreen)](/problems/2144.md)
 - [![2154](https://img.shields.io/badge/2154-Keep_Multiplying_Found_Values_by_Two-brightgreen)](/problems/2154.md)
 - [![2169](https://img.shields.io/badge/2169-Count_Operations_to_Obtain_Zero-brightgreen)](/problems/2169.md)
