@@ -35,6 +35,7 @@ Click a problem to view your notes & solution
 - [![2169](https://img.shields.io/badge/2169-Count_Operations_to_Obtain_Zero-brightgreen)](/problems/2169.md)
 - [![2221](https://img.shields.io/badge/2221-Find_Triangular_Sum_of_an_Array-yellow)](/problems/2221.md)
 - [![2348](https://img.shields.io/badge/2348-Number_of_Zero_Filled_Subarrays-yellow)](/problems/2348.md)
+- [![2409](https://img.shields.io/badge/2409-Count_Days_Spent_Together-brightgreen)](/problems/2409.md)
 - [![2419](https://img.shields.io/badge/2419-Longest_Subarray_With_Maximum_Bitwise_AND-yellow)](/problems/2419.md)
 - [![2438](https://img.shields.io/badge/2438-Range_Product_Queries_of_Powers-yellow)](/problems/2438.md)
 - [![2553](https://img.shields.io/badge/2553-Separate_the_Digits_in_an_Array-brightgreen)](/problems/2553.md)
