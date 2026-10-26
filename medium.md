@@ -98,6 +98,7 @@ Click a problem to view your notes & solution.
 - [![3532](https://img.shields.io/badge/3532-Path_Existence_Queries_in_a_Graph_I-yellow)](/problems/3532.md)
 - [![3607](https://img.shields.io/badge/3607-Power_Grid_Maintenance-yellow)](/problems/3607.md)
 - [![3612](https://img.shields.io/badge/3612-Process_String_with_Special_Operations_I-yellow)](/problems/3612.md)
+- [![3619](https://img.shields.io/badge/3619-Count_Islands_With_Total_Value_Divisible_by_K-yellow)](/problems/3619.md)
 - [![3623](https://img.shields.io/badge/3623-Count_Number_of_Trapezoids_I-yellow)](/problems/3623.md)
 - [![3689](https://img.shields.io/badge/3689-Maximum_Total_Subarray_Value_I-yellow)](/problems/3689.md)
 - [![3727](https://img.shields.io/badge/3727-Maximum_Alternating_Sum_of_Squares-yellow)](/problems/3727.md)
