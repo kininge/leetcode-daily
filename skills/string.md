@@ -40,3 +40,4 @@ Click a problem to view your notes & solution
 - [![3606](https://img.shields.io/badge/3606-Coupon_Code_Validator-brightgreen)](/problems/3606.md)
 - [![3612](https://img.shields.io/badge/3612-Process_String_with_Special_Operations_I-yellow)](/problems/3612.md)
 - [![3838](https://img.shields.io/badge/3838-Weighted_Word_Mapping-brightgreen)](/problems/3838.md)
+- [![3963](https://img.shields.io/badge/3963-Create_Grid_With_Exactly_One_Path-brightgreen)](/problems/3963.md)

@@ -26,3 +26,4 @@ Click a problem to view your notes & solution
 - [![3446](https://img.shields.io/badge/3446-Sort_Matrix_by_Diagonals-yellow)](/problems/3446.md)
 - [![3531](https://img.shields.io/badge/3531-Count_Covered_Buildings-yellow)](/problems/3531.md)
 - [![3619](https://img.shields.io/badge/3619-Count_Islands_With_Total_Value_Divisible_by_K-yellow)](/problems/3619.md)
+- [![3963](https://img.shields.io/badge/3963-Create_Grid_With_Exactly_One_Path-brightgreen)](/problems/3963.md)

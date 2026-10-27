@@ -91,3 +91,4 @@ Click a problem to view your notes & solution.
 - [![3838](https://img.shields.io/badge/3838-Weighted_Word_Mapping-brightgreen)](/problems/3838.md)
 - [![3870](https://img.shields.io/badge/3870-Count_Commas_in_Range-brightgreen)](/problems/3870.md)
 - [![3903](https://img.shields.io/badge/3903-Smallest_Stable_Index_I-brightgreen)](/problems/3903.md)
+- [![3963](https://img.shields.io/badge/3963-Create_Grid_With_Exactly_One_Path-brightgreen)](/problems/3963.md)
