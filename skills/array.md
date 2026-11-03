@@ -68,6 +68,7 @@ Click a problem to view your notes & solution
 - [![3689](https://img.shields.io/badge/3689-Maximum_Total_Subarray_Value_I-yellow)](/problems/3689.md)
 - [![3718](https://img.shields.io/badge/3718-Smallest_Missing_Multiple_of_K-brightgreen)](/problems/3718.md)
 - [![3731](https://img.shields.io/badge/3731-Find_Missing_Elements-brightgreen)](/problems/3731.md)
+- [![3736](https://img.shields.io/badge/3736-Minimum_Moves_to_Equal_Array_Elements_III-brightgreen)](/problems/3736.md)
 - [![3737](https://img.shields.io/badge/3737-Count_Subarrays_With_Majority_Element_I-yellow)](/problems/3737.md)
 - [![3838](https://img.shields.io/badge/3838-Weighted_Word_Mapping-brightgreen)](/problems/3838.md)
 - [![3903](https://img.shields.io/badge/3903-Smallest_Stable_Index_I-brightgreen)](/problems/3903.md)

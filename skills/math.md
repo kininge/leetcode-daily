@@ -60,6 +60,7 @@ Click a problem to view your notes & solution
 - [![3622](https://img.shields.io/badge/3622-Check_Divisibility_by_Digit_Sum_and_Product-brightgreen)](/problems/3622.md)
 - [![3623](https://img.shields.io/badge/3623-Count_Number_of_Trapezoids_I-yellow)](/problems/3623.md)
 - [![3658](https://img.shields.io/badge/3658-GCD_of_Odd_and_Even_Sums-brightgreen)](/problems/3658.md)
+- [![3736](https://img.shields.io/badge/3736-Minimum_Moves_to_Equal_Array_Elements_III-brightgreen)](/problems/3736.md)
 - [![3737](https://img.shields.io/badge/3737-Count_Subarrays_With_Majority_Element_I-yellow)](/problems/3737.md)
 - [![3754](https://img.shields.io/badge/3754-Concatenate_Non-Zero_Digits_and_Multiply_by_Sum_I-brightgreen)](/problems/3754.md)
 - [![3870](https://img.shields.io/badge/3870-Count_Commas_in_Range-brightgreen)](/problems/3870.md)

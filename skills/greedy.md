@@ -48,3 +48,4 @@ Click a problem to view your notes & solution
 - [![3536](https://img.shields.io/badge/3536-Maximum_Product_of_Two_Digits-brightgreen)](/problems/3536.md)
 - [![3689](https://img.shields.io/badge/3689-Maximum_Total_Subarray_Value_I-yellow)](/problems/3689.md)
 - [![3727](https://img.shields.io/badge/3727-Maximum_Alternating_Sum_of_Squares-yellow)](/problems/3727.md)
+- [![3736](https://img.shields.io/badge/3736-Minimum_Moves_to_Equal_Array_Elements_III-brightgreen)](/problems/3736.md)

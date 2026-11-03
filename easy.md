@@ -87,6 +87,7 @@ Click a problem to view your notes & solution.
 - [![3658](https://img.shields.io/badge/3658-GCD_of_Odd_and_Even_Sums-brightgreen)](/problems/3658.md)
 - [![3718](https://img.shields.io/badge/3718-Smallest_Missing_Multiple_of_K-brightgreen)](/problems/3718.md)
 - [![3731](https://img.shields.io/badge/3731-Find_Missing_Elements-brightgreen)](/problems/3731.md)
+- [![3736](https://img.shields.io/badge/3736-Minimum_Moves_to_Equal_Array_Elements_III-brightgreen)](/problems/3736.md)
 - [![3754](https://img.shields.io/badge/3754-Concatenate_Non-Zero_Digits_and_Multiply_by_Sum_I-brightgreen)](/problems/3754.md)
 - [![3838](https://img.shields.io/badge/3838-Weighted_Word_Mapping-brightgreen)](/problems/3838.md)
 - [![3870](https://img.shields.io/badge/3870-Count_Commas_in_Range-brightgreen)](/problems/3870.md)
