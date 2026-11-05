@@ -28,6 +28,7 @@ Click a problem to view your notes & solution.
 - [![1323](https://img.shields.io/badge/1323-Maximum_69_Number-brightgreen)](/problems/1323.md)
 - [![1351](https://img.shields.io/badge/1351-Count_Negative_Numbers_in_a_Sorted_Matrix-brightgreen)](/problems/1351.md)
 - [![1356](https://img.shields.io/badge/1356-Sort_Integers_by_The_Number_of_1_Bits-brightgreen)](/problems/1356.md)
+- [![1385](https://img.shields.io/badge/1385-Find_the_Distance_Value_Between_Two_Arrays-brightgreen)](/problems/1385.md)
 - [![1437](https://img.shields.io/badge/1437-Check_If_All_1s_Are_at_Least_Length_K_Places_Away-brightgreen)](/problems/1437.md)
 - [![1464](https://img.shields.io/badge/1464-Maximum_Product_of_Two_Elements_in_an_Array-brightgreen)](/problems/1464.md)
 - [![1518](https://img.shields.io/badge/1518-Water_Bottles-brightgreen)](/problems/1518.md)

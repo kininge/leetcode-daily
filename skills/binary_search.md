@@ -9,6 +9,7 @@ Click a problem to view your notes & solution
 - [![154](https://img.shields.io/badge/154-Find_Minimum_in_Rotated_Sorted_Array_II-red)](/problems/154.md)
 180,- [![180](https://img.shields.io/badge/180-Pritam_Test-yellow)](/problems/180.md)
 - [![1351](https://img.shields.io/badge/1351-Count_Negative_Numbers_in_a_Sorted_Matrix-brightgreen)](/problems/1351.md)
+- [![1385](https://img.shields.io/badge/1385-Find_the_Distance_Value_Between_Two_Arrays-brightgreen)](/problems/1385.md)
 1488,- [![1488](https://img.shields.io/badge/1488-Avoid_Flood_in_The_City-yellow)](/problems/1488.md)
 - [![1665](https://img.shields.io/badge/1665-Minimum_Initial_Energy_to_Finish_Tasks-red)](/problems/1665.md)
 - [![2048](https://img.shields.io/badge/2048-Next_Greater_Numerically_Balanced_Number-yellow)](/problems/2048.md)

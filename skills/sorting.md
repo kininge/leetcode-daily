@@ -7,6 +7,7 @@ Click a problem to view your notes & solution
 - [![976](https://img.shields.io/badge/976-Largest_Perimeter_Triangle-brightgreen)](/problems/976.md)
 - [![1288](https://img.shields.io/badge/1288-Remove_Covered_Intervals-yellow)](/problems/1288.md)
 - [![1356](https://img.shields.io/badge/1356-Sort_Integers_by_The_Number_of_1_Bits-brightgreen)](/problems/1356.md)
+- [![1385](https://img.shields.io/badge/1385-Find_the_Distance_Value_Between_Two_Arrays-brightgreen)](/problems/1385.md)
 - [![1665](https://img.shields.io/badge/1665-Minimum_Initial_Energy_to_Finish_Tasks-red)](/problems/1665.md)
 - [![1833](https://img.shields.io/badge/1833-Maximum_Ice_Cream_Bars-yellow)](/problems/1833.md)
 - [![2054](https://img.shields.io/badge/2054-Two_Best_Non_Overlapping_Events-yellow)](/problems/2054.md)
