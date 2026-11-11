@@ -49,3 +49,4 @@ Click a problem to view your notes & solution
 - [![3689](https://img.shields.io/badge/3689-Maximum_Total_Subarray_Value_I-yellow)](/problems/3689.md)
 - [![3727](https://img.shields.io/badge/3727-Maximum_Alternating_Sum_of_Squares-yellow)](/problems/3727.md)
 - [![3736](https://img.shields.io/badge/3736-Minimum_Moves_to_Equal_Array_Elements_III-brightgreen)](/problems/3736.md)
+- [![3789](https://img.shields.io/badge/3789-Minimum_Cost_to_Acquire_Required_Items-yellow)](/problems/3789.md)
