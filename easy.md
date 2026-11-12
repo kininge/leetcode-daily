@@ -62,6 +62,7 @@ Click a problem to view your notes & solution.
 - [![3069](https://img.shields.io/badge/3069-Distribute_Elements_Into_Two_Arrays_I-brightgreen)](/problems/3069.md)
 - [![3074](https://img.shields.io/badge/3074-Apple_Redistribution_into_Boxes-brightgreen)](/problems/3074.md)
 - [![3090](https://img.shields.io/badge/3090-Maximum_Length_Substring_With_Two_Occurrences-brightgreen)](/problems/3090.md)
+- [![3105](https://img.shields.io/badge/3105-Longest_Strictly_Increasing_or_Strictly_Decreasing_Subarray-brightgreen)](/problems/3105.md)
 - [![3120](https://img.shields.io/badge/3120-Count_the_Number_of_Special_Characters_I-brightgreen)](/problems/3120.md)
 - [![3190](https://img.shields.io/badge/3190-Find_Minimum_Operations_to_Make_All_Elements_Divisible_by_Three-brightgreen)](/problems/3190.md)
 - [![3289](https://img.shields.io/badge/3289-The_Two_Sneaky_Numbers_of_Digitville-brightgreen)](/problems/3289.md)
