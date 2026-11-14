@@ -59,6 +59,7 @@ Click a problem to view your notes & solution
 - [![3300](https://img.shields.io/badge/3300-Minimum_Element_After_Replacement_With_Digit_Sum-brightgreen)](/problems/3300.md)
 - [![3318](https://img.shields.io/badge/3318-Find_X_Sum_of_All_K_Long_Subarrays_I-brightgreen)](/problems/3318.md)
 - [![3349](https://img.shields.io/badge/3349-Adjacent_Increasing_Subarrays_Detection_I-brightgreen)](/problems/3349.md)
+- [![3364](https://img.shields.io/badge/3364-Minimum_Positive_Sum_Subarray-brightgreen)](/problems/3364.md)
 - [![3397](https://img.shields.io/badge/3397-Maximum_Number_of_Distinct_Elements_After_Operations-yellow)](/problems/3397.md)
 - [![3461](https://img.shields.io/badge/3461-Check_If_Digits_Are_Equal_in_String_After_Operations_I-brightgreen)](/problems/3461.md)
 - [![3471](https://img.shields.io/badge/3471--_Find_the_Largest_Almost_Missing_Integer-brightgreen)](/problems/3471.md)

@@ -71,6 +71,7 @@ Click a problem to view your notes & solution.
 - [![3345](https://img.shields.io/badge/3345-Smallest_Divisible_Digit_Product_I-brightgreen)](/problems/3345.md)
 - [![3349](https://img.shields.io/badge/3349-Adjacent_Increasing_Subarrays_Detection_I-brightgreen)](/problems/3349.md)
 - [![3354](https://img.shields.io/badge/3354-Make_Array_Elements_Equal_to_Zero-brightgreen)](/problems/3354.md)
+- [![3364](https://img.shields.io/badge/3364-Minimum_Positive_Sum_Subarray-brightgreen)](/problems/3364.md)
 - [![3370](https://img.shields.io/badge/3370-Smallest_Number_With_All_Set_Bits-brightgreen)](/problems/3370.md)
 - [![3432](https://img.shields.io/badge/3432-Count_Partitions_with_Even_Sum_Difference-brightgreen)](/problems/3432.md)
 - [![3461](https://img.shields.io/badge/3461-Check_If_Digits_Are_Equal_in_String_After_Operations_I-brightgreen)](/problems/3461.md)
