@@ -24,6 +24,7 @@ Click a problem to view your notes & solution
 - [![1967](https://img.shields.io/badge/1967-Number_of_Strings_That_Appear_as_Substrings_in_Word-brightgreen)](/problems/1967.md)
 - [![2011](https://img.shields.io/badge/2011-Final_Value_of_Variable_After_Performing_Operations-brightgreen)](/problems/2011.md)
 - [![2125](https://img.shields.io/badge/2125-Number_of_Laser_Beams_in_a_Bank-yellow)](/problems/2125.md)
+- [![2243](https://img.shields.io/badge/2243-Calculate_Digit_Sum_of_a_String-brightgreen)](/problems/2243.md)
 - [![2264](https://img.shields.io/badge/2264-Largest_3_Same_Digit_Number_in_String-brightgreen)](/problems/2264.md)
 - [![2273](https://img.shields.io/badge/2273-Find_Resultant_Array_After_Removing_Anagrams-brightgreen)](/problems/2273.md)
 - [![2553](https://img.shields.io/badge/2553-Separate_the_Digits_in_an_Array-brightgreen)](/problems/2553.md)

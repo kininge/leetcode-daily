@@ -48,6 +48,7 @@ Click a problem to view your notes & solution.
 - [![2144](https://img.shields.io/badge/2144-Minimum_Cost_of_Buying_Candies_With_Discount-brightgreen)](/problems/2144.md)
 - [![2154](https://img.shields.io/badge/2154-Keep_Multiplying_Found_Values_by_Two-brightgreen)](/problems/2154.md)
 - [![2169](https://img.shields.io/badge/2169-Count_Operations_to_Obtain_Zero-brightgreen)](/problems/2169.md)
+- [![2243](https://img.shields.io/badge/2243-Calculate_Digit_Sum_of_a_String-brightgreen)](/problems/2243.md)
 - [![2264](https://img.shields.io/badge/2264-Largest_3_Same_Digit_Number_in_String-brightgreen)](/problems/2264.md)
 - [![2273](https://img.shields.io/badge/2273-Find_Resultant_Array_After_Removing_Anagrams-brightgreen)](/problems/2273.md)
 - [![2409](https://img.shields.io/badge/2409-Count_Days_Spent_Together-brightgreen)](/problems/2409.md)
