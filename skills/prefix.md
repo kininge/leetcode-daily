@@ -2,6 +2,7 @@
 
 Click a problem to view your notes & solution
 
+- [![1352](https://img.shields.io/badge/1352-Product_of_the_Last_K_Numbers-yellow)](/problems/1352.md)
 - [![1658](https://img.shields.io/badge/1658-Minimum_Operations_to_Reduce_X_to_Zero-yellow)](/problems/1658.md)
 - [![2054](https://img.shields.io/badge/2054-Two_Best_Non_Overlapping_Events-yellow)](/problems/2054.md)
 - [![2996](https://img.shields.io/badge/2996-Smallest_Missing_Integer_Greater_Than_Sequential_Prefix_Sum-brightgreen)](/problems/2996.md)

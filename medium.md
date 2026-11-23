@@ -25,6 +25,7 @@ Click a problem to view your notes & solution.
 - [![1288](https://img.shields.io/badge/1288-Remove_Covered_Intervals-yellow)](/problems/1288.md)
 - [![1291](https://img.shields.io/badge/1291-Sequential_Digits-yellow)](/problems/1291.md)
 - [![1344](https://img.shields.io/badge/1344-Angle_Between_Hands_of_a_Clock-yellow)](/problems/1344.md)
+- [![1352](https://img.shields.io/badge/1352-Product_of_the_Last_K_Numbers-yellow)](/problems/1352.md)
 - [![1358](https://img.shields.io/badge/1358-Number_of_Substrings_Containing_All_Three_Characters-yellow)](/problems/1358.md)
 - [![1386](https://img.shields.io/badge/1386-Cinema_Seat_Allocation-yellow)](/problems/1386.md)
 - [![1404](https://img.shields.io/badge/1404-Number_of_Steps_to_Reduce_a_Number_in_Binary_Representation_to_One-yellow)](/problems/1404.md)
