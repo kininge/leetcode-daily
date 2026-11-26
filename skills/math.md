@@ -50,6 +50,7 @@ Click a problem to view your notes & solution
 - [![3300](https://img.shields.io/badge/3300-Minimum_Element_After_Replacement_With_Digit_Sum-brightgreen)](/problems/3300.md)
 - [![3345](https://img.shields.io/badge/3345-Smallest_Divisible_Digit_Product_I-brightgreen)](/problems/3345.md)
 - [![3354](https://img.shields.io/badge/3354-Make_Array_Elements_Equal_to_Zero-brightgreen)](/problems/3354.md)
+- [![3360](https://img.shields.io/badge/3360-Stone_Removal_Game-brightgreen)](/problems/3360.md)
 - [![3370](https://img.shields.io/badge/3370-Smallest_Number_With_All_Set_Bits-brightgreen)](/problems/3370.md)
 - [![3432](https://img.shields.io/badge/3432-Count_Partitions_with_Even_Sum_Difference-brightgreen)](/problems/3432.md)
 - [![3483](https://img.shields.io/badge/3483-Unique_3-Digit_Even_Numbers-brightgreen)](/problems/3483.md)
